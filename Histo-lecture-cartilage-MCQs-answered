@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suez University - Musculoskeletal Physiology Exam (Answer Key - Text Only)</title>
+    <style>
+        :root {
+            --primary-color: #0d47a1;
+            --secondary-color: #1565c0;
+            --accent-color: #2e7d32; /* اللون الأخضر للإجابة الصحيحة */
+            --bg-color: #f5f7fa;
+            --card-bg: #ffffff;
+            --text-color: #212121;
+            --border-color: #cfd8dc;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px 0;
+        }
+
+        /* Print & Page Layout Configuration */
+        .page {
+            background-color: var(--card-bg);
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto 30px auto;
+            padding: 25mm 20mm 20mm 20mm;
+            position: relative;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media print {
+            body {
+                background-color: #ffffff;
+                padding: 0;
+            }
+            .page {
+                margin: 0;
+                box-shadow: none;
+                page-break-after: always;
+            }
+        }
+
+        /* Header Styling */
+        .header-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 25px;
+            border-bottom: 3px solid var(--primary-color);
+        }
+
+        .header-logo-cell {
+            width: 15%;
+            text-align: left;
+            padding-bottom: 10px;
+        }
+
+        .header-logo-circle {
+            width: 60px;
+            height: 60px;
+            border: 3px solid var(--primary-color);
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: var(--primary-color);
+            font-size: 1.4rem;
+        }
+
+        .header-title-cell {
+            width: 70%;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        .header-title-cell h1 {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .header-title-cell p {
+            font-size: 0.95rem;
+            color: #555;
+            font-weight: 500;
+        }
+
+        .header-info-cell {
+            width: 15%;
+            text-align: right;
+            font-size: 0.85rem;
+            color: #666;
+            padding-bottom: 10px;
+            font-weight: 500;
+        }
+
+        /* Content & Questions */
+        .content {
+            flex-grow: 1;
+        }
+
+        .question-block {
+            margin-bottom: 18px;
+            page-break-inside: avoid;
+        }
+
+        .question-text {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a237e;
+            margin-bottom: 8px;
+            display: flex;
+        }
+
+        .question-number {
+            margin-right: 8px;
+            color: var(--primary-color);
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            padding-left: 25px;
+        }
+
+        .option {
+            padding: 4px 0;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            position: relative;
+            color: var(--text-color);
+        }
+
+        /* التعديل الجديد: تلوين النص فقط بدون خلفيات أو مستطيلات */
+        .option.correct-option {
+            color: var(--accent-color) !important;
+            font-weight: bold;
+        }
+
+        .option-letter {
+            font-weight: bold;
+            color: #555;
+            margin-right: 8px;
+        }
+
+        .option.correct-option .option-letter {
+            color: var(--accent-color);
+        }
+
+        /* Footer & Key Banners */
+        .footer-banner {
+            margin-top: 20px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 15px;
+        }
+
+        .key-banner {
+            background-color: #e3f2fd;
+            border: 1px dashed var(--secondary-color);
+            border-radius: 6px;
+            padding: 10px;
+            text-align: center;
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: #0d47a1;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+
+        .footer-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            color: #78909c;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <table class="header-table">
+            <tr>
+                <td class="header-logo-cell"><div class="header-logo-circle">SU</div></td>
+                <td class="header-title-cell">
+                    <h1>Faculty of Medicine — Suez University</h1>
+                    <p>1st Year Medical Students | Musculoskeletal Module Physiology Exam</p>
+                </td>
+                <td class="header-info-cell"><strong>Time:</strong> 2 Hours<br><strong>Total Qs:</strong> 42 MCQs</td>
+            </tr>
+        </table>
+
+        <div class="content">
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q1.</span><span>Excitability is defined as:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>The structural unit of the central nervous system.</div>
+                    <div class="option correct-option"><span class="option-letter">B)</span>The ability of living tissue to respond to an adequate stimulus and produce an action potential.</div>
+                    <div class="option"><span class="option-letter">C)</span>The automatic rhythmicity displayed by visceral hollow organs.</div>
+                    <div class="option"><span class="option-letter">D)</span>The passive diffusion of ions down their chemical gradients during rest.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q2.</span><span>Which of the following tissues exhibit the highest excitability in the human body?</span></div>
+                <div class="options-grid">
+                    <div class="option correct-option"><span class="option-letter">A)</span>Nerve and muscle cells.</div>
+                    <div class="option"><span class="option-letter">B)</span>Bone and cartilage.</div>
+                    <div class="option"><span class="option-letter">C)</span>Epithelial and connective tissues.</div>
+                    <div class="option"><span class="option-letter">D)</span>Adipose and lymphatic tissues.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q3.</span><span>According to Erlanger-Gasser classification, which nerve fibers are thick myelinated, have a diameter of 2-20 µm, and a conduction velocity of 10-120 m/s?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Type B fibers.</div>
+                    <div class="option"><span class="option-letter">B)</span>Type C fibers.</div>
+                    <div class="option"><span class="option-letter">C)</span>Type Alpha-sympathetic fibers.</div>
+                    <div class="option correct-option"><span class="option-letter">D)</span>Type A fibers.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q4.</span><span>Which type of nerve fibers is most susceptible and sensitive to structural blockage caused by prolonged deep pressure?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Type B fibers.</div>
+                    <div class="option"><span class="option-letter">B)</span>Type C fibers.</div>
+                    <div class="option correct-option"><span class="option-letter">C)</span>Type A fibers.</div>
+                    <div class="option"><span class="option-letter">D)</span>Both Type B and Type C fibers.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q5.</span><span>In conditions involving acute oxygen deprivation (O2 lack / hypoxia), which class of nerve fibers displays the highest sensitivity and is blocked first?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Type A fibers.</div>
+                    <div class="option correct-option"><span class="option-letter">B)</span>Type B fibers.</div>
+                    <div class="option"><span class="option-letter">C)</span>Type C fibers.</div>
+                    <div class="option"><span class="option-letter">D)</span>All fibers are equally sensitive.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q6.</span><span>Local anesthetics preferentially and rapidly block which of the following nerve fibers due to their structural characteristics?</span></div>
+                <div class="options-grid">
+                    <div class="option correct-option"><span class="option-letter">A)</span>Type C fibers.</div>
+                    <div class="option"><span class="option-letter">B)</span>Type A fibers.</div>
+                    <div class="option"><span class="option-letter">C)</span>Type B fibers.</div>
+                    <div class="option"><span class="option-letter">D)</span>Myelinated somatic fibers.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q7.</span><span>What are the standard values for the Resting Membrane Potential (RMP) and the Firing Threshold of a typical large nerve fiber as illustrated in physiology charts?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>-90 mV and -70 mV.</div>
+                    <div class="option"><span class="option-letter">B)</span>-60 mV and -45 mV.</div>
+                    <div class="option correct-option"><span class="option-letter">C)</span>-70 mV and -55 mV.</div>
+                    <div class="option"><span class="option-letter">D)</span>+35 mV and 0 mV.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-banner">
+            <div class="key-banner">ANSWER KEY (PAGE 1) — Q1: B | Q2: A | Q3: D | Q4: C | Q5: B | Q6: A | Q7: C</div>
+            <div class="footer-info"><span>Suez University | Faculty of Medicine</span><span>Page 1 of 6</span></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <table class="header-table">
+            <tr>
+                <td class="header-logo-cell"><div class="header-logo-circle">SU</div></td>
+                <td class="header-title-cell">
+                    <h1>Faculty of Medicine — Suez University</h1>
+                    <p>1st Year Medical Students | Musculoskeletal Module Physiology Exam</p>
+                </td>
+                <td class="header-info-cell"><strong>Time:</strong> 2 Hours<br><strong>Total Qs:</strong> 42 MCQs</td>
+            </tr>
+        </table>
+
+        <div class="content">
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q8.</span><span>As a motor nerve approaches a skeletal muscle fiber to form the neuromuscular junction:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>It gains an additional thick myelin sheath.</div>
+                    <div class="option"><span class="option-letter">B)</span>It transforms into an unexcitable connective tissue.</div>
+                    <div class="option"><span class="option-letter">C)</span>It pierces the nucleus of the muscle cell.</div>
+                    <div class="option correct-option"><span class="option-letter">D)</span>It loses its myelin sheath and its neurilemma becomes continuous with the sarcolemma.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q9.</span><span>The primary functional role of the multiple mitochondria located inside the pre-synaptic terminal button is to:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Direct the passive leakage of potassium ions.</div>
+                    <div class="option correct-option"><span class="option-letter">B)</span>Supply the necessary metabolic energy (ATP) for the synthesis of acetylcholine.</div>
+                    <div class="option"><span class="option-letter">C)</span>Store calcium ions during resting states.</div>
+                    <div class="option"><span class="option-letter">D)</span>Synthesize acetylcholinesterase enzyme molecules.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q10.</span><span>Which specific channels located on the pre-synaptic axolemma open immediately in response to the arrival of an action potential?</span></div>
+                <div class="options-grid">
+                    <div class="option correct-option"><span class="option-letter">A)</span>Voltage-gated Ca2+ channels.</div>
+                    <div class="option"><span class="option-letter">B)</span>Chemical-gated Na+ channels.</div>
+                    <div class="option"><span class="option-letter">C)</span>Passive K+ leak channels.</div>
+                    <div class="option"><span class="option-letter">D)</span>Voltage-gated Cl- channels.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q11.</span><span>Where is the acetylcholinesterase (AChE) enzyme structurally located within the neuromuscular junction?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Inside the pre-synaptic vesicles.</div>
+                    <div class="option"><span class="option-letter">B)</span>Bound to the intracellular troponin complex.</div>
+                    <div class="option correct-option"><span class="option-letter">C)</span>Within the synaptic cleft space.</div>
+                    <div class="option"><span class="option-letter">D)</span>Deep within the longitudinal sarcoplasmic reticulum.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q12.</span><span>The post-synaptic receptors located on the subneural clefts (synaptic gutter) of the sarcolemma belong to which category?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Muscarinic acetylcholine receptors.</div>
+                    <div class="option correct-option"><span class="option-letter">B)</span>Nicotinic acetylcholine receptors (ACh-gated ion channels).</div>
+                    <div class="option"><span class="option-letter">C)</span>Alpha-adrenergic receptors.</div>
+                    <div class="option"><span class="option-letter">D)</span>Voltage-gated calcium channels.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q13.</span><span>Which of the following sets of properties correctly describes normal neuromuscular transmission?</span></div>
+                <div class="options-grid">
+                    <div class="option correct-option"><span class="option-letter">A)</span>Unidirectional conduction, a synaptic delay of ~0.5 ms, and susceptibility to fatigue.</div>
+                    <div class="option"><span class="option-letter">B)</span>Bidirectional conduction, zero delay, and absolute fatigue resistance.</div>
+                    <div class="option"><span class="option-letter">C)</span>Unidirectional conduction, a delay of 5.0 ms, and lack of chemical sensitivity.</div>
+                    <div class="option"><span class="option-letter">D)</span>Bidirectional conduction, a delay of 0.5 ms, and fast adaptation.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q14.</span><span>What happens immediately when the End Plate Potential (EPP) at the motor end plate successfully reaches the firing level?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>It causes immediate destruction of the muscle fiber membrane.</div>
+                    <div class="option"><span class="option-letter">B)</span>It undergoes a localized decrement and fades away completely.</div>
+                    <div class="option"><span class="option-letter">C)</span>It switches the post-synaptic receptors into adrenergic receptors.</div>
+                    <div class="option correct-option"><span class="option-letter">D)</span>It spreads to both sides, opening voltage-gated channels and initiating a propagating muscle action potential.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-banner">
+            <div class="key-banner">ANSWER KEY (PAGE 2) — Q8: D | Q9: B | Q10: A | Q11: C | Q12: B | Q13: A | Q14: D</div>
+            <div class="footer-info"><span>Suez University | Faculty of Medicine</span><span>Page 2 of 6</span></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <table class="header-table">
+            <tr>
+                <td class="header-logo-cell"><div class="header-logo-circle">SU</div></td>
+                <td class="header-title-cell">
+                    <h1>Faculty of Medicine — Suez University</h1>
+                    <p>1st Year Medical Students | Musculoskeletal Module Physiology Exam</p>
+                </td>
+                <td class="header-info-cell"><strong>Time:</strong> 2 Hours<br><strong>Total Qs:</strong> 42 MCQs</td>
+            </tr>
+        </table>
+
+        <div class="content">
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q15.</span><span>Which pharmacological agent acts as a competitive (non-depolarizing) inhibitor by competing with acetylcholine for its nicotinic receptors?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Succinylcholine.</div>
+                    <div class="option"><span class="option-letter">B)</span>Neostigmine.</div>
+                    <div class="option correct-option"><span class="option-letter">C)</span>Curare (Tubocurarine).</div>
+                    <div class="option"><span class="option-letter">D)</span>Botulinum toxin.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q16.</span><span>What is the primary pharmacodynamic mechanism of action of Succinylcholine at the motor end plate?</span></div>
+                <div class="options-grid">
+                    <div class="option correct-option"><span class="option-letter">A)</span>It binds to nicotinic receptors causing persistent depolarization, rendering the end plate unexcitable.</div>
+                    <div class="option"><span class="option-letter">B)</span>It blocks the pre-synaptic voltage-gated calcium channels completely.</div>
+                    <div class="option"><span class="option-letter">C)</span>It acts as an irreversible inhibitor of acetylcholinesterase.</div>
+                    <div class="option"><span class="option-letter">D)</span>It actively accelerates the reuptake of acetylcholine back into vesicles.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q17.</span><span>A patient suffers from food poisoning due to ingestion of contaminated canned food containing Botulinum toxin. This toxin causes muscle weakness by:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Triggering a continuous, uncontrollable release of acetylcholine.</div>
+                    <div class="option"><span class="option-letter">B)</span>Destroying the nicotinic receptors on the post-synaptic membrane.</div>
+                    <div class="option"><span class="option-letter">C)</span>Irreversibly inhibiting the acetylcholinesterase enzyme.</div>
+                    <div class="option correct-option"><span class="option-letter">D)</span>Blocking the release of acetylcholine from the pre-synaptic terminal button.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q18.</span><span>Which substance is known to cause a dangerous, explosive release of acetylcholine from its pre-synaptic storage vesicles?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Curare.</div>
+                    <div class="option correct-option"><span class="option-letter">B)</span>Black widow spider venom.</div>
+                    <div class="option"><span class="option-letter">C)</span>Organophosphate compounds.</div>
+                    <div class="option"><span class="option-letter">D)</span>Botulinum toxin.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q19.</span><span>Pharmacological agents like Carbachol and Methacholine stimulate neuromuscular transmission because they:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Inhibit the synthesis of acetylcholine in the terminal button.</div>
+                    <div class="option"><span class="option-letter">B)</span>Block the pre-synaptic voltage-gated calcium influx.</div>
+                    <div class="option"><span class="option-letter">C)</span>Bind irreversibly to troponin molecules inside the myofibril.</div>
+                    <div class="option correct-option"><span class="option-letter">D)</span>Have an acetylcholine-like action and are not rapidly hydrolyzed by cholinesterase.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q20.</span><span>What is the critical clinical consequence of irreversible acetylcholinesterase inhibition caused by Organophosphates?</span></div>
+                <div class="options-grid">
+                    <div class="option correct-option"><span class="option-letter">A)</span>Continuous accumulation of acetylcholine leads to continuous muscle contraction and eventual death by respiratory failure due to inability of the diaphragm to relax.</div>
+                    <div class="option"><span class="option-letter">B)</span>Compete with acetylcholine for the post-synaptic nicotinic receptor sites.</div>
+                    <div class="option"><span class="option-letter">C)</span>Prevent the entry of calcium ions into the pre-synaptic terminal button.</div>
+                    <div class="option"><span class="option-letter">D)</span>Cause rapid degradation of actin and myosin filaments.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q21.</span><span>Myasthenia Gravis is a severe autoimmune disease where the human body abnormally produces antibodies directed against:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Voltage-gated sodium channels on the axon membrane.</div>
+                    <div class="option"><span class="option-letter">B)</span>Reversible anticholinesterase enzymes like physostigmine.</div>
+                    <div class="option correct-option"><span class="option-letter">C)</span>Its own motor end plate acetylcholine receptors.</div>
+                    <div class="option"><span class="option-letter">D)</span>Sarcoplasmic reticulum ryanodine calcium release channels.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-banner">
+            <div class="key-banner">ANSWER KEY (PAGE 3) — Q15: C | Q16: A | Q17: D | Q18: B | Q19: D | Q20: A | Q21: C</div>
+            <div class="footer-info"><span>Suez University | Faculty of Medicine</span><span>Page 3 of 6</span></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <table class="header-table">
+            <tr>
+                <td class="header-logo-cell"><div class="header-logo-circle">SU</div></td>
+                <td class="header-title-cell">
+                    <h1>Faculty of Medicine — Suez University</h1>
+                    <p>1st Year Medical Students | Musculoskeletal Module Physiology Exam</p>
+                </td>
+                <td class="header-info-cell"><strong>Time:</strong> 2 Hours<br><strong>Total Qs:</strong> 42 MCQs</td>
+            </tr>
+        </table>
+
+        <div class="content">
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q22.</span><span>Skeletal muscle is named based on its anatomical attachment. What percentage of total body weight does it constitute, and how many skeletal muscles exist in the human body?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>20% body weight and 200 muscles.</div>
+                    <div class="option correct-option"><span class="option-letter">B)</span>40% body weight and 400 muscles.</div>
+                    <div class="option"><span class="option-letter">C)</span>50% body weight and 600 muscles.</div>
+                    <div class="option"><span class="option-letter">D)</span>10% body weight and 100 muscles.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q23.</span><span>Which of the following proteins represents the "thick" filament of the myofibril, containing heavy/light chains and cross-bridges with ATP-binding sites?</span></div>
+                <div class="options-grid">
+                    <div class="option correct-option"><span class="option-letter">A)</span>Myosin.</div>
+                    <div class="option"><span class="option-letter">B)</span>Actin.</div>
+                    <div class="option"><span class="option-letter">C)</span>Troponin.</div>
+                    <div class="option"><span class="option-letter">D)</span>Tropomyosin.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q24.</span><span>During the resting state of a skeletal muscle, what is the precise function of the regulatory protein Tropomyosin?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>It directly binds to calcium ions to initiate cross-bridge bending.</div>
+                    <div class="option"><span class="option-letter">B)</span>It hydrolyzes ATP into ADP and inorganic phosphate.</div>
+                    <div class="option correct-option"><span class="option-letter">C)</span>It wraps around the actin filament, covering the active myosin-binding sites.</div>
+                    <div class="option"><span class="option-letter">D)</span>It anchors the thick filaments directly to the cellular Z-lines.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q25.</span><span>Which specific subunit of the troponin complex serves as the designated binding site for calcium ions, inducing a conformational shape change upon filling?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Troponin T.</div>
+                    <div class="option"><span class="option-letter">B)</span>Troponin I.</div>
+                    <div class="option"><span class="option-letter">C)</span>Troponin T-A complex.</div>
+                    <div class="option correct-option"><span class="option-letter">D)</span>Troponin C.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q26.</span><span>The functional and contractile unit of a skeletal muscle myofibril, defined as the distance between two successive dark Z-lines, is called the:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>T-tubule.</div>
+                    <div class="option correct-option"><span class="option-letter">B)</span>Sarcomere.</div>
+                    <div class="option"><span class="option-letter">C)</span>Terminal cisterna.</div>
+                    <div class="option"><span class="option-letter">D)</span>H-zone.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q27.</span><span>Which element of the skeletal muscle tubular system is an invagination of the cell membrane, contains extracellular fluid, and possesses DHP receptors acting as voltage sensors?</span></div>
+                <div class="options-grid">
+                    <div class="option correct-option"><span class="option-letter">A)</span>Transverse tubules (T-tubules).</div>
+                    <div class="option"><span class="option-letter">B)</span>Longitudinal sarcoplasmic reticulum.</div>
+                    <div class="option"><span class="option-letter">C)</span>Terminal cisternae.</div>
+                    <div class="option"><span class="option-letter">D)</span>Dense bodies.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q28.</span><span>The terminal cisternae of the longitudinal sarcoplasmic reticulum play a critical role in skeletal muscle contraction because they:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Contain extracellular fluid rich in sodium ions.</div>
+                    <div class="option"><span class="option-letter">B)</span>Synthesize the neurotransmitter acetylcholine.</div>
+                    <div class="option correct-option"><span class="option-letter">C)</span>Store Ca2+ in very high concentrations and contain ryanodine receptors.</div>
+                    <div class="option"><span class="option-letter">D)</span>Act as the primary catalytic site for glycogen synthesis.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-banner">
+            <div class="key-banner">ANSWER KEY (PAGE 4) — Q22: B | Q23: A | Q24: C | Q25: D | Q26: B | Q27: A | Q28: C</div>
+            <div class="footer-info"><span>Suez University | Faculty of Medicine</span><span>Page 4 of 6</span></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <table class="header-table">
+            <tr>
+                <td class="header-logo-cell"><div class="header-logo-circle">SU</div></td>
+                <td class="header-title-cell">
+                    <h1>Faculty of Medicine — Suez University</h1>
+                    <p>1st Year Medical Students | Musculoskeletal Module Physiology Exam</p>
+                </td>
+                <td class="header-info-cell"><strong>Time:</strong> 2 Hours<br><strong>Total Qs:</strong> 42 MCQs</td>
+            </tr>
+        </table>
+
+        <div class="content">
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q29.</span><span>During the excitation-contraction coupling cycle, what directly follows the binding of Ca2+ to Troponin C?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Acetylcholine is immediately released from pre-synaptic vesicles.</div>
+                    <div class="option correct-option"><span class="option-letter">B)</span>The troponin-tropomyosin complex moves, uncovering the active sites on actin.</div>
+                    <div class="option"><span class="option-letter">C)</span>Myosin undergoes immediate autophosphorylation by calmodulin.</div>
+                    <div class="option"><span class="option-letter">D)</span>The muscle cell membrane activates its passive sodium leak channels.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q30.</span><span>Which step in the cross-bridge cycle is directly responsible for dragging the actin filament centrally toward the H-zone?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>The binding of a fresh ATP molecule to the myosin head.</div>
+                    <div class="option"><span class="option-letter">B)</span>The passive detachment of the myosin head from the actin active site.</div>
+                    <div class="option correct-option"><span class="option-letter">C)</span>The bending of the myosin head centrally (power stroke).</div>
+                    <div class="option"><span class="option-letter">D)</span>The active pumping of calcium back into the longitudinal tubules.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q31.</span><span>What causes the detachment of the myosin head from the actin filament active site during the cross-bridge cycle?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>The absolute depletion of intracellular calcium ions.</div>
+                    <div class="option correct-option"><span class="option-letter">B)</span>The binding of a new ATP molecule to the myosin head.</div>
+                    <div class="option"><span class="option-letter">C)</span>The enzymatic destruction of actin by local proteases.</div>
+                    <div class="option"><span class="option-letter">D)</span>The automatic phosphorylation of troponin I subunits.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q32.</span><span>Muscle relaxation is established as an active process because it strictly requires energy to:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Synthesize new nicotinic receptors on the sarcolemma.</div>
+                    <div class="option correct-option"><span class="option-letter">B)</span>Actively pump calcium ions back into the sarcoplasmic reticulum via the calcium pump.</div>
+                    <div class="option"><span class="option-letter">C)</span>Maintain a continuous flow of acetylcholine into the synaptic cleft.</div>
+                    <div class="option"><span class="option-letter">D)</span>Drive the passive sliding of myosin filaments away from the Z-lines.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q33.</span><span>Which condition is defined as a prolonged muscle contraction without relaxation, occurring in the absolute absence of repeated external stimulation, caused by sustained elevation of cytoplasmic Ca2+?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Treppe (Staircase phenomenon).</div>
+                    <div class="option"><span class="option-letter">B)</span>Rigor mortis.</div>
+                    <div class="option correct-option"><span class="option-letter">C)</span>Muscle contracture.</div>
+                    <div class="option"><span class="option-letter">D)</span>Complete tetanus.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q34.</span><span>Rigor mortis occurs after death because the complete depletion of cellular ATP directly prevents the:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Release of acetylcholine from pre-synaptic terminal buttons.</div>
+                    <div class="option"><span class="option-letter">B)</span>Functioning of calcium pumps, leaving active sites covered by tropomyosin.</div>
+                    <div class="option correct-option"><span class="option-letter">C)</span>Functioning of calcium pumps and detachment of cross-bridges, making the muscle stiff.</div>
+                    <div class="option"><span class="option-letter">D)</span>Passive influx of sodium into the dead muscle fibers.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q35.</span><span>What is the primary cause of muscular fatigue during prolonged, repeated contractile activity?</span></div>
+                <div class="options-grid">
+                    <div class="option correct-option"><span class="option-letter">A)</span>Accumulation of lactic acid which inhibits key metabolic enzymes, and depletion of energy stores like glycogen and ATP.</div>
+                    <div class="option"><span class="option-letter">B)</span>Excessive accumulation of acetylcholine inside the synaptic cleft space.</div>
+                    <div class="option"><span class="option-letter">C)</span>An abnormal increase in the number of open ryanodine receptors.</div>
+                    <div class="option"><span class="option-letter">D)</span>Continuous hyperpolarization of the pre-synaptic motor neuron.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-banner">
+            <div class="key-banner">ANSWER KEY (PAGE 5) — Q29: B | Q30: C | Q31: B | Q32: B | Q33: C | Q34: C | Q35: A</div>
+            <div class="footer-info"><span>Suez University | Faculty of Medicine</span><span>Page 5 of 6</span></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <table class="header-table">
+            <tr>
+                <td class="header-logo-cell"><div class="header-logo-circle">SU</div></td>
+                <td class="header-title-cell">
+                    <h1>Faculty of Medicine — Suez University</h1>
+                    <p>1st Year Medical Students | Musculoskeletal Module Physiology Exam</p>
+                </td>
+                <td class="header-info-cell"><strong>Time:</strong> 2 Hours<br><strong>Total Qs:</strong> 42 MCQs</td>
+            </tr>
+        </table>
+
+        <div class="content">
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q36.</span><span>Which of the following properties is characteristic of Slow Oxidative muscle fibers (Type I / Red fibers)?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Low resistance to fatigue and very high ATPase activity.</div>
+                    <div class="option"><span class="option-letter">B)</span>Adaptation for rapid contractile activity and fine skilled movements.</div>
+                    <div class="option correct-option"><span class="option-letter">C)</span>Small fiber diameter, high myoglobin content, many mitochondria, and high resistance to fatigue.</div>
+                    <div class="option"><span class="option-letter">D)</span>Extensive sarcoplasmic reticulum designed for rapid release of calcium.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q37.</span><span>Fast pale muscle fibers (Type II b / White fibers) are highly adapted for which type of physiological activity?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Long-term posture maintenance (e.g., back muscles).</div>
+                    <div class="option correct-option"><span class="option-letter">B)</span>Rapid contractile activity and fine, skilled movements (e.g., ocular and hand muscles).</div>
+                    <div class="option"><span class="option-letter">C)</span>Continuous aerobic respiration without fatigue accumulation.</div>
+                    <div class="option"><span class="option-letter">D)</span>Slow, sustained contractions supported by slow calcium pumps.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q38.</span><span>Why does "warming up" a muscle prior to exercise increase its overall strength and velocity of contraction?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>It increases the viscosity of muscle proteins and blocks enzymatic rates.</div>
+                    <div class="option correct-option"><span class="option-letter">B)</span>It increases enzymatic reactions within muscle fibers and decreases the viscosity of muscle proteins.</div>
+                    <div class="option"><span class="option-letter">C)</span>It completely depletes the calcium stores within the sarcoplasmic reticulum.</div>
+                    <div class="option"><span class="option-letter">D)</span>It transforms type II b fast pale fibers into slow oxidative type I fibers.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q39.</span><span>What is the physiological definition of a "Motor Unit"?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>One single myofibril and all the sarcomeres it contains along its length.</div>
+                    <div class="option correct-option"><span class="option-letter">B)</span>One motor neuron and all the individual muscle fibers it supplies.</div>
+                    <div class="option"><span class="option-letter">C)</span>The set of three regulatory proteins forming the thin filament complex.</div>
+                    <div class="option"><span class="option-letter">D)</span>The network of T-tubules and terminal cisternae surrounding a single fiber.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q40.</span><span>The "Treppe" or staircase phenomenon is characterized by a progressive increase in the magnitude of separate twitches when a muscle is stimulated with a moderate frequency. What is its underlying cause?</span></div>
+                <div class="options-grid">
+                    <div class="option correct-option"><span class="option-letter">A)</span>Progressive accumulation of calcium ions in the sarcoplasm with each subsequent stimulus.</div>
+                    <div class="option"><span class="option-letter">B)</span>Progressive depletion of acetylcholine at the motor end plate.</div>
+                    <div class="option"><span class="option-letter">C)</span>Continuous irreversible inhibition of the acetylcholinesterase enzyme.</div>
+                    <div class="option"><span class="option-letter">D)</span>Rapid degradation of the post-synaptic nicotinic receptors.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q41.</span><span>When a muscle is stimulated at a high frequency such that it exhibits continuous, fused contraction without any visible relaxation phases, this state is termed:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Clonus (Incomplete tetanus).</div>
+                    <div class="option"><span class="option-letter">B)</span>Treppe (Staircase phenomenon).</div>
+                    <div class="option"><span class="option-letter">C)</span>Muscle contracture.</div>
+                    <div class="option correct-option"><span class="option-letter">D)</span>Complete tetanus.</div>
+                </div>
+            </div>
+
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q42.</span><span>In smooth muscle cells, what acts as the primary calcium sensor that activates the contractile mechanism, and what is the main source of this calcium?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Troponin C, and the main source is the extensive sarcoplasmic reticulum.</div>
+                    <div class="option correct-option"><span class="option-letter">B)</span>Calmodulin, and the main source is the extracellular fluid (ECF) via sarcolemmal channels.</div>
+                    <div class="option"><span class="option-letter">C)</span>Tropomyosin, and the main source is the dense bodies inside the cytoplasm.</div>
+                    <div class="option"><span class="option-letter">D)</span>Troponin I, and the main source is the intracellular mitochondria network.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-banner">
+            <div class="key-banner">ANSWER KEY (PAGE 6) — Q36: C | Q37: B | Q38: B | Q39: B | Q40: A | Q41: D | Q42: B</div>
+            <div class="footer-info"><span>Suez University | Faculty of Medicine</span><span>Page 6 of 6</span></div>
+        </div>
+    </div>
+
+</body>
+</html>
+
