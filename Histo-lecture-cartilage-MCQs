@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suez University - Locomotor Module Cartilage Exam (Standard Version with Footer Keys)</title>
+    <style>
+        :root {
+            --primary-color: #0d47a1;
+            --secondary-color: #1565c0;
+            --bg-color: #f5f7fa;
+            --card-bg: #ffffff;
+            --text-color: #212121;
+            --border-color: #cfd8dc;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px 0;
+        }
+
+        /* Print & Page Layout Configuration */
+        .page {
+            background-color: var(--card-bg);
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto 30px auto;
+            padding: 25mm 20mm 20mm 20mm;
+            position: relative;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media print {
+            body {
+                background-color: #ffffff;
+                padding: 0;
+            }
+            .page {
+                margin: 0;
+                box-shadow: none;
+                page-break-after: always;
+            }
+        }
+
+        /* Header Styling */
+        .header-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 25px;
+            border-bottom: 3px solid var(--primary-color);
+        }
+
+        .header-logo-cell {
+            width: 15%;
+            text-align: left;
+            padding-bottom: 10px;
+        }
+
+        .header-logo-circle {
+            width: 60px;
+            height: 60px;
+            border: 3px solid var(--primary-color);
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: var(--primary-color);
+            font-size: 1.4rem;
+        }
+
+        .header-title-cell {
+            width: 70%;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        .header-title-cell h1 {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .header-title-cell p {
+            font-size: 0.95rem;
+            color: #555;
+            font-weight: 500;
+        }
+
+        .header-info-cell {
+            width: 15%;
+            text-align: right;
+            font-size: 0.85rem;
+            color: #666;
+            padding-bottom: 10px;
+            font-weight: 500;
+        }
+
+        /* Content & Questions */
+        .content {
+            flex-grow: 1;
+        }
+
+        .question-block {
+            margin-bottom: 18px;
+            page-break-inside: avoid;
+        }
+
+        .question-text {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a237e;
+            margin-bottom: 8px;
+            display: flex;
+        }
+
+        .question-number {
+            margin-right: 8px;
+            color: var(--primary-color);
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            padding-left: 25px;
+        }
+
+        .option {
+            padding: 4px 0;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            position: relative;
+            color: var(--text-color);
+        }
+
+        .option-letter {
+            font-weight: bold;
+            color: #555;
+            margin-right: 8px;
+        }
+
+        /* Footer & Key Banners */
+        .footer-banner {
+            margin-top: 20px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 15px;
+        }
+
+        .key-banner {
+            background-color: #e3f2fd;
+            border: 1px dashed var(--secondary-color);
+            border-radius: 6px;
+            padding: 10px;
+            text-align: center;
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: #0d47a1;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+
+        .footer-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            color: #78909c;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ================= PAGE 1 ================= -->
+    <div class="page">
+        <table class="header-table">
+            <tr>
+                <td class="header-logo-cell"><div class="header-logo-circle">SU</div></td>
+                <td class="header-title-cell">
+                    <h1>Faculty of Medicine — Suez University</h1>
+                    <p>1st Year Medical Students | Locomotor Module: Cartilage Histology Exam</p>
+            </tr>
+        </table>
+
+        <div class="content">
+            <!-- Q1 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q1.</span><span>Which of the following is considered a core physiological criterion of cartilage tissue?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>It contains a highly dense network of lymphatic vessels.</div>
+                    <div class="option"><span class="option-letter">B)</span>It is completely avascular and receives nutrients via diffusion.</div>
+                    <div class="option"><span class="option-letter">C)</span>It relies heavily on direct myelinated nerve innervations for mechanical feedback.</div>
+                    <div class="option"><span class="option-letter">D)</span>It lacks a regular matrix and is composed entirely of mesenchymal cells.</div>
+                </div>
+            </div>
+
+            <!-- Q2 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q2.</span><span>At the articular surfaces of joints, where perichondrium is absent, cartilage relies on which source for oxygen and nutrition?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Diffusion from the synovial fluid inside the joint cavity.</div>
+                    <div class="option"><span class="option-letter">B)</span>Direct capillaries branching from the underlying bone marrow cells.</div>
+                    <div class="option"><span class="option-letter">C)</span>Lymphatic drainage via nearby periosteal tissues.</div>
+                    <div class="option"><span class="option-letter">D)</span>Aqueous secretions coming directly from chondrocytic vacuoles.</div>
+                </div>
+            </div>
+
+            <!-- Q3 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q3.</span><span>The perichondrium is structurally designed to cover all surfaces of cartilage EXCEPT at:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Costal cartilages and nasal passages.</div>
+                    <div class="option"><span class="option-letter">B)</span>The wall of the trachea and major bronchi.</div>
+                    <div class="option"><span class="option-letter">C)</span>Articular cartilages of the joints and fibrocartilage.</div>
+                    <div class="option"><span class="option-letter">D)</span>The adult ear pinna and eustachian tube.</div>
+                </div>
+            </div>
+
+            <!-- Q4 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q4.</span><span>What are the primary structural components forming the outer layer of the perichondrium?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Chondrogenic cells and fine network of type II collagen fibrils.</div>
+                    <div class="option"><span class="option-letter">B)</span>Isogenous clusters of mature chondrocytes and dense elastic fibers.</div>
+                    <div class="option"><span class="option-letter">C)</span>Active chondroblasts trapped completely within deep basophilic lacunae.</div>
+                    <div class="option"><span class="option-letter">D)</span>Type I collagen fibers, fibroblasts, and functional blood vessels.</div>
+                </div>
+            </div>
+
+            <!-- Q5 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q5.</span><span>Which cells reside predominantly within the inner cellular (chondrogenic) layer of the perichondrium?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Chondrogenic stem cells and immature chondroblasts.</div>
+                    <div class="option"><span class="option-letter">B)</span>Mature chondrocytes organized in prominent cell nests.</div>
+                    <div class="option"><span class="option-letter">C)</span>Differentiated osteoclasts and inactive fibroblasts.</div>
+                    <div class="option"><span class="option-letter">D)</span>Large adipocytes mixed with tight elastic branching fibers.</div>
+                </div>
+            </div>
+
+            <!-- Q6 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q6.</span><span>Which of the following list of tasks represents a vital function of the perichondrium?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Facilitating anaerobic glycolysis inside the central matrix.</div>
+                    <div class="option"><span class="option-letter">B)</span>Providing nutrition, muscle attachment, and appositional growth.</div>
+                    <div class="option"><span class="option-letter">C)</span>Synthesizing type I collagen to change hyaline into fibrocartilage.</div>
+                    <div class="option"><span class="option-letter">D)</span>Preventing the entry of water molecules into the interstitial matrix.</div>
+                </div>
+            </div>
+
+            <!-- Q7 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q7.</span><span>From which embryonic lineage do the chondrogenic stem cells directly originate?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Hematopoietic stem cells within active marrow.</div>
+                    <div class="option"><span class="option-letter">B)</span>Epithelial cells lining the early synovial cavity.</div>
+                    <div class="option"><span class="option-letter">C)</span>Undifferentiated mesenchymal cells.</div>
+                    <div class="option"><span class="option-letter">D)</span>Ectodermal neural crest derivatives.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-banner">
+            <div class="key-banner">ANSWER KEY (PAGE 1) — Q1: B | Q2: A | Q3: C | Q4: D | Q5: A | Q6: B | Q7: C</div>
+            <div class="footer-info"><span>Suez University | Faculty of Medicine</span><span>Page 1 of 6</span></div>
+        </div>
+    </div>
+
+    <!-- ================= PAGE 2 ================= -->
+    <div class="page">
+        <table class="header-table">
+            <tr>
+                <td class="header-logo-cell"><div class="header-logo-circle">SU</div></td>
+                <td class="header-title-cell">
+                    <h1>Faculty of Medicine — Suez University</h1>
+                    <p>1st Year Medical Students | Locomotor Module: Cartilage Histology Exam</p>
+            </tr>
+        </table>
+
+        <div class="content">
+            <!-- Q8 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q8.</span><span>Which of the following descriptions matches the morphology and LM characteristics of a chondrogenic cell?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Large spherical cell with multiple peripheral nucleoli.</div>
+                    <div class="option"><span class="option-letter">B)</span>Highly vacuolated cuboidal cell filled with dense glycogen deposits.</div>
+                    <div class="option"><span class="option-letter">C)</span>Multinucleated giant cell with acidophilic cytoplasm.</div>
+                    <div class="option"><span class="option-letter">D)</span>Spindle-shaped cell with an oval, pale basophilic nucleus and light basophilic cytoplasm.</div>
+                </div>
+            </div>
+
+            <!-- Q9 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q9.</span><span>Under the electron microscope (EM), chondrogenic cells are shown to possess which structural profile?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Free ribosomes, few mitochondria, some rER, and a small Golgi apparatus.</div>
+                    <div class="option"><span class="option-letter">B)</span>Massive secretory granules filled entirely with type I collagen bundles.</div>
+                    <div class="option"><span class="option-letter">C)</span>Extensive parallel arrays of smooth endoplasmic reticulum (sER) only.</div>
+                    <div class="option"><span class="option-letter">D)</span>Absence of any organelles except dense clusters of lipid droplets.</div>
+                </div>
+            </div>
+
+            <!-- Q10 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q10.</span><span>What is the physiological fate and differentiation potential of chondrogenic cells?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>They divide to form mature fibroblasts in the fibrous perichondrium.</div>
+                    <div class="option"><span class="option-letter">B)</span>They undergo division and differentiate into chondroblasts (and osteoprogenitor cells in bone).</div>
+                    <div class="option"><span class="option-letter">C)</span>They transform directly into multinucleated chondroclasts during aging.</div>
+                    <div class="option"><span class="option-letter">D)</span>They are shed into the synovial fluid to maintain joint lubricity.</div>
+                </div>
+            </div>
+
+            <!-- Q11 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q11.</span><span>Where are chondroblasts (immature cartilage cells) precisely situated within the cartilage organ layout?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Deep within the center of the matrix inside large multi-cellular isogenous groups.</div>
+                    <div class="option"><span class="option-letter">B)</span>Exclusively within the outer fibrous layer of the perichondrium.</div>
+                    <div class="option"><span class="option-letter">C)</span>At the surface / periphery of the cartilage, forming the chondroblast layer just inside the perichondrium.</div>
+                    <div class="option"><span class="option-letter">D)</span>Freely migrating across the territorial matrix near articular spaces.</div>
+                </div>
+            </div>
+
+            <!-- Q12 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q12.</span><span>The shape of chondroblasts is histologically described as:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Irregularly branched with thick cytoplasmic extensions.</div>
+                    <div class="option"><span class="option-letter">B)</span>Perfectly spherical with peripheral flattened nuclei.</div>
+                    <div class="option"><span class="option-letter">C)</span>Elongated cylindrical structures running perpendicular to the surface.</div>
+                    <div class="option"><span class="option-letter">D)</span>Small oval or spindle cells with an elliptic shape whose long axes run parallel to the surface.</div>
+                </div>
+            </div>
+
+            <!-- Q13 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q13.</span><span>Why does the cytoplasm of chondroblasts appear deep basophilic under the Light Microscope (LM)?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Because they are highly active in protein synthesis and possess abundant rough endoplasmic reticulum (rER).</div>
+                    <div class="option"><span class="option-letter">B)</span>Due to a high concentration of acidophilic type I collagen fibers.</div>
+                    <div class="option"><span class="option-letter">C)</span>Because they store massive amounts of neutral glycogen and clear lipid droplets.</div>
+                    <div class="option"><span class="option-letter">D)</span>Due to the complete absence of a nucleolus and a dense euchromatic nucleus.</div>
+                </div>
+            </div>
+
+            <!-- Q14 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q14.</span><span>An electron micrograph of a cell shows a euchromatic nucleus, rich ribosomes, highly abundant rER, a well-developed Golgi complex, and numerous mitochondria. This cell is most likely a:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Fibroblast in an inactive fibrous layer.</div>
+                    <div class="option"><span class="option-letter">B)</span>Chondroblast actively synthesizing type II collagen and matrix proteins.</div>
+                    <div class="option"><span class="option-letter">C)</span>Chondrocyte residing in an inactive state filled with lipids.</div>
+                    <div class="option"><span class="option-letter">D)</span>Mesenchymal stem cell prior to lineage commitment.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-banner">
+            <div class="key-banner">ANSWER KEY (PAGE 2) — Q8: D | Q9: A | Q10: B | Q11: C | Q12: D | Q13: A | Q14: B</div>
+            <div class="footer-info"><span>Suez University | Faculty of Medicine</span><span>Page 2 of 6</span></div>
+        </div>
+    </div>
+
+    <!-- ================= PAGE 3 ================= -->
+    <div class="page">
+        <table class="header-table">
+            <tr>
+                <td class="header-logo-cell"><div class="header-logo-circle">SU</div></td>
+                <td class="header-title-cell">
+                    <h1>Faculty of Medicine — Suez University</h1>
+                    <p>1st Year Medical Students | Locomotor Module: Cartilage Histology Exam</p>
+            </tr>
+        </table>
+
+        <div class="content">
+            <!-- Q15 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q15.</span><span>Chondroblasts are primarily held responsible for which type of cartilage growth?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Interstitial growth at the absolute center of the matrix plates.</div>
+                    <div class="option"><span class="option-letter">B)</span>Degenerative growth during articular matrix erosion.</div>
+                    <div class="option"><span class="option-letter">C)</span>Appositional growth leading to expansion at the periphery of the cartilage.</div>
+                    <div class="option"><span class="option-letter">D)</span>Endochondral ossification within the inner fibrous layers.</div>
+                </div>
+            </div>
+
+            <!-- Q16 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q16.</span><span>Which event directly marks the transition of an immature chondroblast into a mature chondrocyte?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>The absolute loss of its Golgi apparatus and ribosomes.</div>
+                    <div class="option"><span class="option-letter">B)</span>The active synthesis of massive acidophilic type I collagen bundles.</div>
+                    <div class="option"><span class="option-letter">C)</span>Migration across the fibrous perichondrium to reach blood vessels.</div>
+                    <div class="option"><span class="option-letter">D)</span>When it forms matrix around itself and becomes imprisoned inside a cavity called a lacuna.</div>
+                </div>
+            </div>
+
+            <!-- Q17 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q17.</span><span>Where are mature chondrocytes located within the structural framework of the cartilage?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Deep inside the matrix, trapped within cavities (lacunae) surrounded by condensed matrix.</div>
+                    <div class="option"><span class="option-letter">B)</span>Arranged along the outermost borders of the fibrous perichondrium.</div>
+                    <div class="option"><span class="option-letter">C)</span>Freely moving inside the synovial cavity of major weight-bearing joints.</div>
+                    <div class="option"><span class="option-letter">D)</span>Interspersed evenly between the fibroblastic layers of skeletal muscles.</div>
+                </div>
+            </div>
+
+            <!-- Q18 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q18.</span><span>What is an "isogenous group" or "cell nest" in cartilage histology?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>A collection of chondrogenic cells migrating from the blood capillaries.</div>
+                    <div class="option"><span class="option-letter">B)</span>A cluster of 2, 4, or 8 chondrocytes originating from division inside the same lacuna.</div>
+                    <div class="option"><span class="option-letter">C)</span>A mixture of fibroblasts and chondroblasts within the outer perichondrium.</div>
+                    <div class="option"><span class="option-letter">D)</span>A highly condensed region of matrix completely devoid of any cellular components.</div>
+                </div>
+            </div>
+
+            <!-- Q19 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q19.</span><span>The physiological process where chondrocytes divide and form cell nests inside their lacunae, producing matrix from within, is known as:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Appositional growth.</div>
+                    <div class="option"><span class="option-letter">B)</span>Asymmetric stem cell division.</div>
+                    <div class="option"><span class="option-letter">C)</span>Interstitial growth.</div>
+                    <div class="option"><span class="option-letter">D)</span>Metaplastic tissue transformation.</div>
+                </div>
+            </div>
+
+            <!-- Q20 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q20.</span><span>When comparing the light microscopic (LM) appearance of active vs. less active chondrocytes, a less active (inactive) chondrocyte displays:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>A deeply basophilic cytoplasm packed with massive new rER.</div>
+                    <div class="option"><span class="option-letter">B)</span>Multiple nuclei with highly visible branching mitotic spindles.</div>
+                    <div class="option"><span class="option-letter">C)</span>An acidophilic cytoplasm with prominent extracellular type I collagen.</div>
+                    <div class="option"><span class="option-letter">D)</span>A highly vacuolated cytoplasm due to being rich in glycogen and lipid droplets.</div>
+                </div>
+            </div>
+
+            <!-- Q21 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q21.</span><span>What happens as the aggregated chondrocytes inside an isogenous group become highly active in secreting extracellular matrix (ECM) components?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>The cells are pushed apart and come to occupy separate individual lacunae.</div>
+                    <div class="option"><span class="option-letter">B)</span>They immediately fuse together to form a syncytial chondroclastic mass.</div>
+                    <div class="option"><span class="option-letter">C)</span>They trigger localized calcification leading to automatic cell death.</div>
+                    <div class="option"><span class="option-letter">D)</span>They halt interstitial growth and switch to forming the fibrous perichondrium layer.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-banner">
+            <div class="key-banner">ANSWER KEY (PAGE 3) — Q15: C | Q16: D | Q17: A | Q18: B | Q19: C | Q20: D | Q21: A</div>
+            <div class="footer-info"><span>Suez University | Faculty of Medicine</span><span>Page 3 of 6</span></div>
+        </div>
+    </div>
+
+    <!-- ================= PAGE 4 ================= -->
+    <div class="page">
+        <table class="header-table">
+            <tr>
+                <td class="header-logo-cell"><div class="header-logo-circle">SU</div></td>
+                <td class="header-title-cell">
+                    <h1>Faculty of Medicine — Suez University</h1>
+                    <p>1st Year Medical Students | Locomotor Module: Cartilage Histology Exam</p>
+            </tr>
+        </table>
+
+        <div class="content">
+            <!-- Q22 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q22.</span><span>What is the primary technical cause behind the irregular shape of chondrocytes and their retraction from the matrix in routine histologic slides?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Active phagocytosis by adjacent cells within the cell nest.</div>
+                    <div class="option"><span class="option-letter">B)</span>Slight shrinkage of cells and matrix during routine histologic preparation.</div>
+                    <div class="option"><span class="option-letter">C)</span>High hydrostatic pressure exerted by the tissue fluid in living states.</div>
+                    <div class="option"><span class="option-letter">D)</span>Deposition of specialized type VI collagen network around lacunae.</div>
+                </div>
+            </div>
+
+            <!-- Q23 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q23.</span><span>In living tissue, what is the true spatial relationship between a chondrocyte and its lacuna?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>The cell occupies less than 10% of the lacunar volume, floating in fluid.</div>
+                    <div class="option"><span class="option-letter">B)</span>The cell forms long branches extending far beyond its own lacuna.</div>
+                    <div class="option"><span class="option-letter">C)</span>Chondrocytes fill their lacunae completely.</div>
+                    <div class="option"><span class="option-letter">D)</span>The lacuna is structurally absent and only forms during calcification.</div>
+                </div>
+            </div>
+
+            <!-- Q24 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q24.</span><span>Because the cartilage matrix is completely avascular, how do embedded chondrocytes typically respire and metabolize glucose?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Via direct aerobic respiration using oxygen transported by type II fibrils.</div>
+                    <div class="option"><span class="option-letter">B)</span>Through specialized oxidative channels connected to the perichondrium.</div>
+                    <div class="option"><span class="option-letter">C)</span>By converting glycogen directly into calcium phosphate minerals.</div>
+                    <div class="option"><span class="option-letter">D)</span>Mainly by anaerobic glycolysis under low-oxygen tension.</div>
+                </div>
+            </div>
+
+            <!-- Q25 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q25.</span><span>What structural limit determines the maximum functional thickness of hyaline cartilage in the human body?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>The maximum limits of passive nutrient and oxygen diffusion through the matrix.</div>
+                    <div class="option"><span class="option-letter">B)</span>The total number of available lipid droplets within the cell nests.</div>
+                    <div class="option"><span class="option-letter">C)</span>The length of type I collagen bundles running parallel to joint borders.</div>
+                    <div class="option"><span class="option-letter">D)</span>The thickness of the outer fibrous layer of the perichondrium.</div>
+                </div>
+            </div>
+
+            <!-- Q26 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q26.</span><span>By which mechanism is the movement of water and solutes promoted through the cartilage matrix to reach deep chondrocytes?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Active ciliary movement of chondrocytic microvilli.</div>
+                    <div class="option"><span class="option-letter">B)</span>Intermittent tissue compression and decompression during body movements.</div>
+                    <div class="option"><span class="option-letter">C)</span>High-velocity blood flow through trans-matrix capillary loops.</div>
+                    <div class="option"><span class="option-letter">D)</span>Continuous breakdown of chondroitin sulfate by local enzymes.</div>
+                </div>
+            </div>
+
+            <!-- Q27 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q27.</span><span>The dynamic maintenance and long-term structural integrity of the cartilage matrix is the functional job of:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Fibroblasts located inside the outer fibrous sheet.</div>
+                    <div class="option"><span class="option-letter">B)</span>Mesenchymal cells residing in the bone marrow.</div>
+                    <div class="option"><span class="option-letter">C)</span>Mature chondrocytes via continuous secretion of new matrix and type II collagen.</div>
+                    <div class="option"><span class="option-letter">D)</span>Synovial cells active along the non-articular boundaries.</div>
+                </div>
+            </div>
+
+            <!-- Q28 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q28.</span><span>The territorial (or capsular) matrix immediately surrounding each lacuna appears deeply basophilic because it is:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Composed entirely of acidophilic collagen type I thick bundles.</div>
+                    <div class="option"><span class="option-letter">B)</span>Completely devoid of any glycosaminoglycans (GAGs).</div>
+                    <div class="option"><span class="option-letter">C)</span>Highly calcified due to chronic hypoxia and aging.</div>
+                    <div class="option"><span class="option-letter">D)</span>Rich in glycosaminoglycans (GAGs) but poor in structural fibers.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-banner">
+            <div class="key-banner">ANSWER KEY (PAGE 4) — Q22: B | Q23: C | Q24: D | Q25: A | Q26: B | Q27: C | Q28: D</div>
+            <div class="footer-info"><span>Suez University | Faculty of Medicine</span><span>Page 4 of 6</span></div>
+        </div>
+    </div>
+
+    <!-- ================= PAGE 5 ================= -->
+    <div class="page">
+        <table class="header-table">
+            <tr>
+                <td class="header-logo-cell"><div class="header-logo-circle">SU</div></td>
+                <td class="header-title-cell">
+                    <h1>Faculty of Medicine — Suez University</h1>
+                    <p>1st Year Medical Students | Locomotor Module: Cartilage Histology Exam</p>
+            </tr>
+        </table>
+
+        <div class="content">
+            <!-- Q29 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q29.</span><span>Which specific structural fibers predominate inside the ground substance of hyaline cartilage and elastic cartilage?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Collagen type II.</div>
+                    <div class="option"><span class="option-letter">B)</span>Collagen type I.</div>
+                    <div class="option"><span class="option-letter">C)</span>Collagen type III.</div>
+                    <div class="option"><span class="option-letter">D)</span>Reticular fibers.</div>
+                </div>
+            </div>
+
+            <!-- Q30 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q30.</span><span>Why are collagen type II fibers NOT observed under standard Light Microscopes (LM) within hyaline cartilage matrix?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Because they are completely digested during standard H&E staining protocols.</div>
+                    <div class="option"><span class="option-letter">B)</span>Because they have the exact same refractive index as the surrounding matrix.</div>
+                    <div class="option"><span class="option-letter">C)</span>Due to their peripheral localization restricted only to the outer perichondrium.</div>
+                    <div class="option"><span class="option-letter">D)</span>Because they are only present in fetal states and completely disappear in adults.</div>
+                </div>
+            </div>
+
+            <!-- Q31 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q31.</span><span>What is the macroscopic color and visual appearance of Hyaline Cartilage in its fresh state?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Opaque white with a highly rough, fiber-streaked surface.</div>
+                    <div class="option"><span class="option-letter">B)</span>Intense yellow, highly opaque, and very flexible.</div>
+                    <div class="option"><span class="option-letter">C)</span>Bluish-white in color and translucent.</div>
+                    <div class="option"><span class="option-letter">D)</span>Dark brown with visible vascular lines across joint spaces.</div>
+                </div>
+            </div>
+
+            <!-- Q32 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q32.</span><span>Which of the following anatomical sites represents a classic location for Hyaline Cartilage?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>The ear pinna and walls of the external auditory meatus.</div>
+                    <div class="option"><span class="option-letter">B)</span>Intervertebral discs and the symphysis pubis joint.</div>
+                    <div class="option"><span class="option-letter">C)</span>The epiglottis and cuneiform laryngeal cartilages.</div>
+                    <div class="option"><span class="option-letter">D)</span>Costal cartilages, trachea, bronchi, and articular joint surfaces.</div>
+                </div>
+            </div>
+
+            <!-- Q33 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q33.</span><span>Which group of physiological tasks correctly summarizes the primary functions of Hyaline Cartilage?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Development of bone (fetal skeleton), bone articulation, and maintenance of patent airways.</div>
+                    <div class="option"><span class="option-letter">B)</span>Providing high elastic recoil and protecting the middle ear from pressure changes.</div>
+                    <div class="option"><span class="option-letter">C)</span>Resisting massive stretching forces under extreme tension in intervertebral spaces.</div>
+                    <div class="option"><span class="option-letter">D)</span>Acting as a direct stem cell reservoir for skeletal muscle regeneration.</div>
+                </div>
+            </div>
+
+            <!-- Q34 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q34.</span><span>In its fresh state, Elastic Cartilage can be macroscopically distinguished because it appears:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Bluish-white and completely translucent.</div>
+                    <div class="option"><span class="option-letter">B)</span>Yellowish in color and opaque.</div>
+                    <div class="option"><span class="option-letter">C)</span>Pure white, shiny, and completely rigid without any flexibility.</div>
+                    <div class="option"><span class="option-letter">D)</span>Translucent red due to high vascular supply inside its center.</div>
+                </div>
+            </div>
+
+            <!-- Q35 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q35.</span><span>Besides a few collagen type II fibrils, the matrix of Elastic Cartilage is exceptionally rich in a fine branching network of:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Type I collagen heavy bundles.</div>
+                    <div class="option"><span class="option-letter">B)</span>Myosin filaments and anchoring dense bodies.</div>
+                    <div class="option"><span class="option-letter">C)</span>Elastic fibers.</div>
+                    <div class="option"><span class="option-letter">D)</span>Fibronectin glycoproteins only.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-banner">
+            <div class="key-banner">ANSWER KEY (PAGE 5) — Q29: A | Q30: B | Q31: C | Q32: D | Q33: A | Q34: B | Q35: C</div>
+            <div class="footer-info"><span>Suez University | Faculty of Medicine</span><span>Page 5 of 6</span></div>
+        </div>
+    </div>
+
+    <!-- ================= PAGE 6 ================= -->
+    <div class="page">
+        <table class="header-table">
+            <tr>
+                <td class="header-logo-cell"><div class="header-logo-circle">SU</div></td>
+                <td class="header-title-cell">
+                    <h1>Faculty of Medicine — Suez University</h1>
+                    <p>1st Year Medical Students | Locomotor Module: Cartilage Histology Exam</p>
+            </tr>
+        </table>
+
+        <div class="content">
+            <!-- Q36 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q36.</span><span>Which of the following organs is structurally supported by Elastic Cartilage?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Articular surface of the femur bone.</div>
+                    <div class="option"><span class="option-letter">B)</span>The wall of the human trachea.</div>
+                    <div class="option"><span class="option-letter">C)</span>Costal cartilage attached to the ribs.</div>
+                    <div class="option"><span class="option-letter">D)</span>The ear pinna, external auditory meatus, Eustachian tube, and epiglottis.</div>
+                </div>
+            </div>
+
+            <!-- Q37 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q37.</span><span>What functional property characterizes elastic cartilage from a biomechanical standpoint?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>It is characterized by elastic recoil, so it returns to its original shape after being deformed.</div>
+                    <div class="option"><span class="option-letter">B)</span>It provides an absolute stiff barrier that prevents any structural mobility.</div>
+                    <div class="option"><span class="option-letter">C)</span>It transforms automatically into real bone tissue when exposed to mechanical pressure.</div>
+                    <div class="option"><span class="option-letter">D)</span>It completely blocks the passive diffusion of gaseous nutrients.</div>
+                </div>
+            </div>
+
+            <!-- Q38 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q38.</span><span>Which of the following features uniquely defines Fibrocartilage and sets it apart from hyaline and elastic types?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>It has a highly prominent inner cellular layer of perichondrium.</div>
+                    <div class="option"><span class="option-letter">B)</span>It possesses NO perichondrium, contains rows of chondrocytes, and parallel bundles of collagen type I.</div>
+                    <div class="option"><span class="option-letter">C)</span>Its fresh state is characterized by a bright translucent yellow appearance.</div>
+                    <div class="option"><span class="option-letter">D)</span>It is the only cartilage containing multiple networks of lymphatic capillary beds.</div>
+                </div>
+            </div>
+
+            <!-- Q39 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q39.</span><span>The matrix of fibrocartilage is explicitly acidophilic in staining because it is heavily rich in:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Sulfated keratan sulfate molecules.</div>
+                    <div class="option"><span class="option-letter">B)</span>Branching elastic fiber meshes.</div>
+                    <div class="option"><span class="option-letter">C)</span>Collagen type I fibers.</div>
+                    <div class="option"><span class="option-letter">D)</span>Hyaluronan GAG components.</div>
+                </div>
+            </div>
+
+            <!-- Q40 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q40.</span><span>Where is Fibrocartilage anatomically located inside the adult human body?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Nasal septum and epiphyseal dynamic plates.</div>
+                    <div class="option"><span class="option-letter">B)</span>Wall of the external ear canal and larynx.</div>
+                    <div class="option"><span class="option-letter">C)</span>Thyroid cartilage and rings of the bronchial tree.</div>
+                    <div class="option"><span class="option-letter">D)</span>Intervertebral discs, symphysis pubis, and temporomandibular joint (TMJ).</div>
+                </div>
+            </div>
+
+            <!-- Q41 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q41.</span><span>An intervertebral disc is histologically organized into which two distinct components?</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>An outer annulus fibrosus (fibrocartilage) and an inner nucleus pulposus (gelatinous material).</div>
+                    <div class="option"><span class="option-letter">B)</span>An outer cellular perichondrium and an inner calcified hyaline skeletal core.</div>
+                    <div class="option"><span class="option-letter">C)</span>An outer capsule of dense elastic fiber networks and inner cell nests of chondroblasts.</div>
+                    <div class="option"><span class="option-letter">D)</span>An outer fibrous periosteum layer and inner rows of osteocytes inside deep lacunae.</div>
+                </div>
+            </div>
+
+            <!-- Q42 -->
+            <div class="question-block">
+                <div class="question-text"><span class="question-number">Q42.</span><span>A 35-year-old athlete undergoes an MRI following a severe sports injury, revealing a focal cartilage defect in the femoral condyle. Histological review of the natural repair zone typically demonstrates the formation of:</span></div>
+                <div class="options-grid">
+                    <div class="option"><span class="option-letter">A)</span>Perfect hyaline-like matrix completely matching the original structure automatically.</div>
+                    <div class="option"><span class="option-letter">B)</span>Fibrous tissue instead of a true hyaline-like matrix due to cartilage's avascular nature.</div>
+                    <div class="option"><span class="option-letter">C)</span>A highly vascularized osteocytic network that expands via appositional layers.</div>
+                    <div class="option"><span class="option-letter">D)</span>A dense network of fine branching elastic fibers mixed with chondrogenic cells.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-banner">
+            <div class="key-banner">ANSWER KEY (PAGE 6) — Q36: D | Q37: A | Q38: B | Q39: C | Q40: D | Q41: A | Q42: B</div>
+            <div class="footer-info"><span>Suez University | Faculty of Medicine</span><span>Page 6 of 6</span></div>
+        </div>
+    </div>
+
+</body>
+</html>
+
