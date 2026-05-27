@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Comprehensive Question Bank: Trichinella spiralis - Suez University</title>
+<style>
+    /* Structural settings matched perfectly with Suez University Faculty of Medicine official exam papers */
+    body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #334155;
+        background-color: #f1f5f9;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    
+    /* Standard A4 page container to ensure dimensions remain constant during PDF conversion */
+    .page {
+        background-color: #ffffff;
+        width: 210mm;
+        min-height: 297mm;
+        padding: 20mm;
+        margin: 15px auto;
+        box-sizing: border-box;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    @media print {
+        body {
+            background-color: #ffffff;
+            padding: 0;
+        }
+        .page {
+            margin: 0;
+            border: none;
+            box-shadow: none;
+            page-break-after: always;
+            width: 100%;
+            min-height: 100vh;
+        }
+    }
+
+    /* Core Deep Blue Header from the Lecture Document */
+    .header-blue {
+        background-color: #003366;
+        color: #ffffff;
+        padding: 22px 20px;
+        border-radius: 4px;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+    .header-blue h1 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    .header-blue .subtitle {
+        font-size: 13px;
+        margin-top: 6px;
+        color: #93c5fd;
+        font-weight: 500;
+    }
+
+    /* Section side-markers */
+    .section-title {
+        border-left: 4px solid #003366;
+        padding-left: 10px;
+        color: #003366;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 20px 0 15px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    /* Independent question container */
+    .question-box {
+        border: 1px solid #e2e8f0;
+        border-radius: 6px;
+        padding: 16px;
+        margin-bottom: 14px;
+        background-color: #ffffff;
+        page-break-inside: avoid;
+    }
+
+    .question-text {
+        font-weight: 600;
+        font-size: 14.5px;
+        color: #0f172a;
+        margin-bottom: 12px;
+    }
+
+    .options-container {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        padding-left: 5px;
+    }
+
+    .option-item {
+        font-size: 13.5px;
+        color: #475569;
+    }
+    
+    .option-item strong {
+        color: #0f172a;
+        margin-right: 4px;
+    }
+
+    /* Smart answer banner wrapper at the bottom of the section */
+    .footer-wrapper {
+        margin-top: auto;
+        padding-top: 20px;
+    }
+    
+    .key-banner {
+        background-color: #e6f0fa;
+        border-left: 4px solid #003366;
+        padding: 10px 16px;
+        border-radius: 4px;
+        font-size: 13px;
+        font-weight: 700;
+        color: #003366;
+        margin-bottom: 12px;
+        letter-spacing: 0.3px;
+        text-align: left;
+    }
+
+    .footer-meta {
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        color: #94a3b8;
+        border-top: 1px solid #f1f5f9;
+        padding-top: 8px;
+        font-weight: 600;
+    }
+</style>
+</head>
+<body>
+
+    <!-- PAGE 1 -->
+    <div class="page">
+        <div class="header-blue">
+            <h1>Medical Parasitology Department - Suez University</h1>
+            <div class="subtitle">Comprehensive Examination Bank: Trichinella spiralis (Musculoskeletal Block)</div>
+        </div>
+
+        <div class="section-title">Section I: Parasite Classification & General Characteristics</div>
+
+        <!-- Q1 -->
+        <div class="question-box">
+            <div class="question-text">1. According to the department classification criteria, which of the following characteristics defines the group Nematodes to which Trichinella spiralis belongs?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Leaf-like, unsegmented flatworms.</div>
+                <div class="option-item"><strong>B)</strong> Elongated, cylindrical, and unsegmented roundworms.</div>
+                <div class="option-item"><strong>C)</strong> Tape-like, segmented multicellular flatworms.</div>
+                <div class="option-item"><strong>D)</strong> Unicellular organisms utilizing single cells for all biological functions.</div>
+            </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="question-box">
+            <div class="question-text">2. What is the designated common name scientifically recognized for Trichinella spiralis?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Trichina worm.</div>
+                <div class="option-item"><strong>B)</strong> Pinworm.</div>
+                <div class="option-item"><strong>C)</strong> Tapeworm.</div>
+                <div class="option-item"><strong>D)</strong> Hookworm.</div>
+            </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="question-box">
+            <div class="question-text">3. Which epidemiological statement accurately describes the geographical distribution and transmission type of Trichinellosis?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Strictly restricted to tropical desert areas as a non-zoonotic illness.</div>
+                <div class="option-item"><strong>B)</strong> Vector-borne disease localized exclusively to Mediterranean aquatic environments.</div>
+                <div class="option-item"><strong>C)</strong> Contagious bacterial infection transmitted via respiratory droplets.</div>
+                <div class="option-item"><strong>D)</strong> Worldwide distribution, presenting as a zoonotic disease especially in pork-eating countries.</div>
+            </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="question-box">
+            <div class="question-text">4. Which morphological structure occupies the anterior third of the adult Trichinella spiralis worm body?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Bifurcated intestinal caeca.</div>
+                <div class="option-item"><strong>B)</strong> Muscular copulatory bursa.</div>
+                <div class="option-item"><strong>C)</strong> Cellular oesophagus.</div>
+                <div class="option-item"><strong>D)</strong> Segmented uterine branches filled with operculated eggs.</div>
+            </div>
+        </div>
+
+        <!-- Q5 -->
+        <div class="question-box">
+            <div class="question-text">5. What distinguishing anatomic structure can be observed on the posterior tail end of the adult male Trichinella spiralis?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> A single prominent lateral spicule.</div>
+                <div class="option-item"><strong>B)</strong> A pair of conical processes (claspers).</div>
+                <div class="option-item"><strong>C)</strong> Large sub-terminal oral sucker.</div>
+                <div class="option-item"><strong>D)</strong> Completely smooth, rounded tapering end with no distinct features.</div>
+            </div>
+        </div>
+
+        <!-- Q6 -->
+        <div class="question-box">
+            <div class="question-text">6. Trichinella spiralis adult females are characterized as larviparous. What does this indicate regarding their reproductive output?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Their uterus is filled with fully formed, live larvae instead of shedding eggs.</div>
+                <div class="option-item"><strong>B)</strong> They discharge unembryonated thick-shelled eggs into the external soil.</div>
+                <div class="option-item"><strong>C)</strong> They reproduce solely by binary fission inside human systemic circulation.</div>
+                <div class="option-item"><strong>D)</strong> They lay operculated eggs that hatch only upon contact with water.</div>
+            </div>
+        </div>
+
+        <!-- Q7 -->
+        <div class="question-box">
+            <div class="question-text">7. What are the specific morphological measurements of adult Trichinella spiralis female and male worms respectively?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Female measures 2 mm x 0.04 mm; Male measures 4 mm x 0.5 mm.</div>
+                <div class="option-item"><strong>B)</strong> Female measures 10 mm x 1.5 mm; Male measures 12 mm x 2.0 mm.</div>
+                <div class="option-item"><strong>C)</strong> Female measures 4 mm x 0.5 mm; Male measures 2 mm x 0.04 mm.</div>
+                <div class="option-item"><strong>D)</strong> Both sexes are identical, measuring exactly 1.5 mm x 36 µm.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">📍: [ 1: B | 2: A | 3: D | 4: C | 5: B | 6: A | 7: C ]</div>
+            <div class="footer-meta">
+                <span>Faculty of Medicine - Suez University</span>
+                <span>Musculoskeletal Block (Parasitology)</span>
+                <span>Page 1</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 2 -->
+    <div class="page">
+        <div class="section-title">Section II: Lifecycle Dynamics, Hosts, & Transmission Modes</div>
+
+        <!-- Q8 -->
+        <div class="question-box">
+            <div class="question-text">8. What is the specific anatomical habitat where adult Trichinella spiralis worms reside and mature within the host?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Large intestine and cecal mucosa.</div>
+                <div class="option-item"><strong>B)</strong> Intrahepatic bile ducts.</div>
+                <div class="option-item"><strong>C)</strong> Active striated muscle fibers.</div>
+                <div class="option-item"><strong>D)</strong> Small intestine.</div>
+            </div>
+        </div>
+
+        <!-- Q9 -->
+        <div class="question-box">
+            <div class="question-text">9. Why is the lifecycle of Trichinella spiralis considered unique and exceptional among intestinal nematodes?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> It requires an obligate free-living stage in aquatic soil environments to complete maturation.</div>
+                <div class="option-item"><strong>B)</strong> The same individual host animal acts as both the Definitive Host (DH) and the Intermediate Host (IH).</div>
+                <div class="option-item"><strong>C)</strong> It relies exclusively on blood-sucking arthropod vectors for mechanical transfer.</div>
+                <div class="option-item"><strong>D)</strong> It changes hosts during its adult stage through respiratory secretions.</div>
+            </div>
+        </div>
+
+        <!-- Q10 -->
+        <div class="question-box">
+            <div class="question-text">10. According to the lifecycle slide, which of the following serve as the main Reservoir Hosts (RH) maintaining the cycle in nature?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Pigs, rodents, and carnivorous mammals.</div>
+                <div class="option-item"><strong>B)</strong> Sheep, goats, and herbivorous cattle.</div>
+                <div class="option-item"><strong>C)</strong> Fresh-water snails and aquatic crabs.</div>
+                <div class="option-item"><strong>D)</strong> Wild birds and domestic poultry.</div>
+            </div>
+        </div>
+
+        <!-- Q11 -->
+        <div class="question-box">
+            <div class="question-text">11. What is the immediate biological fate of the adult male Trichinella spiralis worm following the process of fertilization?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> It burrows into the mesenteric lymph nodes to form calcified nodules.</div>
+                <div class="option-item"><strong>B)</strong> It migrates into the skeletal muscle of the tongue to undergo encystation.</div>
+                <div class="option-item"><strong>C)</strong> It dies after fertilization and is passed out or digested.</div>
+                <div class="option-item"><strong>D)</strong> It transforms morphologically into an active migratory larva.</div>
+            </div>
+        </div>
+
+        <!-- Q12 -->
+        <div class="question-box">
+            <div class="question-text">12. Approximately how many young live larvae does a single fertilized adult female Trichinella spiralis give birth to inside the host mucosa?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 10 to 50 larvae over its entire lifespan.</div>
+                <div class="option-item"><strong>B)</strong> 50,000 to 100,000 larvae per day.</div>
+                <div class="option-item"><strong>C)</strong> Exactly 5 larvae which remain localized.</div>
+                <div class="option-item"><strong>D)</strong> 1,000 to 1,500 larvae.</div>
+            </div>
+        </div>
+
+        <!-- Q13 -->
+        <div class="question-box">
+            <div class="question-text">13. Over what timeframe does the adult female deeply burrowed in the intestinal mucosa continue to deposit larvae?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> For a brief window of 24 hours only.</div>
+                <div class="option-item"><strong>B)</strong> For a duration of 1 to 4 months.</div>
+                <div class="option-item"><strong>C)</strong> Persistently for 5 to 10 years without interruption.</div>
+                <div class="option-item"><strong>D)</strong> Sporadically every alternate week for two consecutive years.</div>
+            </div>
+        </div>
+
+        <!-- Q14 -->
+        <div class="question-box">
+            <div class="question-text">14. Following release into the mucosa, by which anatomical route do the young trichinae travel to reach the systemic circulation?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> By way of intestinal lymphatics to blood circulation.</div>
+                <div class="option-item"><strong>B)</strong> By direct perforation through the peritoneal cavity into the bladder.</div>
+                <div class="option-item"><strong>C)</strong> Retrograde movement through the bile duct into the gallbladder.</div>
+                <div class="option-item"><strong>D)</strong> Ascending via the lumen of the esophagus into salivary glands.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">📍: [ 8: D | 9: B | 10: A | 11: C | 12: D | 13: B | 14: A ]</div>
+            <div class="footer-meta">
+                <span>Faculty of Medicine - Suez University</span>
+                <span>Musculoskeletal Block (Parasitology)</span>
+                <span>Page 2</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 3 -->
+    <div class="page">
+        <div class="section-title">Section III: Encystation Pathophysiology & Clinical Phases</div>
+
+        <!-- Q15 -->
+        <div class="question-box">
+            <div class="question-text">15. When larvae reach active striated muscles, they increase significantly in size. By what factor does their size increase, and within what timeframe is encystation completed?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Increases 2 times; completed in 1 week.</div>
+                <div class="option-item"><strong>B)</strong> Increases 50 times; completed in 12 months.</div>
+                <div class="option-item"><strong>C)</strong> Increases 10 times; completed in 3 months.</div>
+                <div class="option-item"><strong>D)</strong> No size increase occurs; completed within 48 hours.</div>
+            </div>
+        </div>
+
+        <!-- Q16 -->
+        <div class="question-box">
+            <div class="question-text">16. Due to the host tissue reaction against the encysted larva, an inflammatory infiltrate develops. When does calcification of the cyst typically occur?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> After 6 to 18 months or years.</div>
+                <div class="option-item"><strong>B)</strong> Exactly 10 days post-ingestion.</div>
+                <div class="option-item"><strong>C)</strong> Prior to the completion of the initial larval migration phase.</div>
+                <div class="option-item"><strong>D)</strong> Immediately upon entry into the intestinal mucosal wall.</div>
+            </div>
+        </div>
+
+        <!-- Q17 -->
+        <div class="question-box">
+            <div class="question-text">17. While most infections are subclinical, clinical severity depends on larval load. What are the minimum symptomatic and estimated fatal doses of ingested larvae?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 1 larva produces symptoms; 500 larvae is a fatal dose.</div>
+                <div class="option-item"><strong>B)</strong> 10 larvae produce symptoms; 5,000 larvae is a fatal dose.</div>
+                <div class="option-item"><strong>C)</strong> 500 larvae produce symptoms; 1,000,000 larvae is a fatal dose.</div>
+                <div class="option-item"><strong>D)</strong> About 100 larvae produce symptoms; 300,000 larvae is estimated as a fatal dose.</div>
+            </div>
+        </div>
+
+        <!-- Q18 -->
+        <div class="question-box">
+            <div class="question-text">18. During the 1st Stage (Stage of Intestinal Invasion), the mucosal inflammation intensifies as larvae are shed. Which cellular infiltrate characterizes this phase?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Exclusively basophils and atypical plasma cells.</div>
+                <div class="option-item"><strong>B)</strong> Inflammation consisting of eosinophils, neutrophils, and lymphocytes.</div>
+                <div class="option-item"><strong>C)</strong> Epitheloid granulomas with extensive caseous necrosis.</div>
+                <div class="option-item"><strong>D)</strong> Purely neoplastic monocytic cells without inflammatory markers.</div>
+            </div>
+        </div>
+
+        <!-- Q19 -->
+        <div class="question-box">
+            <div class="question-text">19. What clinical phrase summarizes the typical presentation of heavily infected patients during the initial intestinal phase?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Acute appendicitis-like presentation.</div>
+                <div class="option-item"><strong>B)</strong> Chronic obstructive jaundice manifestations.</div>
+                <div class="option-item"><strong>C)</strong> Acute food poisoning-like manifestations.</div>
+                <div class="option-item"><strong>D)</strong> Asymptomatic pulmonary consolidation syndrome.</div>
+            </div>
+        </div>
+
+        <!-- Q20 -->
+        <div class="question-box">
+            <div class="question-text">20. Eosinophilia is a crucial sign that appears during the 2nd Stage (Stage of Larval Migration). When does it reach its peak, and what is its range?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Peaks in the 3rd or 4th week; relative eosinophilia varies from 20-95%.</div>
+                <div class="option-item"><strong>B)</strong> Peaks within the first 24 hours; relative eosinophilia is fixed at 5%.</div>
+                <div class="option-item"><strong>C)</strong> Peaks at the end of the second year; relative eosinophilia drops below 1%.</div>
+                <div class="option-item"><strong>D)</strong> Peaks during the encapsulation phase; relative eosinophilia ranges between 10-15%.</div>
+            </div>
+        </div>
+
+        <!-- Q21 -->
+        <div class="question-box">
+            <div class="question-text">21. During the larval migration phase, the invasion of muscles and tissues leads to specific signs. Which of the following is considered a hallmark diagnostic sign during this phase?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Generalized scaling dermatitis.</div>
+                <div class="option-item"><strong>B)</strong> Splinter hemorrhage under nails, tongue, and conjunctiva.</div>
+                <div class="option-item"><strong>C)</strong> Painless bilateral inguinal lymphadenopathy.</div>
+                <div class="option-item"><strong>D)</strong> Symmetrical peripheral gangrene of lower extremities.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">📍: [ 15: C | 16: A | 17: D | 18: B | 19: C | 20: A | 21: B ]</div>
+            <div class="footer-meta">
+                <span>Faculty of Medicine - Suez University</span>
+                <span>Musculoskeletal Block (Parasitology)</span>
+                <span>Page 3</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 4 -->
+    <div class="page">
+        <div class="section-title">Section IV: Tissue Specificity, Diagnostics, & Therapeutics</div>
+
+        <!-- Q22 -->
+        <div class="question-box">
+            <div class="question-text">22. What specific condition or clinical syndrome does the 3rd Stage (Stage of Encystation) mimic when larvae settle into striated muscles?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Mimic polymyositis.</div>
+                <div class="option-item"><strong>B)</strong> Mimic osteosarcoma.</div>
+                <div class="option-item"><strong>C)</strong> Mimic rheumatoid arthritis overlapping.</div>
+                <div class="option-item"><strong>D)</strong> Mimic systemic lupus erythematosus.</div>
+            </div>
+        </div>
+
+        <!-- Q23 -->
+        <div class="question-box">
+            <div class="question-text">23. According to the specific lecture "Note", in which of the following non-striated tissues do Trichinella larvae fail to encapsulate, instead inducing mechanical damage and disintegrating?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Deltoid and gastrocnemius muscles.</div>
+                <div class="option-item"><strong>B)</strong> Heart muscles or brain.</div>
+                <div class="option-item"><strong>C)</strong> Jaw and extraocular muscles.</div>
+                <div class="option-item"><strong>D)</strong> Diaphragm and intercostal muscles.</div>
+            </div>
+        </div>
+
+        <!-- Q24 -->
+        <div class="question-box">
+            <div class="question-text">24. What components constitute the complete clinical "Triad of Diagnosis" presented in the departmental pyramid chart?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> High eosinophilia, Myalgia esp. (Jaw muscles), and Bilateral periorbital oedema.</div>
+                <div class="option-item"><strong>B)</strong> Bloody diarrhea, high-grade fever, and splenomegaly.</div>
+                <div class="option-item"><strong>C)</strong> Maculopapular rash, generalized lymphadenopathy, and microcytic anemia.</div>
+                <div class="option-item"><strong>D)</strong> Jaundice, hepatomegaly, and ascending flaccid paralysis.</div>
+            </div>
+        </div>
+
+        <!-- Q25 -->
+        <div class="question-box">
+            <div class="question-text">25. Which immunodiagnostic laboratory tool is specified as the "First choice of diagnosis" to detect anti-trichinella antibodies in serum?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Stool examination for concentration of active rhabditiform larvae.</div>
+                <div class="option-item"><strong>B)</strong> Western Blot confirmation for viral core antigen fragments.</div>
+                <div class="option-item"><strong>C)</strong> IFAT or ELISA.</div>
+                <div class="option-item"><strong>D)</strong> Thick and thin blood film stained with Giemsa.</div>
+            </div>
+        </div>
+
+        <!-- Q26 -->
+        <div class="question-box">
+            <div class="question-text">26. In addition to leukocytosis, which group of serum muscle enzymes aids significantly in diagnosing trichinellosis tissue injury?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Alanine aminotransferase (ALT) and alkaline phosphatase (ALP).</div>
+                <div class="option-item"><strong>B)</strong> Lactate dehydrogenase (LDH), aldolase, and creatinine phosphokinase (CPK).</div>
+                <div class="option-item"><strong>C)</strong> Amylase and lipase.</div>
+                <div class="option-item"><strong>D)</strong> Acid phosphatase and gamma-glutamyl transferase (GGT).</div>
+            </div>
+        </div>
+
+        <!-- Q27 -->
+        <div class="question-box">
+            <div class="question-text">27. When performing a muscle biopsy to detect the larva, what is the standard recommended tissue sample weight and choice anatomical sites?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 0.5 gm biopsy taken from deltoid or gastrocnemius muscle.</div>
+                <div class="option-item"><strong>B)</strong> 10 gm biopsy taken exclusively from smooth muscular walls of rectum.</div>
+                <div class="option-item"><strong>C)</strong> 2.0 gm biopsy taken from subcutaneous adipose tissues of abdominal wall.</div>
+                <div class="option-item"><strong>D)</strong> 5.0 gm needle aspirate from cardiac apex.</div>
+            </div>
+        </div>
+
+        <!-- Q28 -->
+        <div class="question-box">
+            <div class="question-text">28. Under microscopic examination, what are the characteristic features of a positive Trichina capsule lesion within muscle?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Perfectly spherical thick chitinous shell containing millions of free merozoites.</div>
+                <div class="option-item"><strong>B)</strong> Ellipsoid capsule, 0.2-0.5 mm length, white in color enclosing a coiled larva (1mm) near tendinous attachment.</div>
+                <div class="option-item"><strong>C)</strong> Elongated operculated structure with ciliated miracidium.</div>
+                <div class="option-item"><strong>D)</strong> Radiating calcified star-shaped structure enclosing adult worms.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">📍: [ 22: A | 23: B | 24: A | 25: C | 26: B | 27: A | 28: B ]</div>
+            <div class="footer-meta">
+                <span>Faculty of Medicine - Suez University</span>
+                <span>Musculoskeletal Block (Parasitology)</span>
+                <span>Page 4</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 5 -->
+    <div class="page">
+        <div class="section-title">Section V: Therapeutics, Prevention, & Case Study Analysis</div>
+
+        <!-- Q29 -->
+        <div class="question-box">
+            <div class="question-text">29. What is the specific clinical therapeutic difference between the application of Thiabendazole and Mebendazole?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Thiabendazole is used early at the intestinal stage (within 24 h) acting on adult worms; Mebendazole is given for 13 days acting on the larval stage.</div>
+                <div class="option-item"><strong>B)</strong> Thiabendazole acts only on calcified cysts; Mebendazole kills intermediate hosts.</div>
+                <div class="option-item"><strong>C)</strong> Thiabendazole is given for systemic calcification; Mebendazole is an injectable vaccine.</div>
+                <div class="option-item"><strong>D)</strong> There is no difference; both act exclusively on adult worms in cardiac tissues.</div>
+            </div>
+        </div>
+
+        <!-- Q30 -->
+        <div class="question-box">
+            <div class="question-text">30. Why is the administration of Corticosteroids designated as "Life saving" in severe Trichinella spiralis infections?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> They accelerate the calcification rate of adult worms in the gut.</div>
+                <div class="option-item"><strong>B)</strong> They chemically dissolve the capsule of the encysted larvae.</div>
+                <div class="option-item"><strong>C)</strong> They increase the excretion rate of anti-parasitic drugs via kidneys.</div>
+                <div class="option-item"><strong>D)</strong> They inhibit toxic and allergic reactions, protecting the myocardium and CNS from migratory phase damage.</div>
+            </div>
+        </div>
+
+        <!-- Q31 -->
+        <div class="question-box">
+            <div class="question-text">31. To greatly decrease the viability of Trichinella spiralis larvae in slaughterhouse meat, what proper cold storage freezing parameters must be maintained?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Storage at 0°C for 24 hours only.</div>
+                <div class="option-item"><strong>B)</strong> Below-zero temperatures for 20 days or -30°C for 6 days.</div>
+                <div class="option-item"><strong>C)</strong> Fixed temperature of -5°C for exactly 12 hours.</div>
+                <div class="option-item"><strong>D)</strong> Flash freezing at -10°C for 30 minutes.</div>
+            </div>
+        </div>
+
+        <!-- Q32 -->
+        <div class="question-box">
+            <div class="question-text">32. [LMS Quiz Question 1] Trichinosis is acquired via which of the following?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Swimming in contaminated water.</div>
+                <div class="option-item"><strong>B)</strong> Consuming contaminated water.</div>
+                <div class="option-item"><strong>C)</strong> Ingestion of contaminated food (infected meat).</div>
+                <div class="option-item"><strong>D)</strong> Inhalation of contaminated air droplets.</div>
+            </div>
+        </div>
+
+        <!-- Q33 -->
+        <div class="question-box">
+            <div class="question-text">33. [LMS Quiz Question 2] The specimen of choice for the identification of Trichinella spiralis is which of the following?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Skeletal muscle.</div>
+                <div class="option-item"><strong>B)</strong> Cerebrospinal fluid.</div>
+                <div class="option-item"><strong>C)</strong> Stool.</div>
+                <div class="option-item"><strong>D)</strong> Urine.</div>
+            </div>
+        </div>
+
+        <!-- Q34 -->
+        <div class="question-box">
+            <div class="question-text">34. [LMS Quiz Question 3] The diagnostic stage of Trichinella spiralis is which of the following?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Eggs.</div>
+                <div class="option-item"><strong>B)</strong> Encysted larvae.</div>
+                <div class="option-item"><strong>C)</strong> Cysts.</div>
+                <div class="option-item"><strong>D)</strong> Adult worms.</div>
+            </div>
+        </div>
+
+        <!-- Q35 -->
+        <div class="question-box">
+            <div class="question-text">35. In the attached 14-year-old clinical case study, what is the provisional diagnosis for a patient presenting with puffy face, bilateral periorbital edema, conjunctival hemorrhage, myalgia, thigh mass, and eosinophilia 40 days after eating raw pork?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Acute Rheumatoid Arthritis flare-up.</div>
+                <div class="option-item"><strong>B)</strong> Trichinellosis (Trichinosis) - migratory and early encystation stage.</div>
+                <div class="option-item"><strong>C)</strong> Bacterial Polymyositis of the right thigh.</div>
+                <div class="option-item"><strong>D)</strong> Acute viral gastroenteritis with secondary subcutaneous abscess.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">📍: [ 29: A | 30: D | 31: B | 32: C | 33: A | 34: B | 35: B ]</div>
+            <div class="footer-meta">
+                <span>Faculty of Medicine - Suez University</span>
+                <span>Musculoskeletal Block (Parasitology)</span>
+                <span>Page 5</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
