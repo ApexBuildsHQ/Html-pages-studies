@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suez University - Comprehensive Carbohydrate Metabolism MCQ Bank</title>
+    <style>
+        /* الإعدادات الهيكلية المتطابقة تماماً مع الأوراق الرسمية لكلية الطب جامعة السويس */
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #334155;
+            background-color: #f1f5f9;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        
+        /* حاوية الصفحة القياسية A4 لضمان ثبات الأبعاد عند التحويل إلى PDF */
+        .page {
+            background-color: #ffffff;
+            width: 210mm;
+            min-height: 297mm;
+            padding: 20mm;
+            margin: 15px auto;
+            box-sizing: border-box;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        @media print {
+            body {
+                background-color: #ffffff;
+                padding: 0;
+            }
+            .page {
+                margin: 0;
+                border: none;
+                box-shadow: none;
+                page-break-after: always;
+                width: 100%;
+                min-height: 100vh;
+            }
+        }
+
+        /* الهيدر الأزرق الداكن الأساسي للمحاضرة */
+        .header-blue {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 22px 20px;
+            border-radius: 4px;
+            text-align: left;
+            margin-bottom: 25px;
+        }
+        .header-blue h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .header-blue .subtitle {
+            font-size: 13px;
+            margin-top: 6px;
+            color: #93c5fd;
+            font-weight: 500;
+        }
+
+        /* علامات الأقسام الجانبية المأخوذة من لقطة الشاشة */
+        .section-title {
+            border-left: 4px solid #003366;
+            padding-left: 10px;
+            color: #003366;
+            font-weight: 700;
+            font-size: 14px;
+            margin: 20px 0 15px 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* مستطيل حول كل سؤال بشكل مستقل */
+        .question-box {
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 14px;
+            background-color: #ffffff;
+            page-break-inside: avoid;
+        }
+
+        .question-text {
+            font-weight: 600;
+            font-size: 15px;
+            color: #0f172a;
+            margin-bottom: 12px;
+        }
+
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            padding-left: 5px;
+        }
+
+        .option-item {
+            font-size: 14.5px;
+            color: #475569;
+        }
+        
+        .option-item strong {
+            color: #0f172a;
+            margin-right: 4px;
+        }
+
+         /* تلوين نص الإجابة الصحيحة باللون الأخضر الداكن الملكي العريض */
+        .option-item.correct-answer {
+            color: #155724 !important;
+            font-weight: 700;
+        }
+        
+        .option-item.correct-answer strong {
+            color: #155724 !important;
+        }
+
+       /* شريط الإجابات الفوري الذكي أسفل كل صفحة مستقلة */
+        .footer-wrapper {
+            margin-top: auto;
+            padding-top: 20px;
+        }
+        
+        .key-banner {
+            background-color: #e6f0fa;
+            border-left: 4px solid #003366;
+            padding: 10px 16px;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 700;
+            color: #003366;
+            margin-bottom: 12px;
+            letter-spacing: 0.3px;
+        }
+
+        .footer-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            color: #94a3b8;
+            border-top: 1px solid #f1f5f9;
+            padding-top: 8px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Suez University, Faculty of Medicine</h1>
+            <div class="subtitle">Medical Biochemistry Department — Carbohydrate Metabolism Block — 100% Comprehensive Bank</div>
+        </div>
+
+        <div class="section-title">Section I: Dietary Carbohydrates, Digestion, and Intestinal Absorption Mechanics</div>
+
+        <div class="question-box">
+            <div class="question-text">1. According to biochemical nutritional guidelines, approximately what percentage of our daily food intake is composed of carbohydrates?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Less than 20%.</div>
+                <div class="option-item"><strong>B)</strong> Exactly 40%.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> More than 60%.</div>
+                <div class="option-item"><strong>D)</strong> Up to 95%.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">2. Which of the following molecules represents the major metabolic fuel in mammals and serves as a primary energy source?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Glucose.</div>
+                <div class="option-item"><strong>B)</strong> Ribose.</div>
+                <div class="option-item"><strong>C)</strong> Sucrose.</div>
+                <div class="option-item"><strong>D)</strong> Deoxyribose.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">3. Which carbohydrates are specifically required for the structural assembly and formation of RNA and DNA molecules?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Starch and Glycogen.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Ribose and Deoxyribose.</div>
+                <div class="option-item"><strong>C)</strong> Lactose and Maltose.</div>
+                <div class="option-item"><strong>D)</strong> Glucose and Fructose.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">4. Digestion of carbohydrates fundamentally implies the biochemical cleavage of which structural bonds?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Peptide linkages.</div>
+                <div class="option-item"><strong>B)</strong> Ester linkages.</div>
+                <div class="option-item"><strong>C)</strong> Hydrogen bonds.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Glycosidic linkages.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">5. Which specific enzymes are responsible for the initial hydrolysis of complex dietary polysaccharides into smaller units?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Salivary and pancreatic amylases.</div>
+                <div class="option-item"><strong>B)</strong> Intestinal lactase and sucrase.</div>
+                <div class="option-item"><strong>C)</strong> Isomaltase and maltase.</div>
+                <div class="option-item"><strong>D)</strong> Pepsin and Trypsin.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">6. The brush border enzyme lactase is responsible for hydrolyzing lactose into which monosaccharide units?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Two molecules of glucose.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Glucose and galactose.</div>
+                <div class="option-item"><strong>C)</strong> Glucose and fructose.</div>
+                <div class="option-item"><strong>D)</strong> Galactose and fructose.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">7. Which enzyme is strictly responsible for hydrolyzing the 1,6 glycosidic linkage found in isomaltose structures?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Maltase.</div>
+                <div class="option-item"><strong>B)</strong> Sucrase.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> &alpha;-dextrinase.</div>
+                <div class="option-item"><strong>D)</strong> Lactase.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">ANSWER KEY 📍 — Q1: C | Q2: A | Q3: B | Q4: D | Q5: A | Q6: B | Q7: C</div>
+            <div class="footer-meta">
+                <span>FACULTY OF MEDICINE — SUEZ UNIVERSITY</span>
+                <span>Page 1 of 7</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Suez University, Faculty of Medicine</h1>
+            <div class="subtitle">Medical Biochemistry Department — Carbohydrate Metabolism Block — 100% Comprehensive Bank</div>
+        </div>
+
+        <div class="section-title">Section II: Monosaccharide Absorption Kinetics, Portal Carriage, and Renal Threshold Limits</div>
+
+        <div class="question-box">
+            <div class="question-text">8. What is the primary anatomical site responsible for the absorption of monosaccharides inside the human digestive tract?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Stomach cavity.</div>
+                <div class="option-item"><strong>B)</strong> Large intestine.</div>
+                <div class="option-item"><strong>C)</strong> Duodenum only.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Jejunum.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">9. Under normal conditions, what is the precise physiological rate of carbohydrate absorption from the intestinal lumen?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> 1 gm / kg body weight / hour.</div>
+                <div class="option-item"><strong>B)</strong> 10 gm / kg body weight / hour.</div>
+                <div class="option-item"><strong>C)</strong> 0.5 mg / kg body weight / minute.</div>
+                <div class="option-item"><strong>D)</strong> 5 gm / total body weight / day.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">10. What is the physiological importance of the fixed rate limitation during intestinal monosaccharide absorption?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> It prevents the occurrence of hypoglycemia after meals.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> It prevents the occurrence of hyperglycemia after meals.</div>
+                <div class="option-item"><strong>C)</strong> It completely blocks the absorption of galactose.</div>
+                <div class="option-item"><strong>D)</strong> It ensures the conversion of glucose to glycogen inside the gut lumen.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">11. Through which circulatory route do absorbed monosaccharides travel immediately after passing the intestinal epithelial wall?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Systemic lymphatic drainage.</div>
+                <div class="option-item"><strong>B)</strong> Hepatic artery pathway.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Portal circulation.</div>
+                <div class="option-item"><strong>D)</strong> Renal capillary network.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">12. Active absorption of Glucose and Galactose against a concentration gradient is strictly dependent on which co-transport ion?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Calcium (Ca++).</div>
+                <div class="option-item"><strong>B)</strong> Potassium (K+).</div>
+                <div class="option-item"><strong>C)</strong> Chloride (Cl-).</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Sodium (Na+).</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">13. Which specific glucose transporter protein facilitates the active carrier-mediated influx of glucose across the brush border membrane?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> SGLT-1.</div>
+                <div class="option-item"><strong>B)</strong> GLUT-4.</div>
+                <div class="option-item"><strong>C)</strong> GLUT-2.</div>
+                <div class="option-item"><strong>D)</strong> SGLT-2.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">14. What is the physiological mechanism of dietary Fructose absorption across the luminal epithelial surface?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Passive simple diffusion.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Facilitated diffusion via GLUT-5 carrier.</div>
+                <div class="option-item"><strong>C)</strong> Sodium-dependent active transport.</div>
+                <div class="option-item"><strong>D)</strong> ATP-driven receptor exocytosis.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">ANSWER KEY 📍 — Q8: D | Q9: A | Q10: B | Q11: C | Q12: D | Q13: A | Q14: B</div>
+            <div class="footer-meta">
+                <span>FACULTY OF MEDICINE — SUEZ UNIVERSITY</span>
+                <span>Page 2 of 7</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Suez University, Faculty of Medicine</h1>
+            <div class="subtitle">Medical Biochemistry Department — Carbohydrate Metabolism Block — 100% Comprehensive Bank</div>
+        </div>
+
+        <div class="section-title">Section III: GLUT Transporters, Post-Absorptive Metabolic Fates, and Glycolysis Introduction</div>
+
+        <div class="question-box">
+            <div class="question-text">15. Through which transporter protein do glucose, galactose, and fructose exit the enterocyte's basolateral membrane into the portal vein?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> GLUT-1.</div>
+                <div class="option-item"><strong>B)</strong> GLUT-4.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> GLUT-2.</div>
+                <div class="option-item"><strong>D)</strong> SGLT-1.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">16. What is the exact normal numerical value for the renal threshold of glucose clearance in a healthy individual?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 120 mg/dl.</div>
+                <div class="option-item"><strong>B)</strong> 150 mg/dl.</div>
+                <div class="option-item"><strong>C)</strong> 250 mg/dl.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> 180 mg/dl.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">17. If blood glucose levels cross the renal threshold limit, what clinical manifestation is expected?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Glucose excretion in urine (Glucosuria).</div>
+                <div class="option-item"><strong>B)</strong> Complete suppression of renal tubular filtration.</div>
+                <div class="option-item"><strong>C)</strong> Accumulation of glycogen in glomerular fields.</div>
+                <div class="option-item"><strong>D)</strong> Conversion of excess glucose to lactic acid in the kidney cortex.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">18. Which minor oxidative pathway of glucose is specifically geared toward producing glucuronic acid without yielding any ATP molecules?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Glycolysis.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Uronic acid pathway.</div>
+                <div class="option-item"><strong>C)</strong> Hexose Monophosphate (HMP) shunt.</div>
+                <div class="option-item"><strong>D)</strong> Krebs tricarboxylic acid cycle.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">19. What is the fundamental definitions of the Glycolysis pathway in human biochemistry?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Oxidation of glucose or glycogen into pyruvate or lactate.</div>
+                <div class="option-item"><strong>B)</strong> Hydrolysis of dietary starches into monosaccharide groups.</div>
+                <div class="option-item"><strong>C)</strong> Polymerization of free glucose into dense liver glycogen.</div>
+                <div class="option-item"><strong>D)</strong> Synthesis of fresh glucose from non-carbohydrate carbon chains.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">20. Within which precise intracellular compartment do all the enzymatic reactions of Glycolysis take place?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Mitochondrial matrix.</div>
+                <div class="option-item"><strong>B)</strong> Rough endoplasmic reticulum.</div>
+                <div class="option-item"><strong>C)</strong> Lysosomal vesicles.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Cytosol (Cytoplasm).</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">21. Why is Glycolysis considered an absolute physiological necessity for mature Red Blood Cells (RBCs), cornea, and eye lens tissue?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Because they lack mitochondria and depend solely on it for ATP.</div>
+                <div class="option-item"><strong>B)</strong> Because they possess high concentrations of glucagon receptors.</div>
+                <div class="option-item"><strong>C)</strong> Because they utilize glycogen directly from surrounding plasma fluids.</div>
+                <div class="option-item"><strong>D)</strong> Because it is the only pathway that synthesizes oxygen.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">ANSWER KEY 📍 — Q15: C | Q16: D | Q17: A | Q18: B | Q19: A | Q20: D | Q21: A</div>
+            <div class="footer-meta">
+                <span>FACULTY OF MEDICINE — SUEZ UNIVERSITY</span>
+                <span>Page 3 of 7</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Suez University, Faculty of Medicine</h1>
+            <div class="subtitle">Medical Biochemistry Department — Carbohydrate Metabolism Block — 100% Comprehensive Bank</div>
+        </div>
+
+        <div class="section-title">Section IV: Glycolysis Phase I and Phase II Reactions & Targeted Pharmaceutical Inhibitors</div>
+
+        <div class="question-box">
+            <div class="question-text">22. During Phase 1 (Priming Stage) of Glycolysis, what is the net energetic balance per molecule of glucose processed?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Production of 2 ATP molecules.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Consumption (loss) of 2 ATP molecules.</div>
+                <div class="option-item"><strong>C)</strong> Production of 4 NADH molecules.</div>
+                <div class="option-item"><strong>D)</strong> Zero energy transaction.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">23. Which intermediate molecule marks the final splitting end-point of Phase 1 of Glycolysis?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Fructose-6-phosphate.</div>
+                <div class="option-item"><strong>B)</strong> 3-phosphoglycerate.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Glyceraldehyde 3-phosphate.</div>
+                <div class="option-item"><strong>D)</strong> Glucose 6-phosphate.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">24. Which pharmaceutical compound acts as a powerful targeted inhibitor of Hexokinase (HK), stopping glucose trapping?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Lonidamine.</div>
+                <div class="option-item"><strong>B)</strong> PFK158.</div>
+                <div class="option-item"><strong>C)</strong> TDZD-8.</div>
+                <div class="option-item"><strong>D)</strong> Fluoride.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">25. The rate-limiting enzyme Phosphofructokinase-1 (PFK-1) can be selectively blocked by which small molecule chemical inhibitor?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Lonidamine.</div>
+                <div class="option-item"><strong>B)</strong> TDZD-8.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> PFK158.</div>
+                <div class="option-item"><strong>D)</strong> Arsenate.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">26. Which chemical agent acts as a specific inhibitor against the enzyme Aldolase during the splitting phase of Glycolysis?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Iodoacetate.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> TDZD-8.</div>
+                <div class="option-item"><strong>C)</strong> Lonidamine.</div>
+                <div class="option-item"><strong>D)</strong> PFK158.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">27. Under anaerobic conditions, what is the fate of Pyruvate, and what enzyme carries out this terminal step?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Conversion to Acetyl-CoA by pyruvate dehydrogenase.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Conversion to Lactate by Lactate Dehydrogenase (LDH).</div>
+                <div class="option-item"><strong>C)</strong> Transamination to Alanine by aminotransferase.</div>
+                <div class="option-item"><strong>D)</strong> Decarboxylation to Oxaloacetate by carboxylase.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">28. Which chemical compound is routinely added to clinical blood samples to stop Glycolysis in vitro by blocking Enolase?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Heparin.</div>
+                <div class="option-item"><strong>B)</strong> EDTA.</div>
+                <div class="option-item"><strong>C)</strong> Citrate solutions.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Sodium Fluoride.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">ANSWER KEY 📍 — Q22: B | Q23: C | Q24: A | Q25: C | Q26: B | Q27: B | Q28: D</div>
+            <div class="footer-meta">
+                <span>FACULTY OF MEDICINE — SUEZ UNIVERSITY</span>
+                <span>Page 4 of 7</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Suez University, Faculty of Medicine</h1>
+            <div class="subtitle">Medical Biochemistry Department — Carbohydrate Metabolism Block — 100% Comprehensive Bank</div>
+        </div>
+
+        <div class="section-title">Section V: Energy Yield Calculations, Mitochondrial Shuttle Mechanics, and Intermediates</div>
+
+        <div class="question-box">
+            <div class="question-text">29. What is the net yield of ATP molecules produced during strict Anaerobic Glycolysis from one molecule of glucose?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> 2 ATP.</div>
+                <div class="option-item"><strong>B)</strong> 8 ATP.</div>
+                <div class="option-item"><strong>C)</strong> 36 ATP.</div>
+                <div class="option-item"><strong>D)</strong> 4 ATP.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">30. In Aerobic Glycolysis, what is the net ATP yield if the cell utilizes the Glycerol phosphate shuttle system?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 2 ATP.</div>
+                <div class="option-item"><strong>B)</strong> 6 ATP.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> 8 ATP.</div>
+                <div class="option-item"><strong>D)</strong> 12 ATP.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">31. Under aerobic settings, how many ATP molecules can be harvested if the cell utilizes the Malate-aspartate shuttle system?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> 8 ATP.</div>
+                <div class="option-item"><strong>B)</strong> 38 ATP.</div>
+                <div class="option-item"><strong>C)</strong> 4 ATP.</div>
+                <div class="option-item"><strong>D)</strong> 2 ATP.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">32. How many ATP are directly consumed during the initial conversion of free glucose into Fructose 1,6-bisphosphate?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 0 ATP.</div>
+                <div class="option-item"><strong>B)</strong> 1 ATP.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> 2 ATP.</div>
+                <div class="option-item"><strong>D)</strong> 4 ATP.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">33. Dihydroxyacetone phosphate (DHAP), a glycolytic intermediate, can be converted to glycerol 3-phosphate to synthesize which lipids?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Cholesterol and bile acids.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Triacylglycerol (TAG) and phospholipids.</div>
+                <div class="option-item"><strong>C)</strong> Sphingomyelin and cerebrosides.</div>
+                <div class="option-item"><strong>D)</strong> Free long-chain saturated fatty acids.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">34. Which non-essential amino acid can be synthesized directly via the transamination of the end-product Pyruvate?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Serine.</div>
+                <div class="option-item"><strong>B)</strong> Cysteine.</div>
+                <div class="option-item"><strong>C)</strong> Glycine.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Alanine.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">35. The intermediate 3-phosphoglycerate serves as a direct precursor for the biosynthetic formation of which amino acid?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Serine.</div>
+                <div class="option-item"><strong>B)</strong> Alanine.</div>
+                <div class="option-item"><strong>C)</strong> Glutamate.</div>
+                <div class="option-item"><strong>D)</strong> Methionine.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">ANSWER KEY 📍 — Q29: A | Q30: C | Q31: A | Q32: C | Q33: B | Q34: D | Q35: A</div>
+            <div class="footer-meta">
+                <span>FACULTY OF MEDICINE — SUEZ UNIVERSITY</span>
+                <span>Page 5 of 7</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Suez University, Faculty of Medicine</h1>
+            <div class="subtitle">Medical Biochemistry Department — Carbohydrate Metabolism Block — 100% Comprehensive Bank</div>
+        </div>
+
+        <div class="section-title">Section VI: RBC Glycolysis Specialties, Rapoport-Luebering Cycle & Hemolytic Anemias</div>
+
+        <div class="question-box">
+            <div class="question-text">36. What is the role of NADH generated in Glycolysis within mature red blood cells regarding hemoglobin maintenance?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> It activates the synthesis of fresh porphyrin chains.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Reduction of methemoglobin by NADH-cytochrome b5 methemoglobin reductase.</div>
+                <div class="option-item"><strong>C)</strong> It triggers the rapid destruction of aging cell walls.</div>
+                <div class="option-item"><strong>D)</strong> It works as an allosteric inhibitor of carbonic anhydrase.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">37. Which specific enzyme is uniquely required within RBCs to catalyze the synthesis of 2,3-bisphosphoglycerate (2,3-BPG)?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Bisphosphoglycerate mutase.</div>
+                <div class="option-item"><strong>B)</strong> 2,3-BPG phosphatase.</div>
+                <div class="option-item"><strong>C)</strong> Glyceraldehyde 3-phosphate dehydrogenase.</div>
+                <div class="option-item"><strong>D)</strong> Phosphoglycerate kinase.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">38. What is the precise physiological function of 2,3-bisphosphoglycerate (2,3-BPG) when it unites with hemoglobin at low oxygen tension?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> It increases hemoglobin affinity for iron bindings.</div>
+                <div class="option-item"><strong>B)</strong> It triggers the immediate degradation of fetal hemoglobin variants.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> It helps release oxygen (O2) to tissues.</div>
+                <div class="option-item"><strong>D)</strong> It accelerates carbon dioxide binding inside pulmonary vascular capillaries.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">39. A genetic deficiency of the glycolytic enzyme Pyruvate Kinase (PK) inside human bodies is strictly restricted to which cells?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Hepatocytes.</div>
+                <div class="option-item"><strong>B)</strong> Skeletal myocytes.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Red Blood Cells (RBCs).</div>
+                <div class="option-item"><strong>D)</strong> Renal tubular cells.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">40. What is the classical clinical pathology associated with a profound deficiency of Pyruvate Kinase (PK) activity in mature erythrocytes?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Chronic hemolytic anemia.</div>
+                <div class="option-item"><strong>B)</strong> Nutritional osteomalacia.</div>
+                <div class="option-item"><strong>C)</strong> Essential benign pentosuria.</div>
+                <div class="option-item"><strong>D)</strong> Hypoparathyroidism-induced tetany.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">41. Why does a deficiency in glycolytic enzymes cause hemolysis of red blood cells?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Because structural protein synthesis is stopped completely.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Failure of ATP production leading to loss of cell membrane integrity.</div>
+                <div class="option-item"><strong>C)</strong> Accumulation of glycogen causes mechanical rupture of cells.</div>
+                <div class="option-item"><strong>D)</strong> Toxic buildup of citric acid inside the cell matrix.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">42. How does the clinical severity of chronic hemolytic anemia vary in patients presenting with Pyruvate Kinase deficiency?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> It is always uniform across all demographic age brackets.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> It varies from mild to severe depending on the degree of enzyme deficiency.</div>
+                <div class="option-item"><strong>C)</strong> It occurs only during heavy dietary protein consumption.</div>
+                <div class="option-item"><strong>D)</strong> It is completely resolved by solar ultraviolet rays.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">ANSWER KEY 📍 — Q36: B | Q37: A | Q38: C | Q39: C | Q40: A | Q41: B | Q42: B</div>
+            <div class="footer-meta">
+                <span>FACULTY OF MEDICINE — SUEZ UNIVERSITY</span>
+                <span>Page 6 of 7</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Suez University, Faculty of Medicine</h1>
+            <div class="subtitle">Medical Biochemistry Department — Carbohydrate Metabolism Block — 100% Comprehensive Bank</div>
+        </div>
+
+        <div class="section-title">Section VII: Hormonal Regulation of Glycolysis & Allosteric Enzyme Key Transitions</div>
+
+        <div class="question-box">
+            <div class="question-text">43. Which of the following hormones acts as a powerful activator of Glycolysis by stimulating the synthesis of key irreversible enzymes?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Glucagon.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Insulin.</div>
+                <div class="option-item"><strong>C)</strong> Epinephrine.</div>
+                <div class="option-item"><strong>D)</strong> Cortisol.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">44. What is the fundamental mechanism by which Insulin increases the catalytic activity of the key regulatory enzymes of Glycolysis?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Induction of enzyme phosphorylation via cAMP pathways.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Dephosphorylation of key enzymes via protein phosphatase activation.</div>
+                <div class="option-item"><strong>C)</strong> Proteolytic cleavage of active sites.</div>
+                <div class="option-item"><strong>D)</strong> Competitive binding at the regulatory subunits.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">45. Glucagon directly down-regulates or inhibits Glycolysis by inducing which biochemical modification on the three key enzymes?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Phosphorylation via cAMP-activated protein kinase.</div>
+                <div class="option-item"><strong>B)</strong> Permanent denaturation of the tertiary coil structures.</div>
+                <div class="option-item"><strong>C)</strong> Dephosphorylation by blocking calcium availability.</div>
+                <div class="option-item"><strong>D)</strong> Direct competitive inhibition at the fructose binding pocket.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">46. How many irreversible (key regulatory) enzymes are found within the Glycolysis pathway, serving as primary control points?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 1 enzyme.</div>
+                <div class="option-item"><strong>B)</strong> 5 enzymes.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> 3 enzymes.</div>
+                <div class="option-item"><strong>D)</strong> 10 enzymes.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">47. Which group contains exclusively the three irreversible, highly regulated enzymes of the Glycolysis pathway?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Hexokinase, Phosphofructokinase-1, and Pyruvate Kinase.</div>
+                <div class="option-item"><strong>B)</strong> Aldolase, Enolase, and Phosphoglycerate mutase.</div>
+                <div class="option-item"><strong>C)</strong> Lactate dehydrogenase, Glyceraldehyde 3-P dehydrogenase, and Kinase.</div>
+                <div class="option-item"><strong>D)</strong> Isomaltase, Maltase, and Amylase.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">48. What is the principal regulatory hormone secreted by pancreatic &beta;-cells that promotes glucose utilization and fat synthesis after meals?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Glucagon.</div>
+                <div class="option-item"><strong>B)</strong> Somatostatin.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Insulin.</div>
+                <div class="option-item"><strong>D)</strong> Epinephrine.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">49. Under conditions of starvation, which circulating pancreatic hormone rises to inhibit glycolysis and save glucose for the brain?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Insulin.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Glucagon.</div>
+                <div class="option-item"><strong>C)</strong> Prolactin.</div>
+                <div class="option-item"><strong>D)</strong> Oxytocin.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">ANSWER KEY 📍 — Q43: B | Q44: B | Q45: A | Q46: C | Q47: A | Q48: C | Q49: B</div>
+            <div class="footer-meta">
+                <span>FACULTY OF MEDICINE — SUEZ UNIVERSITY</span>
+                <span>Page 7 of 7</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
