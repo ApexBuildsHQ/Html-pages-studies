@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extracellular Matrix - MCQ Bank (Answered Keyed)</title>
+    <style>
+        /* الإعدادات الهيكلية المتطابقة تماماً مع الأوراق الرسمية لكلية الطب جامعة السويس */
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #334155;
+            background-color: #f1f5f9;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        
+        /* حاوية الصفحة القياسية A4 لضمان ثبات الأبعاد عند التحويل إلى PDF */
+        .page {
+            background-color: #ffffff;
+            width: 210mm;
+            min-height: 297mm;
+            padding: 20mm;
+            margin: 15px auto;
+            box-sizing: border-box;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        @media print {
+            body {
+                background-color: #ffffff;
+                padding: 0;
+            }
+            .page {
+                margin: 0;
+                border: none;
+                box-shadow: none;
+                page-break-after: always;
+                width: 100%;
+                min-height: 100vh;
+            }
+        }
+
+        /* الهيدر الأزرق الداكن الأساسي للمحاضرة */
+        .header-blue {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 22px 20px;
+            border-radius: 4px;
+            text-align: left;
+            margin-bottom: 25px;
+        }
+        .header-blue h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .header-blue .subtitle {
+            font-size: 13px;
+            margin-top: 6px;
+            color: #93c5fd;
+            font-weight: 500;
+        }
+
+        /* علامات الأقسام الجانبية */
+        .section-title {
+            border-left: 4px solid #003366;
+            padding-left: 10px;
+            color: #003366;
+            font-weight: 700;
+            font-size: 14px;
+            margin: 20px 0 15px 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* مستطيل حول كل سؤال بشكل مستقل */
+        .question-box {
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 14px;
+            background-color: #ffffff;
+            page-break-inside: avoid;
+        }
+
+        .question-text {
+            font-weight: 600;
+            font-size: 14.5px;
+            color: #0f172a;
+            margin-bottom: 12px;
+        }
+
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            padding-left: 5px;
+        }
+
+        .option-item {
+            font-size: 13.5px;
+            color: #475569;
+        }
+        
+        .option-item strong {
+            color: #0f172a;
+            margin-right: 4px;
+        }
+
+        /* كود الـ CSS لتلوين نص الإجابة الصحيحة فقط بالأخضر الداكن عريض الخط */
+        .option-item.correct-answer {
+            color: #155724 !important;
+            font-weight: 700;
+        }
+        
+        .option-item.correct-answer strong {
+            color: #155724 !important;
+        }
+
+        /* شريط الإجابات الفوري الذكي أسفل كل صفحة مستقلة */
+        .footer-wrapper {
+            margin-top: auto;
+            padding-top: 20px;
+        }
+        
+        .key-banner {
+            background-color: #e6f0fa;
+            border-left: 4px solid #003366;
+            padding: 10px 16px;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 700;
+            color: #003366;
+            margin-bottom: 12px;
+            letter-spacing: 0.3px;
+        }
+
+        .footer-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            color: #94a3b8;
+            border-top: 1px solid #f1f5f9;
+            padding-top: 8px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- PAGE 1 -->
+    <div class="page">
+        <div class="header-blue">
+            <h1>Suez University, Faculty of Medicine</h1>
+            <div class="subtitle">Medical Biochemistry Department — Comprehensive MCQ Bank: Extracellular Matrix (ECM)</div>
+        </div>
+
+        <div class="section-title">Section I: General ECM Concepts & Collagen Primary Structure</div>
+
+        <!-- Q1 -->
+        <div class="question-box">
+            <div class="question-text">1. Which of the following best defines the Extracellular Matrix (ECM)?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> An intracellular network of filaments that provides motility to visceral organelles.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> A complex, non-cellular 3D network of proteins and polysaccharides secreted by cells into their surroundings.</div>
+                <div class="option-item"><strong>C)</strong> A continuous lipophilic membrane bilayer surrounding individual skeletal muscle fibers.</div>
+                <div class="option-item"><strong>D)</strong> A specialized nuclear matrix scaffold responsible for the replication of genomic DNA.</div>
+            </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="question-box">
+            <div class="question-text">2. The non-cellular extracellular matrix provides several vital functions, which include:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Direct ATP synthesis via an alternative anaerobic pathway.</div>
+                <div class="option-item"><strong>B)</strong> Intracellular degradation of worn-out cytoplasmic organelles.</div>
+                <div class="option-item"><strong>C)</strong> Storage of glycogen granules and lipid droplets within connective tissue cells.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Structural scaffolding, mechanical strength, biochemical cues for tissue development, and anchoring cells via integrins.</div>
+            </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="question-box">
+            <div class="question-text">3. The composition of the extracellular matrix is divided into three major structural macromolecular classes, which are:</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Structural proteins, adhesion proteins, and proteoglycans.</div>
+                <div class="option-item"><strong>B)</strong> Secondary messengers, fibrous cholesterol, and active enzymes.</div>
+                <div class="option-item"><strong>C)</strong> Ribosomal units, multi-branched phospholipids, and transport channel gates.</div>
+                <div class="option-item"><strong>D)</strong> Globular enzymes, nucleoproteins, and free intracellular monosaccharides.</div>
+            </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="question-box">
+            <div class="question-text">4. What is the unique secondary and quaternary conformation characteristic of a mature functional Collagen molecule?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Three right-handed &alpha;-helices twisting together into a left-handed supercoil.</div>
+                <div class="option-item"><strong>B)</strong> Four alternating parallel pleated sheets running in a counter-clockwise orientation.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Three polypeptide &alpha;-chains (left-handed helices) twisting together into a right-handed supercoil.</div>
+                <div class="option-item"><strong>D)</strong> A single long left-handed &alpha;-helix stabilized strictly by intramolecular disulfide bridges.</div>
+            </div>
+        </div>
+
+        <!-- Q5 -->
+        <div class="question-box">
+            <div class="question-text">5. The primary amino acid structure of a collagen &alpha;-chain features a strict, unvarying repeating sequence characterized as:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Val-X-Y sequence, where Valine occupies every first position.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Gly-X-Y sequence, where Glycine is present in every third position.</div>
+                <div class="option-item"><strong>C)</strong> Pro-X-Y sequence, where Proline serves as the exclusive nitrogen donor.</div>
+                <div class="option-item"><strong>D)</strong> Lys-X-Y sequence, where Lysine forms an unchangeable central core.</div>
+            </div>
+        </div>
+
+        <!-- Q6 -->
+        <div class="question-box">
+            <div class="question-text">6. Why is the presence of Glycine at every third position absolutely essential for the structural assembly of the collagen triple helix?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> It is the smallest amino acid, allowing the three chains to pack tightly together into a dense, strong coil.</div>
+                <div class="option-item"><strong>B)</strong> It carries a strong negative charge that prevents the triple helix from collapsing inward.</div>
+                <div class="option-item"><strong>C)</strong> It contains a bulky aromatic side chain that pushes the chains apart to maximize total tissue volume.</div>
+                <div class="option-item"><strong>D)</strong> It forms direct covalent disulfide links with adjacent hyaluronic acid carbohydrate polymers.</div>
+            </div>
+        </div>
+
+        <!-- Q7 -->
+        <div class="question-box">
+            <div class="question-text">7. In the standard repeating Gly-X-Y sequence of a collagen &alpha;-chain, which amino acids are most commonly found occupying the X and Y positions?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Alanine is commonly found in the X position, and tryptophan in the Y position.</div>
+                <div class="option-item"><strong>B)</strong> Lysine is found in the X position, and glycine in the Y position.</div>
+                <div class="option-item"><strong>C)</strong> Tyrosine is found in the X position, and valine in the Y position.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Proline is commonly found in the X position, and hydroxyproline in the Y position.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">ANSWER KEY 📍 — Q1: B | Q2: D | Q3: A | Q4: C | Q5: B | Q6: A | Q7: D</div>
+            <div class="footer-meta">
+                <span>FACULTY OF MEDICINE — SUEZ UNIVERSITY</span>
+                <span>Page 1 of 5</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 2 -->
+    <div class="page">
+        <div class="header-blue">
+            <h1>Suez University, Faculty of Medicine</h1>
+            <div class="subtitle">Medical Biochemistry Department — Comprehensive MCQ Bank: Extracellular Matrix (ECM)</div>
+        </div>
+
+        <div class="section-title">Section II: Collagen Modifications, Cross-Linking & Tissue Distribution</div>
+
+        <!-- Q8 -->
+        <div class="question-box">
+            <div class="question-text">8. Although X and Y positions in collagen are typically proline and hydroxyproline, they can sometimes be occupied by:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Phenylalanine in the X position, and methionine in the Y position.</div>
+                <div class="option-item"><strong>B)</strong> Aspartate in the X position, and glutamate in the Y position.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Lysine in the X position, and hydroxylysine in the Y position.</div>
+                <div class="option-item"><strong>D)</strong> Arginine in the X position, and histidine in the Y position.</div>
+            </div>
+        </div>
+
+        <!-- Q9 -->
+        <div class="question-box">
+            <div class="question-text">9. Collagen is a glycosylated protein. Which specific sugar molecules are attached to its structure during post-translational modification?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Glucose and galactose.</div>
+                <div class="option-item"><strong>B)</strong> Fructose and mannose.</div>
+                <div class="option-item"><strong>C)</strong> Ribose and deoxyribose.</div>
+                <div class="option-item"><strong>D)</strong> Sucrose and maltose.</div>
+            </div>
+        </div>
+
+        <!-- Q10 -->
+        <div class="question-box">
+            <div class="question-text">10. During the glycosylation process of collagen, glucose and galactose molecules are attached to which specific amino acid residues?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Unmodified Glycine residues occupying the third position.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Hydroxylysine residues.</div>
+                <div class="option-item"><strong>C)</strong> Proline residues occupying the X position.</div>
+                <div class="option-item"><strong>D)</strong> Hydroxyproline residues.</div>
+            </div>
+        </div>
+
+        <!-- Q11 -->
+        <div class="question-box">
+            <div class="question-text">11. The tremendous tensile strength and resistance to mechanical stress of collagen fibers are achieved through covalent cross-linkages. These links form between:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Hydrophobic side chains of repeating valine and leucine fragments.</div>
+                <div class="option-item"><strong>B)</strong> Oligosaccharide branched points and neighboring central core residues.</div>
+                <div class="option-item"><strong>C)</strong> Alpha-carboxyl terminals of alternating glycine segments.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Epsilon-amino groups of lysine and hydroxylysine residues in adjacent chains.</div>
+            </div>
+        </div>
+
+        <!-- Q12 -->
+        <div class="question-box">
+            <div class="question-text">12. From a nutritional and dietary perspective, how is collagen protein classified based on its amino acid utility?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Low biological value protein.</div>
+                <div class="option-item"><strong>B)</strong> High biological value protein containing all essential amino acids evenly.</div>
+                <div class="option-item"><strong>C)</strong> Pure non-protein nitrogenous cellular waste product.</div>
+                <div class="option-item"><strong>D)</strong> Essential fat-emulsifying dietary lipid polymer.</div>
+            </div>
+        </div>
+
+        <!-- Q13 -->
+        <div class="question-box">
+            <div class="question-text">13. Macromolecularly, because it contains covalently attached carbohydrate units, collagen is biochemically categorized as a:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Pure unbranched homopolysaccharide devoid of any amino acids.</div>
+                <div class="option-item"><strong>B)</strong> Proteoglycan monomer containing repeating sulfated disaccharide chains.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Glycoprotein.</div>
+                <div class="option-item"><strong>D)</strong> Hydrophobic lipid-anchored transmembrane signal receptor.</div>
+            </div>
+        </div>
+
+        <!-- Q14 -->
+        <div class="question-box">
+            <div class="question-text">14. Which of the following options represents the primary tissue locations and distribution of Type I Collagen?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Hyaline joint cartilage and internal synovial lubricating fluids.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Bone, skin, tendons, and dentin.</div>
+                <div class="option-item"><strong>C)</strong> Basal lamina and specialized epithelial clear basement membranes.</div>
+                <div class="option-item"><strong>D)</strong> Embryonic blood vessels and early fetal skin tissues only.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">ANSWER KEY 📍 — Q8: C | Q9: A | Q10: B | Q11: D | Q12: A | Q13: C | Q14: B</div>
+            <div class="footer-meta">
+                <span>FACULTY OF MEDICINE — SUEZ UNIVERSITY</span>
+                <span>Page 2 of 5</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 3 -->
+    <div class="page">
+        <div class="header-blue">
+            <h1>Suez University, Faculty of Medicine</h1>
+            <div class="subtitle">Medical Biochemistry Department — Comprehensive MCQ Bank: Extracellular Matrix (ECM)</div>
+        </div>
+
+        <div class="section-title">Section III: Collagen Types (II-V), Alport Syndrome & Elastin</div>
+
+        <!-- Q15 -->
+        <div class="question-box">
+            <div class="question-text">15. A histology slide showing tissue taken from human joint cartilage would demonstrate an abundance of which type of collagen?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Type V.</div>
+                <div class="option-item"><strong>B)</strong> Type IV.</div>
+                <div class="option-item"><strong>C)</strong> Type I.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Type II.</div>
+            </div>
+        </div>
+
+        <!-- Q16 -->
+        <div class="question-box">
+            <div class="question-text">16. Type III Collagen is specialized for tissues requiring structural flexibility. Where is it predominantly located?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Blood vessels and baby's skin.</div>
+                <div class="option-item"><strong>B)</strong> Compact bone cortical shells and mineralized osteoids.</div>
+                <div class="option-item"><strong>C)</strong> Articular hyaline cartilage surfaces.</div>
+                <div class="option-item"><strong>D)</strong> Suspensory ligaments of the ocular lens.</div>
+            </div>
+        </div>
+
+        <!-- Q17 -->
+        <div class="question-box">
+            <div class="question-text">17. Which collagen type serves as the main sheet-like structural network building the basement membrane (basal lamina)?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Type I.</div>
+                <div class="option-item"><strong>B)</strong> Type II.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Type IV.</div>
+                <div class="option-item"><strong>D)</strong> Type III.</div>
+            </div>
+        </div>
+
+        <!-- Q18 -->
+        <div class="question-box">
+            <div class="question-text">18. A hereditary genetic mutation affecting the structural assembly or function of Type IV Collagen fibers directly leads to:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Marfan's Syndrome.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Alport Syndrome.</div>
+                <div class="option-item"><strong>C)</strong> Essential Pentosuria.</div>
+                <div class="option-item"><strong>D)</strong> Scurvy.</div>
+            </div>
+        </div>
+
+        <!-- Q19 -->
+        <div class="question-box">
+            <div class="question-text">19. According to the Suez University lecture guidelines, where is Type V Collagen specifically localized?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Large systemic elastic arteries.</div>
+                <div class="option-item"><strong>B)</strong> Hyaline growth plate cartilage.</div>
+                <div class="option-item"><strong>C)</strong> Teeth enamel and dental dentin core.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Placenta.</div>
+            </div>
+        </div>
+
+        <!-- Q20 -->
+        <div class="question-box">
+            <div class="question-text">20. Which statement accurately describes the chemical solubility and average physiological half-life of mature Elastin?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> An insoluble, elastic protein with a very long half-life of approximately 70 years.</div>
+                <div class="option-item"><strong>B)</strong> A highly soluble structural protein that undergoes metabolic degradation every 24 hours.</div>
+                <div class="option-item"><strong>C)</strong> A rigid carbohydrate polymer that lasts for only 5 years in active tissues.</div>
+                <div class="option-item"><strong>D)</strong> A short-lived branched glycoprotein secreted transiently by active white blood cells.</div>
+            </div>
+        </div>
+
+        <!-- Q21 -->
+        <div class="question-box">
+            <div class="question-text">21. What is the defining amino acid composition of Elastin that structurally differentiates it from collagen?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Highly rich in basic hydroxyproline and glycosylated hydroxylysine complexes.</div>
+                <div class="option-item"><strong>B)</strong> Devoid of glycine and completely saturated with long tryptophan rings.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Rich in hydrophobic amino acids (Glycine, Valine, Proline) but contains very little hydroxyproline.</div>
+                <div class="option-item"><strong>D)</strong> Composed entirely of repeating sulfated amino sugars and acidic uronic polymers.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">ANSWER KEY 📍 — Q15: D | Q16: A | Q17: C | Q18: B | Q19: D | Q20: A | Q21: C</div>
+            <div class="footer-meta">
+                <span>FACULTY OF MEDICINE — SUEZ UNIVERSITY</span>
+                <span>Page 3 of 5</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 4 -->
+    <div class="page">
+        <div class="header-blue">
+            <h1>Suez University, Faculty of Medicine</h1>
+            <div class="subtitle">Medical Biochemistry Department — Comprehensive MCQ Bank: Extracellular Matrix (ECM)</div>
+        </div>
+
+        <div class="section-title">Section IV: Elastin Regulation, Adhesion Proteins & Marfan Syndrome</div>
+
+        <!-- Q22 -->
+        <div class="question-box">
+            <div class="question-text">22. Elastin is initially synthesized and secreted into the extra-cellular environment by fibroblasts as a soluble precursor molecule called:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Pro-elastin matrix polymer.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Tropoelastin.</div>
+                <div class="option-item"><strong>C)</strong> Aggrecan core monomer.</div>
+                <div class="option-item"><strong>D)</strong> Desmosine complex.</div>
+            </div>
+        </div>
+
+        <!-- Q23 -->
+        <div class="question-box">
+            <div class="question-text">23. In which of the following anatomical structures is Elastin highly abundant, providing the necessary property of passive elastic recoil?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Compact cortical bone shells and growth plates.</div>
+                <div class="option-item"><strong>B)</strong> Glomerular basal lamina sheets inside the nephron.</div>
+                <div class="option-item"><strong>C)</strong> Hepatic vascular sinusoids and splenic red pulp cords.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Large arteries and lungs.</div>
+            </div>
+        </div>
+
+        <!-- Q24 -->
+        <div class="question-box">
+            <div class="question-text">24. Which of the following options correctly describes the primary biochemical structure of the adhesion protein Fibronectin?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> A glycoprotein composed of two identical subunits linked together by two disulfide bridges.</div>
+                <div class="option-item"><strong>B)</strong> A large multi-branched complex polysaccharide containing no disulfide keys.</div>
+                <div class="option-item"><strong>C)</strong> A simple triple-helix fibrous rope with an alternating glucose configuration.</div>
+                <div class="option-item"><strong>D)</strong> A single hydrophobic transmembrane alpha-subunit spanning the inner cytosol.</div>
+            </div>
+        </div>
+
+        <!-- Q25 -->
+        <div class="question-box">
+            <div class="question-text">25. Fibronectin serves as a key anchoring bridge within the ECM because it possesses specific binding domains for:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Cortisol, insulin, and adrenaline hormone receptors.</div>
+                <div class="option-item"><strong>B)</strong> Free cytoplasmic hemoglobin, myoglobin, and active cytochrome enzymes.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Fibrin, Collagen, Heparin, and Integrin.</div>
+                <div class="option-item"><strong>D)</strong> Saturated fatty acids, valine fragments, and free proline chains.</div>
+            </div>
+        </div>
+
+        <!-- Q26 -->
+        <div class="question-box">
+            <div class="question-text">26. Fibronectin exists in two distinct forms: a soluble plasma form and an insoluble cellular form. What are their cellular origins?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Plasma form is produced by tissue fibroblasts; cellular form is produced by smooth myocytes.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Plasma form is secreted by hepatocytes; cellular form is secreted by local fibroblasts.</div>
+                <div class="option-item"><strong>C)</strong> Plasma form comes from circulatory leukocytes; cellular form comes from peripheral neurons.</div>
+                <div class="option-item"><strong>D)</strong> Plasma form is synthesized by osteocytes; cellular form is synthesized by joint chondrocytes.</div>
+            </div>
+        </div>
+
+        <!-- Q27 -->
+        <div class="question-box">
+            <div class="question-text">27. What is the fundamental physiological function of the large matrix glycoprotein Fibrillin?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> It cleaves long mature collagen fibers into shorter soluble parts.</div>
+                <div class="option-item"><strong>B)</strong> It forms a protective barrier preventing the entry of glucose molecules.</div>
+                <div class="option-item"><strong>C)</strong> It acts as an active kinase enzyme inside the nuclear envelope.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> It serves as a structural scaffold required for the orderly deposition of elastin.</div>
+            </div>
+        </div>
+
+        <!-- Q28 -->
+        <div class="question-box">
+            <div class="question-text">28. Fibrillin is a key structural element of connective tissues. In which of the following anatomical locations is it highly concentrated?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Suspensory ligament of the eye lens, aorta, and periosteum.</div>
+                <div class="option-item"><strong>B)</strong> Articular hyaline cartilage and joint synovial fluids.</div>
+                <div class="option-item"><strong>C)</strong> Intracellular thin actin microfilaments of smooth muscles.</div>
+                <div class="option-item"><strong>D)</strong> Glomerular basal lamina sheets within the kidney cortex.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">ANSWER KEY 📍 — Q22: B | Q23: D | Q24: A | Q25: C | Q26: B | Q27: D | Q28: A</div>
+            <div class="footer-meta">
+                <span>FACULTY OF MEDICINE — SUEZ UNIVERSITY</span>
+                <span>Page 4 of 5</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 5 -->
+    <div class="page">
+        <div class="header-blue">
+            <h1>Suez University, Faculty of Medicine</h1>
+            <div class="subtitle">Medical Biochemistry Department — Comprehensive MCQ Bank: Extracellular Matrix (ECM)</div>
+        </div>
+
+        <div class="section-title">Section V: Integrins, Proteoglycans vs Glycoproteins Micro-differences</div>
+
+        <!-- Q29 -->
+        <div class="question-box">
+            <div class="question-text">29. A patient presents with a triad of clinical findings: dislocation of the ocular lens, weakness and dilatation of the aorta, and long thin fingers with hyperextensible joints. A mutation in the gene for which protein causes this syndrome (Marfan's)?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Type I Collagen.</div>
+                <div class="option-item"><strong>B)</strong> Tropoelastin.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Fibrillin.</div>
+                <div class="option-item"><strong>D)</strong> Fibronectin cellular monomers.</div>
+            </div>
+        </div>
+
+        <!-- Q30 -->
+        <div class="question-box">
+            <div class="question-text">30. Which of the following statements best describes the structure and function of Integrins?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Soluble plasma defensive proteins composed of three identical light gamma chains.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Transmembrane receptors composed of alpha and beta subunits that form a bridge between the cell's internal actin cytoskeleton and the ECM.</div>
+                <div class="option-item"><strong>C)</strong> Pure extracellular sugar polymers that lock lipids into the inner nuclear membrane.</div>
+                <div class="option-item"><strong>D)</strong> Intramitochondrial respiratory enzymes that directly modulate the citric acid cycle.</div>
+            </div>
+        </div>
+
+        <!-- Q31 -->
+        <div class="question-box">
+            <div class="question-text">31. Proteoglycans have a specific structural composition that distinguishes them from ordinary glycoproteins. What is this composition?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Saturated neutral lipids (95%) bound to a short 5% ribonucleic acid loop.</div>
+                <div class="option-item"><strong>B)</strong> Complex branched oligosaccharides (95%) linked to an inner 5% protective fat coat.</div>
+                <div class="option-item"><strong>C)</strong> Equal molecular volumes of fibrous triple-helix collagen and plasma fibronectin.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> A core of protein (5%) to which long linear chains of glycosaminoglycans (GAGs) are attached.</div>
+            </div>
+        </div>
+
+        <!-- Q32 -->
+        <div class="question-box">
+            <div class="question-text">32. Biochemically, Glycosaminoglycans (GAGs) are structurally defined as:</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Unbranched long chains of heteropolysaccharides composed of repeating disaccharide units.</div>
+                <div class="option-item"><strong>B)</strong> Short, highly branched oligosaccharides with no repeating disaccharide segments.</div>
+                <div class="option-item"><strong>C)</strong> Small globular hydrophobic peptide chains rich in valine and leucine.</div>
+                <div class="option-item"><strong>D)</strong> Reversible alpha-helical regulatory proteins confined to the cellular cytosol.</div>
+            </div>
+        </div>
+
+        <!-- Q33 -->
+        <div class="question-box">
+            <div class="question-text">33. The repeating disaccharide units that make up the backbone of a Glycosaminoglycan (GAG) chain always contain:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> A pair of basic amino acids linked to a hydrophobic fatty lipid tail.</div>
+                <div class="option-item"><strong>B)</strong> Two molecules of unmodified fructose separated by high-energy disulfide bonds.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> An amino sugar (which is mostly sulfated) and a uronic acid.</div>
+                <div class="option-item"><strong>D)</strong> Phospholipids integrated with basic nuclear histone octamers.</div>
+            </div>
+        </div>
+
+        <!-- Q34 -->
+        <div class="question-box">
+            <div class="question-text">34. Because of the presence of sulfate and carboxyl groups on their GAG chains, Proteoglycan molecules always carry a strong:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Neutral charge that prevents interaction with water.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Negative charge.</div>
+                <div class="option-item"><strong>C)</strong> Positive charge due to basic nitrogenous rings.</div>
+                <div class="option-item"><strong>D)</strong> Dynamic charge fluctuating between positive and neutral based on cellular oxygen levels.</div>
+            </div>
+        </div>
+
+        <!-- Q35 -->
+        <div class="question-box">
+            <div class="question-text">35. Which of the following summarizes the structural differences and lists correct examples of Glycoproteins versus Proteoglycans?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Glycoproteins contain short branched oligosaccharide chains without repeating units (e.g., collagen, antibodies, mucins); Proteoglycans contain long linear chains of repeating disaccharides (e.g., syndecan, aggrecan).</div>
+                <div class="option-item"><strong>B)</strong> Glycoproteins contain long linear carbohydrate chains, whereas Proteoglycans contain only short branched hydrophobic lipid fragments.</div>
+                <div class="option-item"><strong>C)</strong> Glycoproteins lack amino acids, whereas Proteoglycans consist of 95% pure protein.</div>
+                <div class="option-item"><strong>D)</strong> Both share identical carbohydrate chain lengths, repeating units, and structural examples.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">ANSWER KEY 📍 — Q29: C | Q30: B | Q31: D | Q32: A | Q33: C | Q34: B | Q35: A</div>
+            <div class="footer-meta">
+                <span>FACULTY OF MEDICINE — SUEZ UNIVERSITY</span>
+                <span>Page 5 of 5</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
