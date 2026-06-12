@@ -1,0 +1,111 @@
+You are an expert React + TypeScript Developer and Software Architect specializing in Vite environments and automated folder-based discovery workflows.
+
+### CURRENT CONTEXT (From my file explorer):
+I am building "Creator King", a pure client-side utility platform. Looking at my codebase, the project is structured using React and TypeScript:
+- My tools are located in `src/tools/` as React components (e.g., `ImageCompressor.tsx`, `ImageExtractor.tsx`, `TextCutter.tsx`).
+- My translation system uses JSON files in `src/locales/` (`en.json`, `ar.json`, etc.) integrated with `src/types.ts` schemas.
+- My home grid layout is managed by `src/components/ToolsGrid.tsx` or similar grid components.
+
+### MY ABSOLUTE GOAL:
+I want to eliminate `src/components/toolsData.ts` and stop managing tools configurations manually. I need a 100% automated React-based discovery system. When I drop a new tool file like `VideoSlicer.tsx` inside `src/tools/`, the system must automatically capture its metadata, localize its titles using our i18n system, and render its dynamic feature card in the UI main grid automatically.
+
+### REQUIRED IMPLEMENTATION TASKS:
+
+1. **Refactor the Tool Blueprint (`src/tools/ImageCompressor.tsx` as an example):**
+   Ensure each individual tool component file exports two distinct blocks:
+   - A static configuration constant named `toolInfo` typed against our system schema containing: `id` (string), `icon` (string/emoji), `category` ('media' | 'text' | 'utility'), `isFullyInteractive` (boolean), `titleKey` (string for i18n mapping), and `descKey` (string for i18n mapping).
+   - The default React component render block that contains the client-side feature execution UI.
+
+2. **Create the Automated Dynamic Orchestrator (`src/utils/toolsRegistry.ts`):**
+   - Write a helper utilizing Vite's eager folder scanner: `import.meta.glob('../tools/*.tsx', { eager: true })`.
+   - Read all `.tsx` files inside `src/tools/` dynamically.
+   - Loop over the modules, extract each file's exported `toolInfo` block, and package them neatly into a strongly-typed array of discovered components and metadata.
+
+3. **Update the Main Display Grid Component (`src/components/ToolsGrid.tsx`):**
+   - Refactor this component to import our new dynamic registry instead of using the hardcoded `toolsData.ts` file.
+   - Integrate the registered tools with our active localization provider wrapper (`t(key)`) to map `titleKey` and `descKey` automatically to the active UI language.
+   - Render the custom layout cards dynamically with fully working categories filters ('all', 'media', 'text', 'utility') matching our system schema.
+
+### EXECUTION RULE:
+Please modify the project files directly in place. Do not give me pseudo-code or generic placeholders. Write complete, elegant, production-ready React + TypeScript code loops.
+
+
+
+
+
+
+You are an expert TypeScript Architect specializing in i18n automation within Vite + React environments.
+
+### CONTEXT & BLUEPRINT:
+We need to fully automate our internationalization system so that it requires ZERO manual maintenance. My project uses React, TypeScript, and Vite.
+I have a `src/types.ts` file that defines my `TranslationSet` interface and a `Language` type. 
+
+### THE ABSOLUTE GOAL:
+When I drop any new language JSON file (e.g., `de.json`, `it.json`, `pt.json`) into the `src/locales/` folder, the application must automatically discover it at runtime, extract the language code from the filename, and register it inside our i18n config. I must NEVER manually import a JSON language file or update a hardcoded language array again.
+
+### REQUIRED DIRECT ACTIONS FOR THE AGENT:
+
+1. **Update `src/types.ts` Dynamically:**
+   - Modify the `Language` type. It must no longer be a hardcoded union like `'ar' | 'en' | 'fr' | 'es'`. Make it flexible (e.g., `string` or dynamically inferred) so that adding new language files does not cause TypeScript compilation errors.
+   - Retain the strict typing of `TranslationSet` so every discovered JSON file is strictly checked against our interface keys.
+
+2. **Refactor `src/i18n.ts` using Vite Globbing:**
+   - Wipe out manual imports of JSON files.
+   - Implement Vite's eager folder scanner: `import.meta.glob('./locales/*.json', { eager: true })`.
+   - Iterate through the discovered files, extract the language code from the keys (e.g., `./locales/es.json` maps to `es`), and build the `resources` object dynamically, typed as `Record<string, { translation: TranslationSet }>`.
+   - Initialize the i18n instance using this dynamically generated resources object.
+
+3. **Expose an Auto-Generated Languages Array:**
+   - Export a dynamic utility or array from `src/i18n.ts` (e.g., `supportedLanguages`) derived directly from the loaded keys (like `Object.keys(resources)`).
+   - This will allow our language selection dropdown component (`Navbar.tsx` or `languageSelect`) to automatically render the new language option in the UI without modifying the components manually.
+
+### EXECUTION RULE:
+Please modify `src/types.ts` and `src/i18n.ts` directly in place within the workspace. Do not use pseudo-code or truncated loops; write fully functional, clean, type-safe production code.
+
+
+
+
+
+
+# Role & Environment
+You are an expert React Architect building a completely self-contained, serverless, 100% free Single Page Application (SPA) utilizing Vite, React (Hooks & Context API), and Tailwind CSS. The app features a live, zero-database Sync System between the Admin Panel and the Client View via LocalStorage.
+
+# Global Configuration (The Security/Identity Switch)
+At the very top of the entry file, define a single configuration object for easy white-label branding:
+const RESTAURANT_CONFIG = {
+  name: "الملك للمأكولات الفاخرة", // Temporary Demo Name
+  logoUrl: "https://placehold.co/150x150?text=The+King", // Temporary Demo Logo
+  whatsappNumber: "201115917770" // Developer's phone for testing
+};
+
+# Core Architectural Structures
+
+## 1. Global State Management (React Context)
+Initialize state from LocalStorage with a default fallback array of dishes.
+- `dishes`: Array of objects. Each dish structure:
+  `{ id, name, description, category, imageUrl, originalPrice, currentPrice }`
+- `orders`: Array of local mockup order objects to drive the analytics dashboard.
+- `stats`: Object managing local counter metrics (Views, Total Orders, Success, Pending).
+
+## 2. Dynamic Categories Engine (Future-Proof Logic)
+- CRITICAL: Do NOT hardcode categories. 
+- In the Client View, compute categories dynamically using JavaScript Set:
+  `const categories = ['الكل', ...new Set(dishes.map(dish => dish.category))];`
+- The horizontal navigation tabs must render exclusively from this computed array. 
+- If a user changes a category string or creates a brand new one in the Admin Grid, the Client View must instantly spawn the new tab and filter UI automatically with zero code modification.
+
+## 3. Client Interactive View (`/`)
+- Header pulling branding assets entirely from `RESTAURANT_CONFIG`.
+- Dynamic categories horizontal scroll-bar.
+- **Adaptive Pricing UI:** Compare `currentPrice` and `originalPrice`. If `currentPrice < originalPrice`, render `originalPrice` with a thick red strike-through (`line-through decoration-red-600 decoration-2 text-gray-400 text-sm`) and display `currentPrice` boldly in green. If they are equal, display only the `currentPrice`.
+- Persistent fly-out shopping cart computing items, quantities, and totals. 
+- Checkout button compiles a highly-formatted text summary of the cart and triggers a WhatsApp web/app redirect to `RESTAURANT_CONFIG.whatsappNumber`.
+
+## 4. Excel-Like Admin Dashboard (`/admin`)
+- Simple, secure hardcoded password gate overlay.
+- **Live Analytical KPI Cards:** Render 4 metric counters (Total Views, Total Orders, Pending Orders, Completed Orders) updating reactively.
+- **Editable Spreadsheet Grid (CRUD):** A tabular layout where rows are editable text inputs mapping to the `dishes` state fields: Name, Description, Category (Plain Text Input), Image URL, Original Price, Current Price.
+- Includes a trash-can icon on each row for instant deletion.
+- An "إضافة وجبة جديدة" button that pushes a blank row skeleton into the editable grid view.
+- A prominent "حفظ وتطبيق التعديلات الحالية" button that flushes the entire grid state directly into the unified global state and commits it to LocalStorage in milliseconds.
+- An "تصدير البيانات backup.json" button to let the admin download their catalog data locally.
