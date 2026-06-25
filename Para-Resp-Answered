@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suez University - Faculty of Medicine - Respiratory Module Exam</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #334155;
+            background-color: #f1f5f9;
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        
+        .page {
+            background-color: #ffffff;
+            width: 210mm;
+            min-height: 297mm;
+            padding: 20mm;
+            margin: 20px auto;
+            box-sizing: border-box;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            page-break-after: always;
+        }
+
+        @media print {
+            body {
+                background-color: #ffffff;
+                padding: 0;
+            }
+            .page {
+                margin: 0;
+                border: none;
+                box-shadow: none;
+                width: 100%;
+                min-height: 100vh;
+            }
+        }
+
+        .header-blue {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 4px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        
+        .header-blue h1 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .header-blue .subtitle {
+            font-size: 12px;
+            margin-top: 5px;
+            color: #93c5fd;
+            font-weight: 500;
+        }
+
+        .section-title {
+            border-left: 4px solid #003366;
+            padding-left: 10px;
+            color: #003366;
+            font-weight: 700;
+            font-size: 13px;
+            margin: 15px 0 12px 0;
+            text-transform: uppercase;
+        }
+
+        .question-box {
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 14px;
+            margin-bottom: 12px;
+            background-color: #ffffff;
+            page-break-inside: avoid;
+        }
+
+        .question-text {
+            font-weight: 600;
+            font-size: 14px;
+            color: #0f172a;
+            margin-bottom: 10px;
+        }
+
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            padding-left: 5px;
+        }
+
+        .option-item {
+            font-size: 13px;
+            color: #475569;
+        }
+        
+        .option-item strong {
+            color: #0f172a;
+            margin-right: 4px;
+        }
+
+        .option-item.correct-answer {
+            color: #155724 !important;
+            font-weight: 700;
+        }
+        
+        .option-item.correct-answer strong {
+            color: #155724 !important;
+        }
+
+        .footer-wrapper {
+            margin-top: auto;
+            padding-top: 15px;
+        }
+        
+        .key-banner {
+            background-color: #e6f0fa;
+            border-left: 4px solid #003366;
+            padding: 8px 14px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 700;
+            color: #003366;
+            margin-bottom: 10px;
+        }
+
+        .footer-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            color: #94a3b8;
+            border-top: 1px solid #f1f5f9;
+            padding-top: 6px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Medical Parasitology Examination</h1>
+            <div class="subtitle">Suez University • Faculty of Medicine • Respiratory Module</div>
+        </div>
+
+        <div class="section-title">Part 1: Introduction and Classification of Lung Parasites</div>
+
+        <div class="question-box">
+            <div class="question-text">1. Which of the following protozoan parasites can cause a pulmonary abscess or cyst infection according to the official module list?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Amoebic lung abscess (Cyst)</div>
+                <div class="option-item"><strong>B)</strong> Hydatid cyst</div>
+                <div class="option-item"><strong>C)</strong> Paragonimiasis</div>
+                <div class="option-item"><strong>D)</strong> Schistosomiasis</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">2. Which of the following respiratory-affecting organisms is taxonomically classified under Arthropods?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Ascariasis</div>
+                <div class="option-item"><strong>B)</strong> Hookworm</div>
+                <div class="option-item correct-answer"><strong>C)</strong> House dust mites</div>
+                <div class="option-item"><strong>D)</strong> Strongyloidiasis</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">3. Wuchereria bancrofti, Brugia malayi, and Dirofilaria immitis share which of the following primary routes of transmission?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Ingestion of contaminated food</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Vector-borne transmission via insect bites</div>
+                <div class="option-item"><strong>C)</strong> Direct skin penetration</div>
+                <div class="option-item"><strong>D)</strong> Inhalation of suspended dust particles</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">4. Which group of human parasites shares ingestion as their common primary route of transmission?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Schistosoma mansoni, Hookworm, Strongyloides stercoralis</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Echinococcus granulosus, Paragonimus westermani, Ascaris lumbricoides</div>
+                <div class="option-item"><strong>C)</strong> Wuchereria bancrofti, Brugia malayi, Brugia timori</div>
+                <div class="option-item"><strong>D)</strong> Sarcoptes scabiei, Demodex folliculorum</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">5. Which of the following clinical syndromes is NOT classified as a classic presentation of Parasitic Eosinophilic Lung Disease?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Loeffler's syndrome</div>
+                <div class="option-item"><strong>B)</strong> Tropical eosinophilia syndrome</div>
+                <div class="option-item"><strong>C)</strong> Visceral larva migrans</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Amoebic lung abscess</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">6. Based on protozoan taxonomy, which organelles are utilized by Amoebae for structural motility?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Cilia</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Pseudopodia</div>
+                <div class="option-item"><strong>C)</strong> Flagella</div>
+                <div class="option-item"><strong>D)</strong> Specialized polar filaments</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">7. Apicomplexa (Sporozoa) parasites are uniquely characterized by which structural definition?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Unicellular organisms moving exclusively by specialized cilia</div>
+                <div class="option-item"><strong>B)</strong> Multicellular unsegmented nematodes</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Tissue parasites that do not possess distinct organs of locomotion</div>
+                <div class="option-item"><strong>D)</strong> Segmented flatworms with hooks and suckers</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">8. Morphologically, adult Trematodes (Flukes) are generalistically described as:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Cylindrical, elongated, and unsegmented worms</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Leaf-like and completely unsegmented flatworms</div>
+                <div class="option-item"><strong>C)</strong> Tape-like, elongated, and highly segmented flatworms</div>
+                <div class="option-item"><strong>D)</strong> Microscopic unicellular structures with spined surfaces</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">9. What is the universally recognized common medical name for Paragonimus westermani?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> African Lung Fly</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Oriental Lung Fluke</div>
+                <div class="option-item"><strong>C)</strong> Giant Liver Fluke</div>
+                <div class="option-item"><strong>D)</strong> Intestinal Blood Fluke</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">
+                ANSWER KEY (PAGE 1): Q1: A | Q2: C | Q3: B | Q4: B | Q5: D | Q6: B | Q7: C | Q8: B | Q9: B
+            </div>
+            <div class="footer-meta">
+                <div>Suez University • Faculty of Medicine</div>
+                <div>Page 1 of 4</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Medical Parasitology Examination</h1>
+            <div class="subtitle">Suez University • Faculty of Medicine • Respiratory Module</div>
+        </div>
+
+        <div class="section-title">Part 2: Paragonimiasis Life Cycle and Morphology</div>
+
+        <div class="question-box">
+            <div class="question-text">10. What are the approximate structural physical dimensions of a mature adult Paragonimus westermani fluke?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 12 mm × 3 mm</div>
+                <div class="option-item correct-answer"><strong>B)</strong> 1 cm × 0.7 cm</div>
+                <div class="option-item"><strong>C)</strong> 90 µm × 55 µm</div>
+                <div class="option-item"><strong>D)</strong> 5 cm × 5 cm</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">11. The protective external body wall (cuticle) of a mature adult Paragonimus westermani contains:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Highly developed posterior muscular suckers only</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Numerous small spine-like structures (Spines)</div>
+                <div class="option-item"><strong>C)</strong> Dynamic locomotive cilia bands</div>
+                <div class="option-item"><strong>D)</strong> Segmented rings without extensions</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">12. Which African countries are explicitly documented within the geographical distribution of Paragonimus westermani?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Egypt and Tunisia</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Nigeria and Cameroon</div>
+                <div class="option-item"><strong>C)</strong> South Africa and Kenya</div>
+                <div class="option-item"><strong>D)</strong> Madagascar and Sudan</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">13. Which developmental morphological type of cercaria is found in the life cycle of the oriental lung fluke?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Leptocercous cercaria</div>
+                <div class="option-item"><strong>B)</strong> Furcocercous cercaria</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Microcercous cercaria (short, stumpy tail)</div>
+                <div class="option-item"><strong>D)</strong> Gymnocephalus cercaria</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">14. Which organism serves as the obligate first intermediate host (1st IH) for Paragonimus westermani?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Marine crabs or crayfish</div>
+                <div class="option-item"><strong>B)</strong> Freshwater prawns</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Freshwater operculate snails of the genus Semisulcospira</div>
+                <div class="option-item"><strong>D)</strong> Domesticated mammals like pigs</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">15. What is the specific infective stage responsible for transmitting Paragonimiasis to human hosts?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Free-swimming miracidia in water bodies</div>
+                <div class="option-item"><strong>B)</strong> Microcercous cercariae directly penetrating skin</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Encysted metacercariae inside the tissues of freshwater crustaceans</div>
+                <div class="option-item"><strong>D)</strong> Embryonated eggs found in contaminated soil</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">16. Which group of mammals can naturally act as reservoir hosts (RH) for Paragonimus westermani?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Dogs, cats, pigs, and monkeys</div>
+                <div class="option-item"><strong>B)</strong> Sheep, goats, and cattle only</div>
+                <div class="option-item"><strong>C)</strong> Migratory birds and marine fish</div>
+                <div class="option-item"><strong>D)</strong> Commensal rats and field mice</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">17. Where do the adult worms of Paragonimus westermani typically reside to lay their eggs inside humans?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Lumen of the duodenum</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Fibrotic cystic cavities within the lungs</div>
+                <div class="option-item"><strong>C)</strong> Intrahepatic bile ducts of the liver</div>
+                <div class="option-item"><strong>D)</strong> Inferior mesenteric venules</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">18. Which of the following sets of parameters describes the diagnostic egg of Paragonimus westermani?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Translucent, thin-shelled, with a prominent lateral spine</div>
+                <div class="option-item correct-answer"><strong>B)</strong> 90×55 µm, brown, thick-shelled, operculated, containing an unsegmented embryo</div>
+                <div class="option-item"><strong>C)</strong> Barrel-shaped with prominent bipolar clear plugs</div>
+                <div class="option-item"><strong>D)</strong> Spherical with a thick radially striated shell containing an oncosphere</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">
+                ANSWER KEY (PAGE 2): Q10: B | Q11: B | Q12: B | Q13: C | Q14: C | Q15: C | Q16: A | Q17: B | Q18: B
+            </div>
+            <div class="footer-meta">
+                <div>Suez University • Faculty of Medicine</div>
+                <div>Page 2 of 4</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Medical Parasitology Examination</h1>
+            <div class="subtitle">Suez University • Faculty of Medicine • Respiratory Module</div>
+        </div>
+
+        <div class="section-title">Part 3: Paragonimus Clinical Manifestations and Introduction to Loeffler's</div>
+
+        <div class="question-box">
+            <div class="question-text">19. Due to presentation overlapping, chronic Pulmonary Paragonimiasis is frequently misdiagnosed as:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Acute asthmatic bronchitis</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Pulmonary Tuberculosis (TB)</div>
+                <div class="option-item"><strong>C)</strong> Chronic end-stage renal failure</div>
+                <div class="option-item"><strong>D)</strong> Periportal liver fibrosis</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">20. Ectopic migration of immature flukes into the central nervous system leads to Cerebral Paragonimiasis, clinically resulting in:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Acute liver failure and severe generalized ascites</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Epileptiform seizures, visual disturbances, and motor deficits</div>
+                <div class="option-item"><strong>C)</strong> Painful hematuria and terminal dysuria</div>
+                <div class="option-item"><strong>D)</strong> Permanent sensorineural hearing loss</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">21. To confirm a diagnosis in both early and chronic stages of Paragonimus westermani infection, which serological methodology is preferred?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Widal agglutination test</div>
+                <div class="option-item correct-answer"><strong>B)</strong> ELISA technique</div>
+                <div class="option-item"><strong>C)</strong> Sputum culturing on Lowenstein-Jensen medium</div>
+                <div class="option-item"><strong>D)</strong> Immediate patch skin testing</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">22. Chest radiographs (X-rays) and computed tomography (CT) scans of individuals with active pulmonary paragonimiasis typically reveal:</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Nodular or ring shadows and cavities</div>
+                <div class="option-item"><strong>B)</strong> Isolated hyper-trophy of the left ventricle wall</div>
+                <div class="option-item"><strong>C)</strong> Diffuse calcification of the diaphragm muscles</div>
+                <div class="option-item"><strong>D)</strong> Complete collapse of the main pulmonary artery segment</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">23. Which medical scientist first formally characterized the pathology of Loeffler's Syndrome, and in what year?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Louis Pasteur in 1890</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Professor William Loeffler at Zurich University in 1932</div>
+                <div class="option-item"><strong>C)</strong> Dr. Ghada Salah in 2017</div>
+                <div class="option-item"><strong>D)</strong> Robert Koch in 1905</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">24. What is the precise medical definition of Loeffler's Syndrome?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Irreversible structural destruction of the pulmonary parenchyma caused by adult trematodes</div>
+                <div class="option-item correct-answer"><strong>B)</strong> A transient, self-limiting respiratory hypersensitivity response with pulmonary eosinophilic infiltration driven by migrating nematode larvae</div>
+                <div class="option-item"><strong>C)</strong> Fulminant bacterial lobar pneumonia localized to the inferior lobes</div>
+                <div class="option-item"><strong>D)</strong> An amebic abscess collection located within the right pleural space</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">25. Loeffler's Syndrome is classically associated with peripheral blood eosinophilia showing percentage ranges between:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Less than 1% to 5%</div>
+                <div class="option-item correct-answer"><strong>B)</strong> From less than 10% to more than 60%</div>
+                <div class="option-item"><strong>C)</strong> Exactly 100% in all cases</div>
+                <div class="option-item"><strong>D)</strong> Absolute depletion down to 0%</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">26. Following infective larval penetration through human skin in Hookworm or Strongyloides infections, respiratory symptoms of Loeffler's present after:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 24 hours only</div>
+                <div class="option-item correct-answer"><strong>B)</strong> One week</div>
+                <div class="option-item"><strong>C)</strong> 9 to 12 days</div>
+                <div class="option-item"><strong>D)</strong> Two full months</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">27. In the case of an Ascaris lumbricoides infection, respiratory signs of Loeffler's syndrome manifest how long after ingesting embryonated eggs?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 1 to 3 days</div>
+                <div class="option-item correct-answer"><strong>B)</strong> 9 to 12 days</div>
+                <div class="option-item"><strong>C)</strong> 3 weeks</div>
+                <div class="option-item"><strong>D)</strong> 6 months</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">
+                ANSWER KEY (PAGE 3): Q19: B | Q20: B | Q21: B | Q22: A | Q23: B | Q24: B | Q25: B | Q26: B | Q27: B
+            </div>
+            <div class="footer-meta">
+                <div>Suez University • Faculty of Medicine</div>
+                <div>Page 3 of 4</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Medical Parasitology Examination</h1>
+            <div class="subtitle">Suez University • Faculty of Medicine • Respiratory Module</div>
+        </div>
+
+        <div class="section-title">Part 4: Loeffler's Radiography, Medical Acarology, and Diagnosis</div>
+
+        <div class="question-box">
+            <div class="question-text">28. What characteristic radiological patterns are observed on a Chest X-ray during an active Loeffler's Syndrome episode?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Permanent, well-demarcated hollow ring shadows indicating necrotizing processes</div>
+                <div class="option-item"><strong>B)</strong> Rigid calcified lines outlining localized tracks</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Transient, migratory infiltrates showing a mottling and ground-glass appearance</div>
+                <div class="option-item"><strong>D)</strong> Complete absence of any identifiable inflammatory lung signs</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">29. What is the primary medical management used to control the acute allergic bronchospasms associated with Loeffler's syndrome?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Broad-spectrum antibacterial therapy</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Antiasthmatics and bronchodilators</div>
+                <div class="option-item"><strong>C)</strong> Direct surgical lobectomy protocols</div>
+                <div class="option-item"><strong>D)</strong> High-dose prophylactic antimalarial drugs</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">30. Which of the following lung-affecting parasites is explicitly assigned as a "Self-study" topic within this module?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Paragonimus westermani</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Strongyloides stercoralis</div>
+                <div class="option-item"><strong>C)</strong> Ascaris lumbricoides</div>
+                <div class="option-item"><strong>D)</strong> Schistosoma mansoni</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">31. According to medical classification, mites belong to the subclass Acari, which falls under:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Class Trematoda under Phylum Platyhelminthes</div>
+                <div class="option-item"><strong>B)</strong> Class Nematoda under Phylum Aschelminthes</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Class Arachnida under Phylum Arthropoda</div>
+                <div class="option-item"><strong>D)</strong> Class Cestoda under Phylum Platyhelminthes</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">32. Incomplete metamorphosis (hemimetabolous development) in arthropods is structurally composed of which lifecycle stages?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Egg — Larva — Pupa — Adult</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Egg — Nymph — Adult</div>
+                <div class="option-item"><strong>C)</strong> Cyst — Trophozoite — Cyst</div>
+                <div class="option-item"><strong>D)</strong> Miracidium — Redia — Cercaria</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">33. What is the recognized common medical name for the arthropod parasite Demodex spp.?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Itch mite</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Follicle mite</div>
+                <div class="option-item"><strong>C)</strong> Storage harvest mite</div>
+                <div class="option-item"><strong>D)</strong> House dust mite</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">34. Allergens produced by house dust mites trigger an immunological cascade characterized by:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Th1 helper T-cell activation leading to cellular cytotoxicity</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Th2 helper T-cell response with specific IgE antibody production (Type I Hypersensitivity)</div>
+                <div class="option-item"><strong>C)</strong> Chronic macrophage pooling inducing delayed hypersensitivity complexes</div>
+                <div class="option-item"><strong>D)</strong> Autoimmune complement-mediated destruction of type II pneumocytes</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">35. Which clinical conditions are commonly driven by house dust mites and their fecal pellets in genetically predisposed children?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Generalized epilepsy, cortical blindness, and motor function drop</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Bronchial asthma, perennial rhinitis, and dermatitis</div>
+                <div class="option-item"><strong>C)</strong> Fulminant dysentery and amebic liver collection abscesses</div>
+                <div class="option-item"><strong>D)</strong> Glomerulonephritis and painless hematuria</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">36. To definitively confirm an immunodiagnosis of sensitivity against house dust mites, which clinical modality is used?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Microscopic stool examination for embryonated ova</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Skin prick test and/or serum assay of specific IgE and IgG4 antibodies</div>
+                <div class="option-item"><strong>C)</strong> Repeated routine blood cultures</div>
+                <div class="option-item"><strong>D)</strong> Contrast-enhanced brain CT scan imaging</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">
+                ANSWER KEY (PAGE 4): Q28: C | Q29: B | Q30: B | Q31: C | Q32: B | Q33: B | Q34: B | Q35: B | Q36: B
+            </div>
+            <div class="footer-meta">
+                <div>Suez University • Faculty of Medicine</div>
+                <div>Page 4 of 4</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
