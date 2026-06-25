@@ -4,13 +4,19 @@
 <meta charset="UTF-8">
 <title>Respiratory System Physiology Exam Bank 2026 - Suez University</title>
 <style>
+    /* 1. أمر إجباري للمتصفح لتصفير الهوامش الافتراضية للطباعة */
+    @page {
+        size: A4;
+        margin: 0; /* يلغي أي هوامش يفرضها المتصفح تلقائياً */
+    }
+
     body {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         color: #334155;
         background-color: #f1f5f9;
         margin: 0;
         padding: 0;
-        line-height: 1.35; /* تم تقليله من 1.5 لتقليل ارتفاع السطور */
+        line-height: 1.3; /* تقليص بسيط جداً لضمان الراحة الرأسية */
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
     }
@@ -18,8 +24,8 @@
     .page {
         background-color: #ffffff;
         width: 210mm;
-        height: 297mm; /* تحديد الارتفاع الثابت للـ A4 */
-        padding: 10mm 15mm; /* تم تقليل الهامش العلوي والسفلي من 20mm إلى 10mm لكسب مساحة رأسية */
+        height: 297mm; /* الارتفاع القياسي للـ A4 */
+        padding: 12mm 15mm; /* هوامش داخلية متزنة للأسئلة */
         margin: 20px auto;
         box-sizing: border-box;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -34,36 +40,41 @@
         body {
             background-color: #ffffff;
             padding: 0;
+            margin: 0;
         }
         .page {
             margin: 0;
             border: none;
             box-shadow: none;
-            width: 100%;
-            height: 100vh;
+            width: 210mm; /* الحفاظ على الأبعاد القياسية أثناء الطباعة */
+            height: 297mm;
+            page-break-after: always;
+            break-after: page;
+            page-break-inside: avoid;
+            break-inside: avoid;
         }
     }
 
     .header-blue {
         background-color: #003366;
         color: #ffffff;
-        padding: 12px 18px; /* تم تقليله من 20px */
+        padding: 10px 15px;
         border-radius: 4px;
         text-align: left;
-        margin-bottom: 10px; /* تم تقليله من 20px */
+        margin-bottom: 8px;
     }
     
     .header-blue h1 {
         margin: 0;
-        font-size: 18px; /* تم تقليله من 20px */
+        font-size: 17px;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.5px;
     }
     
     .header-blue .subtitle {
-        font-size: 11px;
-        margin-top: 3px;
+        font-size: 10.5px;
+        margin-top: 2px;
         color: #93c5fd;
         font-weight: 500;
     }
@@ -73,16 +84,16 @@
         padding-left: 10px;
         color: #003366;
         font-weight: 700;
-        font-size: 12px;
-        margin: 8px 0 8px 0; /* تم تقليله لتوفير مساحة */
+        font-size: 11.5px;
+        margin: 6px 0 6px 0;
         text-transform: uppercase;
     }
 
     .question-box {
         border: 1px solid #e2e8f0;
         border-radius: 6px;
-        padding: 10px 14px; /* تقليص الفراغ الداخلي للسؤال من 14px إلى 10px */
-        margin-bottom: 8px; /* تقليص المسافة بين الأسئلة من 12px إلى 8px */
+        padding: 8px 12px; /* تقليص الفراغات لتوفير مساحة رأسية آمنة */
+        margin-bottom: 6px;
         background-color: #ffffff;
         page-break-inside: avoid;
         break-inside: avoid;
@@ -90,20 +101,20 @@
 
     .question-text {
         font-weight: 600;
-        font-size: 13.5px;
+        font-size: 13px;
         color: #0f172a;
-        margin-bottom: 6px;
+        margin-bottom: 4px;
     }
 
     .options-container {
         display: flex;
         flex-direction: column;
-        gap: 3px; /* تقليص الفراغ بين الخيارات من 5px إلى 3px */
+        gap: 2px;
         padding-left: 5px;
     }
 
     .option-item {
-        font-size: 12.5px;
+        font-size: 12px;
         color: #475569;
     }
     
@@ -123,27 +134,27 @@
 
     .footer-wrapper {
         margin-top: auto;
-        padding-top: 10px;
+        padding-top: 5px;
     }
     
     .key-banner {
         background-color: #e6f0fa;
         border-left: 4px solid #003366;
-        padding: 6px 12px;
+        padding: 5px 10px;
         border-radius: 4px;
-        font-size: 11px;
+        font-size: 10.5px;
         font-weight: 700;
         color: #003366;
-        margin-bottom: 6px;
+        margin-bottom: 4px;
     }
 
     .footer-meta {
         display: flex;
         justify-content: space-between;
-        font-size: 10px;
+        font-size: 9.5px;
         color: #94a3b8;
         border-top: 1px solid #f1f5f9;
-        padding-top: 4px;
+        padding-top: 3px;
         font-weight: 600;
     }
 </style>
