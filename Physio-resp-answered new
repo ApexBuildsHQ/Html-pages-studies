@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Comprehensive Respiratory Physiology MCQ Bank</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #334155;
+            background-color: #f1f5f9;
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        
+        .page {
+            background-color: #ffffff;
+            width: 210mm;
+            min-height: 297mm;
+            padding: 20mm;
+            margin: 20px auto;
+            box-sizing: border-box;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            page-break-after: always;
+        }
+
+        @media print {
+            body {
+                background-color: #ffffff;
+                padding: 0;
+            }
+            .page {
+                margin: 0;
+                border: none;
+                box-shadow: none;
+                width: 100%;
+                min-height: 100vh;
+            }
+        }
+
+        .header-blue {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 4px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        
+        .header-blue h1 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .header-blue .subtitle {
+            font-size: 12px;
+            margin-top: 5px;
+            color: #93c5fd;
+            font-weight: 500;
+        }
+
+        .section-title {
+            border-left: 4px solid #003366;
+            padding-left: 10px;
+            color: #003366;
+            font-weight: 700;
+            font-size: 13px;
+            margin: 15px 0 12px 0;
+            text-transform: uppercase;
+        }
+
+        .question-box {
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 14px;
+            margin-bottom: 12px;
+            background-color: #ffffff;
+            page-break-inside: avoid;
+        }
+
+        .question-text {
+            font-weight: 600;
+            font-size: 14px;
+            color: #0f172a;
+            margin-bottom: 10px;
+        }
+
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            padding-left: 5px;
+        }
+
+        .option-item {
+            font-size: 13px;
+            color: #475569;
+        }
+        
+        .option-item strong {
+            color: #0f172a;
+            margin-right: 4px;
+        }
+
+        .footer-wrapper {
+            margin-top: auto;
+            padding-top: 15px;
+        }
+        
+        .key-banner {
+            background-color: #e6f0fa;
+            border-left: 4px solid #003366;
+            padding: 8px 14px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 700;
+            color: #003366;
+            margin-bottom: 10px;
+        }
+
+        .footer-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            color: #94a3b8;
+            border-top: 1px solid #f1f5f9;
+            padding-top: 6px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Medical Physiology MCQ Examination Bank</h1>
+            <div class="subtitle">Comprehensive Assessment Coverings for All Detailed Respiratory Physiology Modules</div>
+        </div>
+
+        <div class="section-title">Page 1: Basal Metabolic Rates, External Respiration & Functional Airway Anatomy</div>
+        
+        <div class="question-box">
+            <div class="question-text">1. What is the average normal oxygen consumption (O₂ consumption) of a resting adult body per minute?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 150 ml/min</div>
+                <div class="option-item"><strong>B)</strong> 200 ml/min</div>
+                <div class="option-item correct-answer"><strong>C)</strong> 250 ml/min</div>
+                <div class="option-item"><strong>D)</strong> 300 ml/min</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">2. How much carbon dioxide (CO₂ production) is normally produced by human body tissues during rest?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> 200 ml/min</div>
+                <div class="option-item"><strong>B)</strong> 250 ml/min</div>
+                <div class="option-item"><strong>C)</strong> 150 ml/min</div>
+                <div class="option-item"><strong>D)</strong> 100 ml/min</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">3. Which of the following processes is NOT categorized as a phase of External Respiration?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Pulmonary ventilation</div>
+                <div class="option-item"><strong>B)</strong> Pulmonary gas exchange</div>
+                <div class="option-item"><strong>C)</strong> Transport of gases by blood</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Intracellular O₂ utilization by mitochondria</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">4. Structurally and functionally, the dynamic respiratory system is composed of:</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Air passages, alveoli, lungs, chest wall, and respiratory muscles</div>
+                <div class="option-item"><strong>B)</strong> Conducting zones and alveolar sacs exclusively</div>
+                <div class="option-item"><strong>C)</strong> The pulmonary capillaries and cardiac output structures</div>
+                <div class="option-item"><strong>D)</strong> Diaphragm muscle and higher cerebral cortices only</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">5. Which nervous structures contain the primary centers directly responsible for rhythmic respiratory control?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Cerebellum</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Brain stem (Medulla and Pons)</div>
+                <div class="option-item"><strong>C)</strong> Sympathetic collateral ganglia</div>
+                <div class="option-item"><strong>D)</strong> Lumbar spinal cord segments</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">6. Which structural section belongs entirely to the Upper Airway classification?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Trachea</div>
+                <div class="option-item"><strong>B)</strong> Larynx</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Pharynx (Nasal, Oral, Laryngeal parts)</div>
+                <div class="option-item"><strong>D)</strong> Terminal bronchioles</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">7. The Lower Airway includes all of the following physiological components EXCEPT:</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Nasal Cavity</div>
+                <div class="option-item"><strong>B)</strong> Larynx</div>
+                <div class="option-item"><strong>C)</strong> Trachea</div>
+                <div class="option-item"><strong>D)</strong> Bronchi and Bronchioles</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">8. What are the three defined physiological divisions of the pharynx involved in upper air conduction?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Anterior, middle, posterior pharynx</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Nasal, oral, and laryngeal pharynx</div>
+                <div class="option-item"><strong>C)</strong> Esophageal, tracheal, and tympanic pharynx</div>
+                <div class="option-item"><strong>D)</strong> Vestibular, glottic, and subglottic pharynx</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">9. The nasal cavity is functionally linked to which vital protective airway reflex?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Cough reflex</div>
+                <div class="option-item"><strong>B)</strong> Hering-Breuer reflex</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Sneezing reflex</div>
+                <div class="option-item"><strong>D)</strong> Swallowing reflex</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">10. Irritation within the larynx and trachea triggers which localized protective reflex mechanism?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Cough reflex</div>
+                <div class="option-item"><strong>B)</strong> Sneezing reflex</div>
+                <div class="option-item"><strong>C)</strong> Gag reflex</div>
+                <div class="option-item"><strong>D)</strong> Apneustic gasp reflex</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">Page 1 Answer Key 📍 1: C | 2: A | 3: D | 4: A | 5: B | 6: C | 7: A | 8: B | 9: C | 10: A</div>
+            <div class="footer-meta">
+                <span>Faculty of Human Medicine - Suez University</span>
+                <span>Course Instructor: Dr. Ghada Salah El-Dekroury</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="section-title">Page 2: Bronchial Tree, Non-Respiratory Functions & Function Tests Assessments</div>
+        
+        <div class="question-box">
+            <div class="question-text">11. What is the average normal length of the adult human trachea?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 5 to 8 cm</div>
+                <div class="option-item correct-answer"><strong>B)</strong> 10 to 12 cm</div>
+                <div class="option-item"><strong>C)</strong> 15 to 18 cm</div>
+                <div class="option-item"><strong>D)</strong> 20 to 25 cm</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">12. Functionally, the bronchial tree branches out into which three specific metabolic zones?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Conducting, Transitional, and Respiratory zones</div>
+                <div class="option-item"><strong>B)</strong> Upper, Middle, and Lower zones</div>
+                <div class="option-item"><strong>C)</strong> Filtration, Humidification, and Expulsion zones</div>
+                <div class="option-item"><strong>D)</strong> Secretory, Elastic, and Rigid zones</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">13. The pleural cavity is a fluid-filled potential space. What is its standard fluid thickness?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 0.5 to 1 cm</div>
+                <div class="option-item"><strong>B)</strong> 1.5 to 2 cm</div>
+                <div class="option-item"><strong>C)</strong> 3 to 4 mm</div>
+                <div class="option-item correct-answer"><strong>D)</strong> A thin layer of a few micrometers (liquid film)</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">14. Non-respiratory functions of the lungs include which specific groups of tasks?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Gastric acid buffering and structural calcium storage</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Protective, Metabolic, and Endocrine functions</div>
+                <div class="option-item"><strong>C)</strong> Hepatic enzyme secretion and voluntary locomotor patterns</div>
+                <div class="option-item"><strong>D)</strong> Lymphatic filtration of systemic chyme exclusively</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">15. The respiratory protective mechanism fundamentally splits into:</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Role of air passages & Role of alveoli</div>
+                <div class="option-item"><strong>B)</strong> Role of tonsils & Role of white blood cells</div>
+                <div class="option-item"><strong>C)</strong> Role of standard saliva & Role of alveolar surfactant</div>
+                <div class="option-item"><strong>D)</strong> Role of costal cartilage & Role of mucus glands</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">16. Which medical conditions are listed under pathophysiological alterations of Bronchial Tone?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Pulmonary Fibrosis and Pneumonia</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Asthma and Emphysema</div>
+                <div class="option-item"><strong>C)</strong> Tuberculosis and Atelectasis</div>
+                <div class="option-item"><strong>D)</strong> Pulmonary Embolism and ARDS</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">17. Which parameter is NOT included in the listed "Assessment of Pulmonary Functions" guidelines?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Lung Compliance and Pulmonary ventilation</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Direct partial pressure measurement of blood Nitrogen content</div>
+                <div class="option-item"><strong>C)</strong> Dead space evaluation and non-functional alveoli</div>
+                <div class="option-item"><strong>D)</strong> Respiratory reserve index and Timed Vital Capacity</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">18. Which specific lung volume holds significant medicolegal importance (e.g., proving live birth)?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Tidal volume (TV)</div>
+                <div class="option-item"><strong>B)</strong> Inspiratory Reserve Volume (IRV)</div>
+                <div class="option-item"><strong>C)</strong> Expiratory Reserve Volume (ERV)</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Minimal air (part of Residual Volume)</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">19. Which of the following factors was NOT listed as affecting Vital Capacity and Timed Vital Capacity?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Posture, movement of the diaphragm, and pulmonary blood volume</div>
+                <div class="option-item"><strong>B)</strong> Strength of respiratory muscles and lung compliance/elasticity</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Baseline systemic hemoglobin concentrations and heart rate</div>
+                <div class="option-item"><strong>D)</strong> Airway resistance and chest wall expandability</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">20. What is the precise definition of Respiratory Dead Space?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> The volume of inspired air that does not take part in gas exchange</div>
+                <div class="option-item"><strong>B)</strong> The amount of air remaining in lungs after maximal forced expiration</div>
+                <div class="option-item"><strong>C)</strong> Non-functional spaces resulting from total collapse of the lungs</div>
+                <div class="option-item"><strong>D)</strong> The volume of air exhaled within the first second of expiration</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">Page 2 Answer Key 📍 11: B | 12: A | 13: D | 14: B | 15: A | 16: B | 17: B | 18: D | 19: C | 20: A</div>
+            <div class="footer-meta">
+                <span>Faculty of Human Medicine - Suez University</span>
+                <span>Course Instructor: Dr. Ghada Salah El-Dekroury</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="section-title">Page 3: Anatomical vs Physiological Dead Space & Alveolar Ventilation Dynamics</div>
+        
+        <div class="question-box">
+            <div class="question-text">21. Dead space ventilation is termed "wasted ventilation" and is primarily categorized into:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Inspiratory dead space and Expiratory dead space</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Anatomical dead space and Physiological dead space</div>
+                <div class="option-item"><strong>C)</strong> Nasal dead space and Tracheobronchial dead space</div>
+                <div class="option-item"><strong>D)</strong> Pathological dead space and Therapeutic dead space</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">22. What constitutes the Anatomical Dead Space?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> The volume of non-perfused collapsed alveolar sacs</div>
+                <div class="option-item correct-answer"><strong>B)</strong> The volume of conducting air passages (nose to terminal bronchioles) where no gas exchange occurs</div>
+                <div class="option-item"><strong>C)</strong> The total air trapped inside the visceral pleural layers</div>
+                <div class="option-item"><strong>D)</strong> Total volume of air inspired minus the residual volume value</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">23. What is the normal physiological value of Anatomical Dead Space in a healthy adult?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 50 ml</div>
+                <div class="option-item"><strong>B)</strong> 100 ml</div>
+                <div class="option-item correct-answer"><strong>C)</strong> 150 ml</div>
+                <div class="option-item"><strong>D)</strong> 500 ml</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">24. Around what percentage of a standard resting Tidal Volume (500 ml) does the Anatomical Dead Space represent?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 10%</div>
+                <div class="option-item correct-answer"><strong>B)</strong> 30%</div>
+                <div class="option-item"><strong>C)</strong> 50%</div>
+                <div class="option-item"><strong>D)</strong> 70%</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">25. How is the total Physiological Dead Space calculated?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Anatomical Dead Space + Alveolar Dead Space</div>
+                <div class="option-item"><strong>B)</strong> Tidal Volume - Anatomical Dead Space</div>
+                <div class="option-item"><strong>C)</strong> Vital Capacity divided by Respiratory Rate</div>
+                <div class="option-item"><strong>D)</strong> Expiratory Reserve Volume + Minimal Air volume</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">26. What causes the development of Alveolar Dead Space?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Extreme bronchoconstriction during severe acute asthma</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Alveoli that are ventilated but have inadequate or completely absent blood perfusion</div>
+                <div class="option-item"><strong>C)</strong> Total absence of regional ventilation with completely normal blood flow</div>
+                <div class="option-item"><strong>D)</strong> Excessive structural thickening of the respiratory membrane layers</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">27. In which clinical conditions does Physiological Dead Space increase significantly compared to Anatomical Dead Space?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Iron deficiency anemia and systemic cyanide toxicosis</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Pulmonary embolism, decreased cardiac output, Emphysema, and ARDS</div>
+                <div class="option-item"><strong>C)</strong> Raynaud's phenomenon and localized frostbite exposures</div>
+                <div class="option-item"><strong>D)</strong> Mild allergic rhinitis and subacute tracheitis</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">28. Which of the following mathematical equations correctly determines the Alveolar Ventilation Rate per minute?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Alveolar Ventilation = Tidal Volume &times; Respiratory Rate</div>
+                <div class="option-item"><strong>B)</strong> Alveolar Ventilation = Dead Space Volume &times; Respiratory Rate</div>
+                <div class="option-item"><strong>C)</strong> Alveolar Ventilation = (Tidal Volume + Dead Space Volume) &times; Respiratory Rate</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Alveolar Ventilation = (Tidal Volume - Dead Space Volume) &times; Respiratory Rate</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">29. What is pulmonary surfactant and which specific cellular components synthesize it?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> A complex mix of lipids/proteins secreted by Type II Alveolar epithelial cells</div>
+                <div class="option-item"><strong>B)</strong> A specialized digestive fluid released by active alveolar macrophages</div>
+                <div class="option-item"><strong>C)</strong> A structural plasma carrier synthesized by Type I Alveolar cells</div>
+                <div class="option-item"><strong>D)</strong> An endocrine hormone manufactured by local neuroendocrine airway tissues</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">30. What is the fundamental, primary biophysical function of pulmonary surfactant within the alveoli?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Increasing surface tension forces to aid passive lung recoil pathways</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Decreasing surface tension at the air-fluid interface to prevent alveolar collapse during expiration</div>
+                <div class="option-item"><strong>C)</strong> Mechanically filtering out macromolecular dust particles and pollens</div>
+                <div class="option-item"><strong>D)</strong> Directly converting carbonic acid into gaseous carbon dioxide molecules</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">Page 3 Answer Key 📍 21: B | 22: B | 23: C | 24: B | 25: A | 26: B | 27: B | 28: D | 29: A | 30: B</div>
+            <div class="footer-meta">
+                <span>Faculty of Human Medicine - Suez University</span>
+                <span>Course Instructor: Dr. Ghada Salah El-Dekroury</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="section-title">Page 4: Surfactant Biochemistry, Clinical Syndromes & Lung Compliance Variations</div>
+        
+        <div class="question-box">
+            <div class="question-text">31. Functions of the pulmonary surfactant include all of the following physiological actions EXCEPT:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Stabilizes the size of alveoli and prevents them from collapsing</div>
+                <div class="option-item"><strong>B)</strong> Lowers the work of breathing by increasing overall lung compliance</div>
+                <div class="option-item"><strong>C)</strong> Keeps alveoli dry and protects against the development of pulmonary edema</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Increases systemic arterial vascular resistance to speed up flow rates</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">32. Which specific phospholipid represents the major active component of surfactant responsible for lowering surface tension?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Sphingomyelin molecules</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Dipalmitoylphosphatidylcholine (DPPC)</div>
+                <div class="option-item"><strong>C)</strong> Phosphatidylserine complexes</div>
+                <div class="option-item"><strong>D)</strong> Cephalin phospholipid fractions</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">33. At around which week of gestational age (pregnancy) does surfactant synthesis normally begin in the fetal lung?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Week 12</div>
+                <div class="option-item"><strong>B)</strong> Week 20</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Week 28</div>
+                <div class="option-item"><strong>D)</strong> Week 36</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">34. Premature infants born before sufficient surfactant production suffer from which disease, and what is the standard therapy?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Neonatal Respiratory Distress Syndrome (NRDS); treated with exogenous surfactant instillation</div>
+                <div class="option-item"><strong>B)</strong> Idiopathic pulmonary sclerosis; managed with high-dose broad antibiotics</div>
+                <div class="option-item"><strong>C)</strong> Congenital pulmonary emphysema; managed with forced expiratory breathing maneuvers</div>
+                <div class="option-item"><strong>D)</strong> Stagnant tissue hypoxia; managed via active aspiration of intrapleural secretions</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">35. Which clinical conditions can severely damage or inhibit surfactant production in adult populations?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Severe lung trauma, localized severe infection, or Adult Respiratory Distress Syndrome (ARDS)</div>
+                <div class="option-item"><strong>B)</strong> Chronic microcytic anemia due to iron deficiency syndromes</div>
+                <div class="option-item"><strong>C)</strong> Localized nitrogen gas toxicosis following scuba ascents</div>
+                <div class="option-item"><strong>D)</strong> High-intensity aerobic workouts at moderate mountain heights</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">36. What is the physiological definition of Lung Compliance?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> The direct structural capacity of elastic elements to recoil inward swiftly</div>
+                <div class="option-item correct-answer"><strong>B)</strong> The expandability or distensibility of lungs; volume change per unit pressure change</div>
+                <div class="option-item"><strong>C)</strong> The frictional resistance value quantified inside the dynamic upper airways</div>
+                <div class="option-item"><strong>D)</strong> The fixed ratio comparing resting Residual Volume to Total Lung Capacity</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">37. What is the normal value of Static Lung Compliance in healthy adult individuals?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 20 to 30 mL/cm H₂O</div>
+                <div class="option-item"><strong>B)</strong> 50 to 60 mL/cm H₂O</div>
+                <div class="option-item correct-answer"><strong>C)</strong> 200 mL/cm H₂O (or 0.2 L/cm H₂O)</div>
+                <div class="option-item"><strong>D)</strong> 500 mL/cm H₂O</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">38. What is the key functional difference between Static Compliance and Dynamic Compliance?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Static is measured during dynamic exercises; dynamic is evaluated during slow sleep cycles</div>
+                <div class="option-item"><strong>B)</strong> Static relies on cardiac output; dynamic relies fully on structural chest wall rigidity</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Static is measured when air flow is zero; dynamic is measured during active breathing and includes airway resistance</div>
+                <div class="option-item"><strong>D)</strong> Dynamic compliance is always threefold higher than static compliance in restrictive lung diseases</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">39. Which pathological states cause a "Decreased Compliance", resulting in stiff, hard-to-inflate lungs?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Destructive destructive emphysema disorders exclusively</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Pulmonary Fibrosis, Acute Respiratory Distress Syndrome (ARDS), and Pulmonary Edema</div>
+                <div class="option-item"><strong>C)</strong> Systemic carbon monoxide poisonings and microcytic anemias</div>
+                <div class="option-item"><strong>D)</strong> Chronic mild allergic bronchial hyper-reactivity variations</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">40. What is the typical lung compliance value range in patients suffering from ARDS?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Very low; often less than 40 mL/cm H₂O</div>
+                <div class="option-item"><strong>B)</strong> Perfectly normal; fixed exactly around 200 mL/cm H₂O</div>
+                <div class="option-item"><strong>C)</strong> Moderately elevated; ranging between 250 to 300 mL/cm H₂O</div>
+                <div class="option-item"><strong>D)</strong> Highly variable; peaking above 500 mL/cm H₂O</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">Page 4 Answer Key 📍 31: D | 32: B | 33: C | 34: A | 35: A | 36: B | 37: C | 38: C | 39: B | 40: A</div>
+            <div class="footer-meta">
+                <span>Faculty of Human Medicine - Suez University</span>
+                <span>Course Instructor: Dr. Ghada Salah El-Dekroury</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="section-title">Page 5: Pathological Compliance, Partial Pressures & Ventilation Mechanics</div>
+        
+        <div class="question-box">
+            <div class="question-text">41. What does "Increased Compliance" (Floppy Lungs) indicate, and in which specific disease is it classically seen?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Indicates severe tissue stiffness; typically seen in advanced pulmonary fibrosis</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Indicates loss of elastic recoil, lungs expand very easily but fail to empty; seen in Emphysema</div>
+                <div class="option-item"><strong>C)</strong> Indicates total loss of conduction pathways; typically seen in Raynaud's disease</div>
+                <div class="option-item"><strong>D)</strong> Indicates elevated internal pressures during restful diaphragmatic breathing cycles</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">42. What are the normal partial pressure values (mmHg) of O₂ and CO₂ inside Alveolar Air at sea level?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Oxygen ~116 mmHg, Carbon Dioxide ~32 mmHg</div>
+                <div class="option-item"><strong>B)</strong> Oxygen ~40 mmHg, Carbon Dioxide ~46 mmHg</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Oxygen ~100 mmHg, Carbon Dioxide ~40 mmHg</div>
+                <div class="option-item"><strong>D)</strong> Oxygen ~95 mmHg, Carbon Dioxide ~27 mmHg</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">43. What are the normal partial pressure values (mmHg) of O₂ and CO₂ inside Expired Air?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Oxygen ~100 mmHg, Carbon Dioxide ~40 mmHg</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Oxygen ~116 mmHg, Carbon Dioxide ~32 mmHg</div>
+                <div class="option-item"><strong>C)</strong> Oxygen ~150 mmHg, Carbon Dioxide ~0.3 mmHg</div>
+                <div class="option-item"><strong>D)</strong> Oxygen ~40 mmHg, Carbon Dioxide ~46 mmHg</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">44. What are the names of the two explicit respiratory neuron groups located in the Medulla Oblongata?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Dorsal Respiratory Group (Inspiratory) and Ventral Respiratory Group (Expiratory)</div>
+                <div class="option-item"><strong>B)</strong> Apneustic pacing unit and Pneumotaxic coordination complex</div>
+                <div class="option-item"><strong>C)</strong> Voluntary motor neurons and autonomic sympathetic vagal nuclei</div>
+                <div class="option-item"><strong>D)</strong> Cerebellar coordination center and coughing reflex nuclei</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">45. Which of the pontine respiratory control centers is described as the primary respiratory rhythmic "Pacemaker"?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Pneumotaxic center</div>
+                <div class="option-item"><strong>B)</strong> Dorsal medullary group</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Apneustic center</div>
+                <div class="option-item"><strong>D)</strong> Ventral autonomic center</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">46. What happens to the Intrapulmonary Pressure during a normal quiet Inspiration phase?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> It rises slightly to around +1 mm Hg above ambient atmospheric pressure</div>
+                <div class="option-item correct-answer"><strong>B)</strong> It drops below atmospheric pressure to around -1 mm Hg, drawing air into the lungs</div>
+                <div class="option-item"><strong>C)</strong> It shoots up immediately to +4 mm Hg to stop environmental dust entry pathways</div>
+                <div class="option-item"><strong>D)</strong> It plummets steeply until it equilibriates with baseline intrapleural pressure at -7 mm Hg</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">47. What is the value of Intrapulmonary Pressure during a normal quiet Expiration phase?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> It drops down to around -1 mm Hg</div>
+                <div class="option-item correct-answer"><strong>B)</strong> It rises above atmospheric pressure to around +1 mm Hg, driving air out of the lungs</div>
+                <div class="option-item"><strong>C)</strong> It stays completely at zero, relying entirely on costal recoil forces</div>
+                <div class="option-item"><strong>D)</strong> It expands outward to hit +7 mm Hg to push extrapleural fluids back</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">48. What is the permanent characteristic and normal value of Intrapleural Pressure (IPP) during rest?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> It is always positive, reaching up to +4 mm Hg</div>
+                <div class="option-item"><strong>B)</strong> It fluctuates completely between 0 and +10 mm Hg</div>
+                <div class="option-item correct-answer"><strong>C)</strong> It is always negative, below intrapulmonary pressure (normally -4 mm Hg to -7 mm Hg), acting as a suction force</div>
+                <div class="option-item"><strong>D)</strong> It equalizes perfectly with atmospheric pressure at the end of quiet expiration</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">49. The subatmospheric (negative) nature of Intrapleural Pressure is fundamentally determined by:</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Opposing elastic properties of the lungs and the chest wall</div>
+                <div class="option-item"><strong>B)</strong> Contractile force variations within the right cardiac chambers</div>
+                <div class="option-item"><strong>C)</strong> Total concentration variables of active lipids inside the surfactant layer</div>
+                <div class="option-item"><strong>D)</strong> The volume of anatomical dead space within the upper conducting trachea</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">50. What is Transpulmonary Pressure and why is it physiologically vital?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Sum of atmospheric and pleural pressures; helps expel metabolic fluids</div>
+                <div class="option-item correct-answer"><strong>B)</strong> The difference between intrapulmonary and intrapleural pressure; keeps the lungs inflated</div>
+                <div class="option-item"><strong>C)</strong> The direct pressure measured inside the main branches of pulmonary arteries</div>
+                <div class="option-item"><strong>D)</strong> The total arithmetic difference between gross inspired and expired volumes</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">Page 5 Answer Key 📍 41: B | 42: C | 43: B | 44: A | 45: C | 46: B | 47: B | 48: C | 49: A | 50: B</div>
+            <div class="footer-meta">
+                <span>Faculty of Human Medicine - Suez University</span>
+                <span>Course Instructor: Dr. Ghada Salah El-Dekroury</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="section-title">Page 6: Chemical Regulation, Cheyne-Stokes Rhythm & Oxy-Hb Curve Characteristics</div>
+        
+        <div class="question-box">
+            <div class="question-text">51. Chemical regulation of respiration is driven by changes in which three specific chemical variables?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Hemoglobin saturation, free iron levels, and ferritin concentrations</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Gaseous CO₂, gaseous O₂, and Hydrogen ion concentration (pH)</div>
+                <div class="option-item"><strong>C)</strong> Blood nitrogen, sodium bicarbonate, and total blood volume variations</div>
+                <div class="option-item"><strong>D)</strong> Pituitary, thyroid, and local tissue hormone fluctuations</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">52. Non-chemical regulation of breathing includes inputs from all of the following structures EXCEPT:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Higher centers, respiratory tract, cardiovascular system, skeletal muscles, skin receptors, and swallowing</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Only the chemoreceptors of the carotid sinus</div>
+                <div class="option-item"><strong>C)</strong> Direct mechanical pathways from protective somatic skin endings</div>
+                <div class="option-item"><strong>D)</strong> Proprioceptive fibers originating within active locomotive muscle groups</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">53. What is the precise definition of Cheyne-Stokes breathing?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> A completely steady, hyper-rapid respiratory pattern seen in heavy aerobic exercise</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Periodic breathing characterized by alternating periods of apnea and hyperpnea</div>
+                <div class="option-item"><strong>C)</strong> A prolonged inspiratory spasm terminated by an abrupt expiratory break</div>
+                <div class="option-item"><strong>D)</strong> Recurrent forced expirations combined with a drop in pulmonary perfusion</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">54. What are the direct blood gas fluctuations occurring during the hyperpnea and apnea phases of Cheyne-Stokes breathing?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> During hyperpnea PCO₂ increases; during apnea PO₂ drops down drastically</div>
+                <div class="option-item correct-answer"><strong>B)</strong> In hyperpnea (hyperventilation), PO₂ rises and PCO₂ falls; in apnea, PCO₂ accumulates and PO₂ falls</div>
+                <div class="option-item"><strong>C)</strong> Total absence of blood gas sensitivity inside central medullary chemoreceptor pathways</div>
+                <div class="option-item"><strong>D)</strong> Complete stabilization of gas values with shifting interstitial pH variables exclusively</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">55. Cheyne-Stokes periodic breathing can be observed in all of the following physiological or clinical states EXCEPT:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Normal deep sleep patterns and exposures to high altitude environments</div>
+                <div class="option-item"><strong>B)</strong> Specific advanced brain diseases and terminal Uremia syndromes</div>
+                <div class="option-item"><strong>C)</strong> Advanced Chronic Congestive Heart Failure states</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Acute cyanide poisoning or static localized restrictive pulmonary fibrosis</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">56. What biological factor accounts for the unique Sigmoid (S-shaped) design of the Oxygen-Hemoglobin Dissociation Curve?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Linear changes matching body temperature variations in the periphery</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Allosteric interactions (cooperative binding) among hemoglobin subunits as O₂ binds</div>
+                <div class="option-item"><strong>C)</strong> Direct competitive binding of bicarbonate ions to central heme iron groups</div>
+                <div class="option-item"><strong>D)</strong> The anatomical vs physiological dead space differences within the lungs</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">57. What are the normal physiological values of PO₂ and SO₂ inside the Pulmonary Veins (oxygenated blood)?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> PO₂ = 40 mmHg &rarr; SO₂ = 75%</div>
+                <div class="option-item correct-answer"><strong>B)</strong> PO₂ = 95 mmHg &rarr; SO₂ = 97%</div>
+                <div class="option-item"><strong>C)</strong> PO₂ = 60 mmHg &rarr; SO₂ = 92%</div>
+                <div class="option-item"><strong>D)</strong> PO₂ = 27 mmHg &rarr; SO₂ = 50%</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">58. What are the normal physiological values of PO₂ and SO₂ inside the Pulmonary Arteries (deoxygenated blood)?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> PO₂ = 95 mmHg &rarr; SO₂ = 97%</div>
+                <div class="option-item"><strong>B)</strong> PO₂ = 50 mmHg &rarr; SO₂ = 89%</div>
+                <div class="option-item correct-answer"><strong>C)</strong> PO₂ = 40 mmHg &rarr; SO₂ = 75%</div>
+                <div class="option-item"><strong>D)</strong> PO₂ = 27 mmHg &rarr; SO₂ = 50%</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">59. According to the reference correlation table, if a patient shows an SpO₂ of 92%, what is the corresponding PaO₂?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 95 mmHg</div>
+                <div class="option-item correct-answer"><strong>B)</strong> 60 mmHg</div>
+                <div class="option-item"><strong>C)</strong> 50 mmHg</div>
+                <div class="option-item"><strong>D)</strong> 40 mmHg</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">60. Based on the same correlation table, an oxygen saturation value of 50% (P50) corresponds to a PaO₂ of:</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> 27 mmHg</div>
+                <div class="option-item"><strong>B)</strong> 40 mmHg</div>
+                <div class="option-item"><strong>C)</strong> 50 mmHg</div>
+                <div class="option-item"><strong>D)</strong> 95 mmHg</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">Page 6 Answer Key 📍 51: B | 52: B | 53: B | 54: B | 55: D | 56: B | 57: B | 58: C | 59: B | 60: A</div>
+            <div class="footer-meta">
+                <span>Faculty of Human Medicine - Suez University</span>
+                <span>Course Instructor: Dr. Ghada Salah El-Dekroury</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="section-title">Page 7: Curve Segments, Shifting Factors, Bohr Effect & 2,3-DPG Interventions</div>
+        
+        <div class="question-box">
+            <div class="question-text">61. What is the physiological significance of the flat upper portion of the Oxy-Hemoglobin curve?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Ensures oxygen loading remains high even if alveolar PO₂ drops, keeping a safety margin</div>
+                <div class="option-item"><strong>B)</strong> Promotes massive unloading of oxygen molecules with minimal changes in pressure</div>
+                <div class="option-item"><strong>C)</strong> Portrays the area of systemic carbon monoxide toxicosis and cell poisoning</div>
+                <div class="option-item"><strong>D)</strong> Facilitates higher binding affinity of CO₂ molecules to hemoglobin structures</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">62. What is the physiological benefit of the steep lower portion of the Oxy-Hemoglobin curve?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Allows tissues to draw large amounts of O₂ with a small drop in PO₂, facilitating diffusion</div>
+                <div class="option-item"><strong>B)</strong> Completely stops oxygen release unless arterial pressure values shoot up heavily</div>
+                <div class="option-item"><strong>C)</strong> Promotes rapid carbamino compound formation in active erythrocytes</div>
+                <div class="option-item"><strong>D)</strong> Signifies a fixed stability plateau for oxygen carrying capacity during sports</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">63. What is the Utilization Coefficient and what is its normal percentage value during rest?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Percentage of total blood returning to the heart; normally around 75%</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Percentage of blood that gives up its oxygen as it passes through tissues; normally 25%</div>
+                <div class="option-item"><strong>A)</strong> Amount of surfactant utilized hourly; normal resting baseline is 50%</div>
+                <div class="option-item"><strong>D)</strong> The gross proportion of exhaled carbon dioxide; normally measured at 30%</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">64. How high can the tissue Utilization Coefficient rise during periods of maximal strenuous exercise?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> It plummets to 5%</div>
+                <div class="option-item correct-answer"><strong>B)</strong> It increases up to 75 to 85% (or even higher)</div>
+                <div class="option-item"><strong>C)</strong> It stays strictly at 25% to protect delicate cerebral cells</div>
+                <div class="option-item"><strong>D)</strong> It doubles to hit a fixed 50% maximal cap</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">65. What is the affinity of Carbon Monoxide (CO) for hemoglobin compared to O₂, and how does it affect the curve?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> It is 240 times higher; it shifts the curve to the left, trapping O₂ and preventing its release</div>
+                <div class="option-item"><strong>B)</strong> It is perfectly equal to oxygen; causing a direct rightward shift patterns</div>
+                <div class="option-item"><strong>C)</strong> It is half the affinity of O₂; causing a collapse of the upper plateau boundary</div>
+                <div class="option-item"><strong>D)</strong> It is 100 times higher; transforming the graph into a straight linear line</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">66. Which group of factors causes a Right Shift of the Oxy-Hb curve, decreasing affinity and enhancing O₂ unloading?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Decreased temperature, decreased CO₂, and decreased Hydrogen ion concentrations</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Increased temperature, increased CO₂, increased H⁺ ions (Bohr effect), and increased 2,3-DPG</div>
+                <div class="option-item"><strong>C)</strong> Acute carbon monoxide intoxication combined with local cyanide toxicosis</div>
+                <div class="option-item"><strong>D)</strong> Total depletion of 2,3-DPG levels within stored blood banks</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">67. What is the Bohr Effect?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> High CO₂ and H⁺ ion concentrations in tissues shift the curve to the right, enhancing O₂ release</div>
+                <div class="option-item"><strong>B)</strong> Clearing of CO₂ in the lungs shifts the curve rightward to aid passive gas departure</div>
+                <div class="option-item"><strong>C)</strong> The ability of carbon monoxide gas to elevate systemic hemoglobin capacities</div>
+                <div class="option-item"><strong>D)</strong> The direct binding of bicarbonate molecules onto the beta chains of hemoglobin</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">68. Where is 2,3-Diphosphoglycerate (2,3-DPG) synthesized, and in response to what physiological stimulus?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Synthesized in hepatic cells in response to elevated systemic blood pressures</div>
+                <div class="option-item"><strong>B)</strong> Formed inside Type II alveolar cells during acute bronchial asthma attacks</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Formed in Red Blood Cells during glycolysis, stimulated by Hypoxia or Anemia</div>
+                <div class="option-item"><strong>D)</strong> Formed within plasma proteins following histotoxic cyanide poisonings</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">69. Where does 2,3-DPG specifically bind on the structural hemoglobin molecule?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> It attaches directly onto the central heme iron coordinates</div>
+                <div class="option-item"><strong>B)</strong> It binds onto the alpha chains of fully oxygenated hemoglobin units</div>
+                <div class="option-item correct-answer"><strong>C)</strong> It binds to the beta chains of deoxygenated hemoglobin (deoxy-Hb)</div>
+                <div class="option-item"><strong>D)</strong> It fastens to peripheral carbamino amine chain complexes</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">70. What are the remaining percentages of 2,3-DPG in Stored Blood at day 7, day 14, and day 28?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> ~99% at 7 days, ~50% at 14 days, and ~5% at 28 days</div>
+                <div class="option-item"><strong>B)</strong> ~50% at 7 days, ~25% at 14 days, and ~0% at 28 days</div>
+                <div class="option-item"><strong>C)</strong> ~100% at 7 days, ~90% at 14 days, and ~80% at 28 days</div>
+                <div class="option-item"><strong>D)</strong> ~5% at 7 days, ~50% at 14 days, and ~99% at 28 days</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">Page 7 Answer Key 📍 61: A | 62: A | 63: B | 64: B | 65: A | 66: B | 67: A | 68: C | 69: C | 70: A</div>
+            <div class="footer-meta">
+                <span>Faculty of Human Medicine - Suez University</span>
+                <span>Course Instructor: Dr. Ghada Salah El-Dekroury</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="section-title">Page 8: CO2 Curve Properties, Haldane Effect & Hypoxia Classifications</div>
+        
+        <div class="question-box">
+            <div class="question-text">71. What distinguishes the Carbon Dioxide Dissociation Curve from the standard Oxygen dissociation curve?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> It is nearly linear, steeper in the physiological range, and lacks a plateau</div>
+                <div class="option-item"><strong>B)</strong> It possesses highly exaggerated upper and lower plateau curves</div>
+                <div class="option-item"><strong>C)</strong> It drops down vertically to run completely parallel to the Y-axis</div>
+                <div class="option-item"><strong>D)</strong> It is perfectly S-shaped and shifts rightward during respiration</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">72. Which physiological variables are plotted on the X-axis and Y-axis of the CO₂ dissociation curve?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> X-axis: pH; Y-axis: Total O₂ content volume</div>
+                <div class="option-item correct-answer"><strong>B)</strong> X-axis: PCO₂ (mmHg); Y-axis: Total CO₂ content of the blood (ml/100ml)</div>
+                <div class="option-item"><strong>C)</strong> X-axis: PO₂ pressure; Y-axis: SpO₂ percentage lines</div>
+                <div class="option-item"><strong>D)</strong> X-axis: Respiratory Rate; Y-axis: Alveolar Ventilation volume</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">73. What are the three primary forms of CO₂ transport in blood and their approximate percentages?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Dissolved (80%), bound to hemoglobin (15%), as bicarbonate (5%)</div>
+                <div class="option-item correct-answer"><strong>B)</strong> As Bicarbonate (75-80%), Carbaminohemoglobin (10-20%), and Dissolved gas (5-10%)</div>
+                <div class="option-item"><strong>C)</strong> Free gas state (50%), carbonic acid form (40%), iron linked (10%)</div>
+                <div class="option-item"><strong>D)</strong> Sodium bicarbonate form (99%) and dissolved inside leucocytes (1%)</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">74. What is the Haldane Effect?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Deoxygenated blood has an increased capacity to carry CO₂; oxygenation of blood in the lungs promotes CO₂ unloading</div>
+                <div class="option-item"><strong>B)</strong> Temperature modifications driving carbon monoxide dissociation kinetics</div>
+                <div class="option-item"><strong>C)</strong> Elevated oxygen binding capabilities following drops in tissue proton numbers</div>
+                <div class="option-item"><strong>D)</strong> Sudden alveolar membrane failure secondary to pulmonary thrombosis</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">75. How many distinct clinical types of Hypoxia are identified within the course syllabus?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Two forms</div>
+                <div class="option-item"><strong>B)</strong> Three forms</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Four forms (4 Types)</div>
+                <div class="option-item"><strong>D)</strong> Five forms</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">76. What are the correct medical names of the four specific types of tissue Hypoxia?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Acute, Chronic, Congenital, and Acquired Hypoxias</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Hypoxemic type, Anemic type, Stagnant type, Histotoxic type</div>
+                <div class="option-item"><strong>C)</strong> Respiratory, Cardiac, Vascular, and Cellular Hypoxias</div>
+                <div class="option-item"><strong>D)</strong> Central, Peripheral, Localized, and Generalized Hypoxias</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">77. What is the definition of Hypoxemic Hypoxia (Hypoxemia)?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Total deficit in functional hemoglobin counts despite normal gas pressures</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Reduced arterial PO₂, resulting in inadequate oxygenation of the hemoglobin</div>
+                <div class="option-item"><strong>C)</strong> Extreme slowing or pooling inside peripheral systemic capillary beds</div>
+                <div class="option-item"><strong>D)</strong> Cell enzyme poisonings preventing utilization of perfectly normal oxygen supplies</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">78. What are the two main mechanisms causing Hypoxemic Hypoxia?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Advanced systemic anemia or severe acute hemorrhage events</div>
+                <div class="option-item"><strong>B)</strong> Cyanide toxicosis or direct gaseous carbon monoxide poisoning profiles</div>
+                <div class="option-item correct-answer"><strong>C)</strong> (1) Decreased PO₂ in inspired air (high altitudes/aviators) or (2) Cardiopulmonary failure (lung disease/shunts)</div>
+                <div class="option-item"><strong>D)</strong> Localized tourniquet inflation or vascular spasms in peripheral limbs</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">79. What defines Anemic Hypoxia, and what are its major medical etiologies?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Reduced blood flow rates owing to sudden acute congestive heart failure</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Decreased oxygen-carrying capacity due to low functional Hb; caused by anemia, hemorrhage, CO poisoning, or methemoglobinemia</div>
+                <div class="option-item"><strong>C)</strong> Drop in environmental barometric pressure secondary to high mountain climbing</div>
+                <div class="option-item"><strong>D)</strong> Total failure of alveolar structures to synthesize functional surfactant batches</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">80. What is the definition of Stagnant (Hypokinetic) Hypoxia?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Severe inactivation of oxidative enzyme complexes within mitochondria</div>
+                <div class="option-item"><strong>B)</strong> Fall in arterial oxygen pressure lines caused by renal-respiratory errors</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Arterial PO₂ and total oxygen are normal, but blood flow to tissues is slowed or inadequate</div>
+                <div class="option-item"><strong>D)</strong> Absolute block in gas diffusions across the alveolar capillary barriers</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">Page 8 Answer Key 📍 71: A | 72: B | 73: B | 74: A | 75: C | 76: B | 77: B | 78: C | 79: B | 80: C</div>
+            <div class="footer-meta">
+                <span>Faculty of Human Medicine - Suez University</span>
+                <span>Course Instructor: Dr. Ghada Salah El-Dekroury</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="section-title">Page 9: Stagnant Subtypes, Cyanosis Thresholds, Clinical Classes & Tetralogy of Fallot</div>
+        
+        <div class="question-box">
+            <div class="question-text">81. Stagnant hypoxia can be General or Local. What are the specific causes of General Stagnant Hypoxia?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Heart diseases weakening circulation, poor venous return, or shock states</div>
+                <div class="option-item"><strong>B)</strong> Raynaud's syndrome, Buerger's disease, and local tourniquets exclusively</div>
+                <div class="option-item"><strong>C)</strong> Severe acute blood loss hemorrhage and pernicious macrocytic anemia</div>
+                <div class="option-item"><strong>D)</strong> High-altitude flights inside unpressurized aircraft cabins lacking O₂ gear</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">82. Which of the following is a recognized cause of Local Stagnant Hypoxia?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Congestive heart failure and general cardiovascular shock</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Raynaud's disease, Buerger's disease, tourniquets, ergot poisoning, and exposure to cold</div>
+                <div class="option-item"><strong>C)</strong> Cyanide toxicity blocking cellular utilization pathways completely</div>
+                <div class="option-item"><strong>D)</strong> Inherited sickle cell anemia crises displaying universal pain signs</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">83. What is Histotoxic Hypoxia and what classic biochemical example is provided?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Inability of blood to carry oxygen due to severe structural iron lack</div>
+                <div class="option-item"><strong>B)</strong> Venous pooling within distal extremities brought on by freezing exposures</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Tissues cannot utilize oxygen despite normal delivery and pressure; caused by Cyanide poisoning</div>
+                <div class="option-item"><strong>D)</strong> Structural damage to Type I alveolar cells following severe chest compression</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">84. What is the absolute physiological threshold for Cyanosis to become clinically visible?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Accumulation of 2 gm of reduced hemoglobin per 100 ml of capillary blood</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Presence of 5 gm of reduced hemoglobin per 100 ml of capillary blood</div>
+                <div class="option-item"><strong>C)</strong> Drop in arterial saturation percentage (SpO₂) under a fixed 80% mark</div>
+                <div class="option-item"><strong>D)</strong> Presence of more than 10 gm of carbaminohemoglobin compounds in veins</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">85. Clinical presentation of Cyanosis is categorized into which two major classifications?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Acute and Chronic Cyanosis</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Central (generalized) and Peripheral (localized) Cyanosis</div>
+                <div class="option-item"><strong>C)</strong> Pulmonary-driven and Cardiac-driven Cyanosis only</div>
+                <div class="option-item"><strong>D)</strong> Congenital neonatal and Acquired histotoxic Cyanosis</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">86. Central cyanosis occurs in respiratory ventilation errors and cardiac anomalies like septal defects (ASD/VSD) or mixed disorders such as:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Raynaud's disease</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Tetralogy of Fallot</div>
+                <div class="option-item"><strong>C)</strong> Buerger's thromboangiitis obliterans</div>
+                <div class="option-item"><strong>D)</strong> Isolated infant respiratory distress syndrome variation</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">87. What are the four specific anatomical cardiac anomalies that define Tetralogy of Fallot?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Ventricular Septal Defect (VSD), Pulmonary Stenosis, Overriding Aorta, and Right Ventricular Hypertrophy</div>
+                <div class="option-item"><strong>B)</strong> Atrial Septal Defect, Mitral Stenosis, Aortic Coarctation, and Left Ventricular Hypertrophy</div>
+                <div class="option-item"><strong>C)</strong> Patent Ductus Arteriosus, Tricuspid Atresia, Overriding Pulmonary Trunk, and Cardiomyopathy</div>
+                <div class="option-item"><strong>D)</strong> VSD, Aortic Insufficiency, Left Ventricular Dilation, and Bacterial Endocarditis</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">88. Which clinical entity represents a classic example of Peripheral (localized) Cyanosis?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Congenital Tetralogy of Fallot</div>
+                <div class="option-item"><strong>B)</strong> Large isolated Ventricular Septal Defect (VSD)</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Raynaud's disease (triggered by cold exposure or emotion)</div>
+                <div class="option-item"><strong>D)</strong> Extreme respiratory failure during a status asthmaticus attack</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">89. What are the three broad physiological causes of Cyanosis listed in the text's summaries?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Hypoxic hypoxia, Stagnant hypoxia, and Asphyxia</div>
+                <div class="option-item"><strong>B)</strong> Anemic hypoxia, Histotoxic hypoxia, and systemic shock</div>
+                <div class="option-item"><strong>C)</strong> Cyanide poisoning, Carbon monoxide poisoning, and Uremia</div>
+                <div class="option-item"><strong>D)</strong> Pulmonary Fibrosis, Asthma, and Emphysema</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">90. What are the four distinct physical factors that affect the clinical appearance of Cyanosis?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Ambient room temperature, peripheral pulse rate, systemic cardiac output, and body weight</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Capillary factor, Skin thickness, Skin pigmentation, and Blood composition</div>
+                <div class="option-item"><strong>C)</strong> Patient height, gender markers, genetic genotypes, and baseline core metabolic rates</div>
+                <div class="option-item"><strong>D)</strong> Total surfactant volume, static lung compliance, and intrapleural pressure values</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">Page 9 Answer Key 📍 81: A | 82: B | 83: C | 84: B | 85: B | 86: B | 87: A | 88: C | 89: A | 90: B</div>
+            <div class="footer-meta">
+                <span>Faculty of Human Medicine - Suez University</span>
+                <span>Course Instructor: Dr. Ghada Salah El-Dekroury</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
