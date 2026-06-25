@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suez University - Faculty of Medicine - Comprehensive Respiratory Histology Exam</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #334155;
+            background-color: #f1f5f9;
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        
+        .page {
+            background-color: #ffffff;
+            width: 210mm;
+            min-height: 297mm;
+            padding: 20mm;
+            margin: 20px auto;
+            box-sizing: border-box;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            page-break-after: always;
+        }
+
+        @media print {
+            body {
+                background-color: #ffffff;
+                padding: 0;
+            }
+            .page {
+                margin: 0;
+                border: none;
+                box-shadow: none;
+                width: 100%;
+                min-height: 100vh;
+            }
+        }
+
+        .header-blue {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 4px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        
+        .header-blue h1 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .header-blue .subtitle {
+            font-size: 12px;
+            margin-top: 5px;
+            color: #93c5fd;
+            font-weight: 500;
+        }
+
+        .section-title {
+            border-left: 4px solid #003366;
+            padding-left: 10px;
+            color: #003366;
+            font-weight: 700;
+            font-size: 13px;
+            margin: 15px 0 12px 0;
+            text-transform: uppercase;
+        }
+
+        .question-box {
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 14px;
+            margin-bottom: 12px;
+            background-color: #ffffff;
+            page-break-inside: avoid;
+        }
+
+        .question-text {
+            font-weight: 600;
+            font-size: 14px;
+            color: #0f172a;
+            margin-bottom: 10px;
+        }
+
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            padding-left: 5px;
+        }
+
+        .option-item {
+            font-size: 13px;
+            color: #475569;
+        }
+        
+        .option-item strong {
+            color: #0f172a;
+            margin-right: 4px;
+        }
+
+        .footer-wrapper {
+            margin-top: auto;
+            padding-top: 15px;
+        }
+        
+        .key-banner {
+            background-color: #e6f0fa;
+            border-left: 4px solid #003366;
+            padding: 8px 14px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 700;
+            color: #003366;
+            margin-bottom: 10px;
+        }
+
+        .footer-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            color: #94a3b8;
+            border-top: 1px solid #f1f5f9;
+            padding-top: 6px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Respiratory System Histology Examination</h1>
+            <div class="subtitle">Suez University • Faculty of Medicine • Department of Histology and Cell Biology</div>
+        </div>
+
+        <div class="section-title">Page 1: Conducting Portion &amp; Nasal Cavity Framework</div>
+
+        <div class="question-box">
+            <div class="question-text">1. Which of the following functional combinations correctly lists all primary responsibilities of the conducting portion?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Filtering, moistening, warming, and conducting air</div>
+                <div class="option-item"><strong>B)</strong> Gas exchange, surfactant synthesis, and blood filtration</div>
+                <div class="option-item"><strong>C)</strong> Detoxification, endocrine secretion, and gas distribution</div>
+                <div class="option-item"><strong>D)</strong> Exclusively warming and oxygenating the systemic arterial blood</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">2. Which anatomical structure is histologically classified as the final component of the conducting portion?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Respiratory bronchiole</div>
+                <div class="option-item"><strong>B)</strong> Alveolar duct</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Terminal bronchiole</div>
+                <div class="option-item"><strong>D)</strong> Segmental tertiary bronchus</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">3. When moving deeper into the nasal vestibule, how does the lining epithelium transform before becoming respiratory epithelium?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Simple cuboidal to stratified columnar ciliated</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Stratified squamous keratinized to stratified squamous non-keratinized</div>
+                <div class="option-item"><strong>C)</strong> Pseudopodia-bearing simple squamous to transient columnar</div>
+                <div class="option-item"><strong>D)</strong> Transitional epithelium directly to stratified squamous keratinized</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">4. Which morphological features are distinctively localized within the sub-epithelium and skin of the nasal vestibule?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Multi-lamellar bodies and diffuse Clara cells</div>
+                <div class="option-item"><strong>B)</strong> Purely serous Kulchitsky cells and deep hyaline plates</div>
+                <div class="option-item"><strong>C)</strong> Highly organized C-shaped elastic cartilage framework</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Vibrissae (thick short hairs), sweat glands, and sebaceous glands</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">5. What is the precise histological definition and function of "Swell Bodies" within the nasal fossae lamina propria?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Large venous plexuses in the conchae that periodically engorge to warm inspired air</div>
+                <div class="option-item"><strong>B)</strong> Lymphatic aggregations that synthesize protective surfactants locally</div>
+                <div class="option-item"><strong>C)</strong> Specialized sensory corpuscles responding to olfactory chemical changes</div>
+                <div class="option-item"><strong>D)</strong> Mucus-secreting epithelial invaginations lacking a clear basal lamina</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">6. Which specific part of the nasal cavity framework is lined by specialized Olfactory Epithelium instead of standard respiratory epithelium?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Inferior nasal concha</div>
+                <div class="option-item"><strong>B)</strong> Middle nasal concha</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Superior nasal concha</div>
+                <div class="option-item"><strong>D)</strong> Entire floor of the nasal fossae</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">7. Histologically, how is the mucosal membrane of the paranasal sinuses uniquely arranged against its underlying support?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Separated from bone by a thick, highly vascularized muscularis mucosae layer</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Fused directly with the underlying periosteum of the cranial bones</div>
+                <div class="option-item"><strong>C)</strong> Free-floating without attachments, forming transient structural air folds</div>
+                <div class="option-item"><strong>D)</strong> Anchored exclusively by dense elastic sheets to regional striated skeletal fibers</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">8. Which type of lining epithelium protects the Oropharynx and Laryngopharynx against mechanical frictional wear?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Pseudostratified ciliated columnar epithelium</div>
+                <div class="option-item"><strong>B)</strong> Simple columnar epithelium with specialized brush borders</div>
+                <div class="option-item"><strong>C)</strong> Stratified squamous keratinized epithelium</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Stratified squamous non-keratinized epithelium</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">
+                ANSWER KEY 📍 Q1: A | Q2: C | Q3: B | Q4: D | Q5: A | Q6: C | Q7: B | Q8: D
+            </div>
+            <div class="footer-meta">
+                <div>Suez University • Faculty of Medicine</div>
+                <div>Page 1 of 6</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Respiratory System Histology Examination</h1>
+            <div class="subtitle">Suez University • Faculty of Medicine • Department of Histology and Cell Biology</div>
+        </div>
+
+        <div class="section-title">Page 2: Laryngeal Histology &amp; Tracheal Wall Layers</div>
+
+        <div class="question-box">
+            <div class="question-text">9. Which lining pattern covers the lingual surface and the apical margin of the Epiglottis?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Stratified squamous non-keratinized epithelium</div>
+                <div class="option-item"><strong>B)</strong> Pseudostratified ciliated columnar epithelium</div>
+                <div class="option-item"><strong>C)</strong> Simple cuboidal non-ciliated epithelium</div>
+                <div class="option-item"><strong>D)</strong> Stratified columnar with highly developed microvilli borders</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">10. Which combination lists only laryngeal cartilages structurally classified under the Elastic variety?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Thyroid, Cricoid, and lower base of the Arytenoid</div>
+                <div class="option-item"><strong>B)</strong> Cricoid, Trachealis framework, and major Bronchial plates</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Epiglottis, Corniculate, Cuneiform, and tips of the Arytenoid</div>
+                <div class="option-item"><strong>D)</strong> Thyroid, Epiglottis, and complete vocal rings</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">11. Which major laryngeal cartilages are composed of Hyaline cartilage, predisposing them to calcification later in life?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Epiglottis and Cuneiform structures</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Thyroid, Cricoid, and most of the Arytenoid cartilage</div>
+                <div class="option-item"><strong>C)</strong> Corniculate and vocal process tips exclusively</div>
+                <div class="option-item"><strong>D)</strong> None; all laryngeal supportive structures are strictly fibrocartilaginous</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">12. Which elements are localized within the True Vocal Cords (Vocal Folds) to support phonation?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Seromucous laryngeal glands and respiratory epithelium covering</div>
+                <div class="option-item"><strong>B)</strong> Smooth muscle fibers forming the circular sphincter lines</div>
+                <div class="option-item"><strong>C)</strong> Hyaline plates embedded directly within loose mucosal reflections</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Vocal ligament (parallel elastic fibers), Vocalis muscle (skeletal), and stratified squamous non-keratinized epithelium</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">13. The mucosal layer of the human Trachea is structurally composed of which components?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Respiratory epithelium and a lamina propria rich in elastic fibers and diffuse lymphocytes</div>
+                <div class="option-item"><strong>B)</strong> Stratified squamous epithelium and dense inner longitudinal skeletal layers</div>
+                <div class="option-item"><strong>C)</strong> Simple squamous lining resting directly over deep sub-mucosal serous glands</div>
+                <div class="option-item"><strong>D)</strong> Clara-cell dominated lining sheet and sub-adjacent hyaline plates</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">14. What structural feature characterizes the Submucosa layer of the human Trachea?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Complete absence of blood channels and absolute replacement by avascular elastic networks</div>
+                <div class="option-item"><strong>B)</strong> Clusters of large unmyelinated neuronal cell bodies acting as local sensory filters</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Presence of mixed seromucous glands producing part of the airway fluid sheen</div>
+                <div class="option-item"><strong>D)</strong> Concentric rings of dense smooth muscle completely unattached to outer components</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">15. How many hyaline cartilage rings are typically found in the tracheal adventitia, and what is their configuration?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> 50-60 complete closed concentric osseous rings</div>
+                <div class="option-item correct-answer"><strong>B)</strong> 10-12 C-shaped hyaline cartilage rings open posteriorly</div>
+                <div class="option-item"><strong>C)</strong> 5-7 irregular triangular elastic plates overlapping vertically</div>
+                <div class="option-item"><strong>D)</strong> Exactly 20 spiral-shaped fibrocartilage loops wrapping downwards</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">16. What is the tissue composition and function of the Trachealis muscle?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Striated skeletal muscle that prevents collapsing during forced vocalization</div>
+                <div class="option-item"><strong>B)</strong> Elastic connective tissue bands that permanently anchor the esophagus</div>
+                <div class="option-item"><strong>C)</strong> Cardiac-like syncytial fibers generating regular contractility waves</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Smooth muscle bridging the open posterior gap of C-shaped tracheal cartilages to adjust lumen size</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">
+                ANSWER KEY 📍 Q9: A | Q10: C | Q11: B | Q12: D | Q13: A | Q14: C | Q15: B | Q16: D
+            </div>
+            <div class="footer-meta">
+                <div>Suez University • Faculty of Medicine</div>
+                <div>Page 2 of 6</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Respiratory System Histology Examination</h1>
+            <div class="subtitle">Suez University • Faculty of Medicine • Department of Histology and Cell Biology</div>
+        </div>
+
+        <div class="section-title">Page 3: Respiratory Epithelial Diversity &amp; Bronchial Changes</div>
+
+        <div class="question-box">
+            <div class="question-text">17. Which cell type represents the most numerous population within the classical respiratory epithelium?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Ciliated columnar cells</div>
+                <div class="option-item"><strong>B)</strong> Goblet cells</div>
+                <div class="option-item"><strong>C)</strong> Basal stem cells</div>
+                <div class="option-item"><strong>D)</strong> Kulchitsky neuroendocrine cells</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">18. Which histochemical stain and light microscopic appearance uniquely identifies functional Goblet cells?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Strongly Sudan Black positive with dense lipid droplets filling the base</div>
+                <div class="option-item"><strong>B)</strong> Deeply eosinophilic cytoplasm containing large central crystalline rods</div>
+                <div class="option-item correct-answer"><strong>C)</strong> PAS-positive reaction with a pale, foamy apical cytoplasm containing mucinogen granules</div>
+                <div class="option-item"><strong>D)</strong> Silver impregnation positive revealing elongated cytoplasmic pseudopods</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">19. What is the functional importance of the short Basal cells resting exclusively on the tracheal basement membrane?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Phagocytosing macro-particulate impurities that bypass mechanical hairs</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Serving as reserve stem cells capable of dividing to regenerate other epithelial cell types</div>
+                <div class="option-item"><strong>C)</strong> Directly secreting watery fluids into the sub-mucosal gland systems</div>
+                <div class="option-item"><strong>D)</strong> Propelling mucus sheets upward via coordination with nerve networks</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">20. Which structural feature and role defines Brush Cells within the respiratory mucosal lining?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Abundant motile cilia that beat downward toward the pharyngeal exit</div>
+                <div class="option-item"><strong>B)</strong> Massive accumulations of lamellar bodies secreting specialized localized mucus splits</div>
+                <div class="option-item"><strong>C)</strong> Complete absence of nucleated bodies, functioning as transient metabolic bridges</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Elongated microvilli on the apical surface with sensory nerve endings synapsing at the base</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">21. To which integrated regulatory network do the Small Granule Cells (Kulchitsky cells) belong?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Diffuse Neuroendocrine System (DNES / APUD)</div>
+                <div class="option-item"><strong>B)</strong> Reticuloendothelial macrophage clearing system</div>
+                <div class="option-item"><strong>C)</strong> Elastic monitoring mechanoreceptor network</div>
+                <div class="option-item"><strong>D)</strong> Exocrine fluid transport system</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">22. As the respiratory tree branches from primary bronchi down to intrapulmonary bronchi, how do structural elements change?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Cartilage rings become thicker, while smooth muscle layers completely vanish</div>
+                <div class="option-item"><strong>B)</strong> Lining epithelium thickens into stratified squamous sheets containing more glands</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Cartilage rings are replaced by isolated plates, smooth muscle relative thickness increases, and glands decrease</div>
+                <div class="option-item"><strong>D)</strong> Alveolar outpocketings dominate the upper mucosal margins, obliterating the muscularis layer</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">23. Which structures are completely and characteristically absent from the wall of a Bronchiole?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Smooth muscle bundles and elastic fiber sheets</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Cartilage plates and sub-mucosal glands</div>
+                <div class="option-item"><strong>C)</strong> Clara cells and tight junction networks</div>
+                <div class="option-item"><strong>D)</strong> Microvascular capillary loops and structural collagen strands</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">24. What is the cytological appearance of Clara cells (Club cells) under the light microscope?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Highly flattened squamous shapes bearing long motile flagella extensions</div>
+                <div class="option-item"><strong>B)</strong> Low cuboidal profiles containing massive peripheral vacuoles full of basic mucus</div>
+                <div class="option-item"><strong>C)</strong> Multicellular clusters containing visible eccentric brown pigment grains</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Dome-shaped, non-ciliated cells projecting prominently into the bronchiolar lumen</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">
+                ANSWER KEY 📍 Q17: A | Q18: C | Q19: B | Q20: D | Q21: A | Q22: C | Q23: B | Q24: D
+            </div>
+            <div class="footer-meta">
+                <div>Suez University • Faculty of Medicine</div>
+                <div>Page 3 of 6</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Respiratory System Histology Examination</h1>
+            <div class="subtitle">Suez University • Faculty of Medicine • Department of Histology and Cell Biology</div>
+        </div>
+
+        <div class="section-title">Page 4: Bronchiolar Functions &amp; Alveolar Microanatomy</div>
+
+        <div class="question-box">
+            <div class="question-text">25. Which functional description details the physiological jobs assigned to Clara cells in the human lung?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Detoxifying inhaled toxins via an abundant smooth endoplasmic reticulum (sER), acting as stem cells, and secreting a surfactant-like agent</div>
+                <div class="option-item"><strong>B)</strong> Exclusively synthesizing massive lines of IgA antibodies to neutralize regional bacteria</div>
+                <div class="option-item"><strong>C)</strong> Rapidly transforming into active capillary endothelial tubes when injury sets in</div>
+                <div class="option-item"><strong>D)</strong> Releasing histamine and serotonin to narrow the airway lumen during expiration</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">26. Which morphological profile represents a Terminal Bronchiole under structural analysis?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Diameter exceeding 5 mm with irregular hyaline sheets scattered along the back wall</div>
+                <div class="option-item"><strong>B)</strong> Wall extensively disrupted by hundreds of functional gas-exchanging alveoli openings</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Diameter less than 0.5 mm, lined by simple cuboidal epithelium containing Clara cells, and possessing a complete smooth muscle layer</div>
+                <div class="option-item"><strong>D)</strong> Pseudostratified ciliated columnar lining with hundreds of PAS-positive goblet cells</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">27. Which structural component serves as the initial, earliest site where gaseous exchange can take place?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Terminal bronchiole lumen</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Respiratory bronchiole segment</div>
+                <div class="option-item"><strong>C)</strong> Primary intrapulmonary lobar bronchus</div>
+                <div class="option-item"><strong>D)</strong> Segmental tertiary branching point</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">28. Which cell type covers approximately 95% of the total internal surface area of human Alveoli?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Type II pneumocytes</div>
+                <div class="option-item"><strong>B)</strong> Alveolar dust macrophages</div>
+                <div class="option-item"><strong>C)</strong> Dynamic septal fibroblasts</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Type I pneumocytes</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">29. What is the classical structural appearance and distribution percentage of Type II pneumocytes?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Cuboidal cells with central round nuclei that cover only about 5% of the surface area but are numerically frequent</div>
+                <div class="option-item"><strong>B)</strong> Extremely thinned squamous profiles covering 95% of the absolute surface area lines</div>
+                <div class="option-item"><strong>C)</strong> Elongated multi-nucleated syncytial cords filling up the entire septal diameter space</div>
+                <div class="option-item"><strong>D)</strong> Highly branched dendritic shapes that migrate continuously across capillary endothelial walls</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">30. Which characteristic cytoplasmic organelle/inclusion body is found inside Type II pneumocytes?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Large crystalline elementary particles rich in hemosiderin rings</div>
+                <div class="option-item"><strong>B)</strong> Abundant zymogen vacuoles containing raw proteolytic trypsin complexes</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Multilamellar bodies containing phospholipid sheets of newly synthesized surfactant</div>
+                <div class="option-item"><strong>D)</strong> Melanosome grids structurally organized along parallel tubule rows</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">31. Beyond secreting active pulmonary surfactant, what additional vital roles are performed by Type II pneumocytes?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Destroying old red blood cells and storing iron molecules safely inside the lung septa</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Phagocytosing/recycling surfactant and dividing to regenerate both themselves and Type I pneumocytes</div>
+                <div class="option-item"><strong>C)</strong> Building the collagenous bundles that create the outer visceral pleural layer sheets</div>
+                <div class="option-item"><strong>D)</strong> Serving as structural contracting cells that physically shrink alveoli during coughing episodes</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">32. Which of the following lists the correct layers of the Blood-Air Barrier across which gas exchange occurs?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Capillary endothelial cell cytoplasm, trachealis layer, and elastic fibrocartilage sheets</div>
+                <div class="option-item"><strong>B)</strong> Type II pneumocyte layer, smooth muscle cell sleeve, and continuous capillary endothelium</div>
+                <div class="option-item"><strong>C)</strong> Clara cell secretory layer, fused periosteum, and endothelial cell tight junction strings</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Surfactant layer + Type I pneumocyte, basement membrane of Type I pneumocyte, basement membrane of capillary, and capillary endothelium</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">
+                ANSWER KEY 📍 Q25: A | Q26: C | Q27: B | Q28: D | Q29: A | Q30: C | Q31: B | Q32: D
+            </div>
+            <div class="footer-meta">
+                <div>Suez University • Faculty of Medicine</div>
+                <div>Page 4 of 6</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Respiratory System Histology Examination</h1>
+            <div class="subtitle">Suez University • Faculty of Medicine • Department of Histology and Cell Biology</div>
+        </div>
+
+        <div class="section-title">Page 5: Septal Cells, Phagocytes &amp; Pleural Membranes</div>
+
+        <div class="question-box">
+            <div class="question-text">33. Which cellular and fiber elements are found inside the thick regions of the Interalveolar Septum?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Capillaries, elastic/reticular fibers, fibroblasts, macrophages, mast cells, and lymphocytes</div>
+                <div class="option-item"><strong>B)</strong> Purely skeletal fibers, multinucleated osteoclasts, and type III mucous glands</div>
+                <div class="option-item"><strong>C)</strong> Regular dense arrays of parallel collagen type I strings and chondrocytes</div>
+                <div class="option-item"><strong>D)</strong> Isolated neurosecretory cell sheets lacking basic blood capillary interfaces</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">34. What is the functional definition and origin of "Dust Cells" within the pulmonary tissue environment?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Desquamated Type I epithelial profiles that have lost their cellular nuclei frames</div>
+                <div class="option-item"><strong>B)</strong> Secretory epithelial elements that gather dry metabolic crystals into vacuoles</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Active alveolar macrophages that phagocytose and clear inhaled particulate soot or dust</div>
+                <div class="option-item"><strong>D)</strong> Specialized epithelial stem layers that synthesize local elastic framework networks</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">35. Under what specific pathological circumstances do "Heart Failure Cells" form inside the alveoli?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> During severe systemic bacterial septicemia causing destruction of major airway walls</div>
+                <div class="option-item correct-answer"><strong>B)</strong> When circulatory overload forces RBCs out of capillaries into alveoli, where macrophages engulf them</div>
+                <div class="option-item"><strong>C)</strong> Following complete fibrosis of the tracheal muscle, which causes generalized lung collapse</div>
+                <div class="option-item"><strong>D)</strong> During acute developmental absence of primary surfactant inside respiratory segments</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">36. What is the typical biological fate or clearance route for active Alveolar Macrophages?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Complete disintegration inside the alveolar air space with chemical reabsorption</div>
+                <div class="option-item"><strong>B)</strong> Migration directly into regional bronchial cartilages to undergo calcification changes</div>
+                <div class="option-item"><strong>C)</strong> Permanent transformation into squamous lining sheets to replace dead cells</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Elimination via expectoration (coughing up), swallowing into the GI tract, or drainage through lymphatics</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">37. How is the human Pleura organized, and what fluid fills its potential space?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Visceral and parietal layers lined by mesothelium, separated by a slit-like cavity containing serous fluid</div>
+                <div class="option-item"><strong>B)</strong> A single dense fibrous sheath filled with viscous mucus produced by specialized Clara cells</div>
+                <div class="option-item"><strong>C)</strong> A layered skeletal framework containing large vascular lakes of raw venous blood poolings</div>
+                <div class="option-item"><strong>D)</strong> Triple layers of hyaline plates separated by transient gas pockets designed to buffer impacts</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">38. What structural feature allows for direct communication and pressure equalization between adjacent alveoli?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Intercalated branching lines of the trachealis skeletal elements</div>
+                <div class="option-item"><strong>B)</strong> Deep seromucous invaginations crossing the entire pleural space sheet</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Alveolar pores (Pores of Kohn) found within the interalveolar septa</div>
+                <div class="option-item"><strong>D)</strong> Direct vascular shunts communicating between terminal Clara cell networks</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">39. Which choice accurately contrasts a main Intrapulmonary Bronchus from a Bronchiole?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Bronchi lack smooth muscle layers completely, while bronchioles possess thick cartilage sheets</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Bronchus has cartilage plates and sub-mucosal glands, whereas bronchiole has neither</div>
+                <div class="option-item"><strong>C)</strong> Bronchus contains only Clara cells, while bronchiole is lined by stratified squamous cells</div>
+                <div class="option-item"><strong>D)</strong> There are no structural differences; they vary exclusively in their macroscopic position</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">40. Which architectural element provides the vital recoil elasticity needed for passive lung expiration?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Dense bands of circular hyaline cartilage fragments in the alveolar ducts</div>
+                <div class="option-item"><strong>B)</strong> Specialized tonofilament bundles anchored within the ciliated cell margins</div>
+                <div class="option-item"><strong>C)</strong> Thick layers of skeletal muscle enclosing the entire visceral pleural lining</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Abundant networks of elastic fibers distributed inside the interalveolar septa</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">
+                ANSWER KEY 📍 Q33: A | Q34: C | Q35: B | Q36: D | Q37: A | Q38: C | Q39: B | Q40: D
+            </div>
+            <div class="footer-meta">
+                <div>Suez University • Faculty of Medicine</div>
+                <div>Page 5 of 6</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Respiratory System Histology Examination</h1>
+            <div class="subtitle">Suez University • Faculty of Medicine • Department of Histology and Cell Biology</div>
+        </div>
+
+        <div class="section-title">Page 6: Advanced Structural Details &amp; Physiological Variations</div>
+
+        <div class="question-box">
+            <div class="question-text">41. Which of the following features accurately describes the histological structure of the False Vocal Cords (Ventricular folds)?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Lined by stratified squamous non-keratinized epithelium and containing robust strips of skeletal vocal muscle</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Lined by respiratory epithelium, containing seromucous glands in its lamina propria, and completely lacking intrinsic muscle</div>
+                <div class="option-item"><strong>C)</strong> Covered by simple squamous epithelium resting over thick concentric shells of elastic cartilage</div>
+                <div class="option-item"><strong>D)</strong> Completely devoid of an epithelial layer, presenting as a bare dense regular fibroelastic bundle</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">42. What is the cytological characteristic and primary functional product of the Serous Cells within the respiratory epithelium?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Squamous configuration providing local mechanical insulation via keratin precursors</div>
+                <div class="option-item"><strong>B)</strong> Broad dendritic branches secreting high-viscosity mucinogen molecules into regional ducts</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Columnar profile with apical microvilli that secretes a watery, low-viscosity fluid to moisten the mucosal surface</div>
+                <div class="option-item"><strong>D)</strong> Short pyramidal stem status that strictly synthesizes elements of the dense basal lamina</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">43. Which specific combinations of lymphoid tissues and anatomical openings are located within the lamina propria of the Nasopharynx?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> The pharyngeal tonsil (adenoid when enlarged) and the terminal openings of the auditory (Eustachian) tubes</div>
+                <div class="option-item"><strong>B)</strong> Multi-layered palatine tonsils and the sub-epithelial exits of the submandibular salivary ducts</div>
+                <div class="option-item"><strong>C)</strong> Diffuse lingual lymphatic aggregates and the high-pressure fenestrated venous swell bodies</div>
+                <div class="option-item"><strong>D)</strong> Well-developed Peyer's patches and the localized anchoring bundles of the vocal ligaments</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">44. Although alveolar pores (Pores of Kohn) serve a physiological purpose in equalizing air pressure, what is their clinical disadvantage during infection?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> They promote local tissue ossification by trapping wandering dust cells permanently</div>
+                <div class="option-item"><strong>B)</strong> They leak active surfactant directly into the interstitial connective tissue beds</div>
+                <div class="option-item"><strong>C)</strong> They stimulate the rapid degeneration of neighboring capillary endothelial cells</div>
+                <div class="option-item correct-answer"><strong>D)</strong> They facilitate the easy intra-pulmonary spread of bacteria and inflammatory exudates between adjacent alveoli</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">45. Which specialized intercellular junctions bind Type I pneumocytes together, preventing the transudation of tissue fluid into the alveolar lumen?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Gap junctions (communicating junctions) distributed uniformly along apical surfaces</div>
+                <div class="option-item"><strong>B)</strong> Hemidesmosomes anchoring the lateral cellular borders directly to elastic networks</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Tight junctions (occluding junctions / zonula occludens) connecting adjacent cell margins</div>
+                <div class="option-item"><strong>D)</strong> Loose desmosomal plaques that open transiently during standard inspiration</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">46. How does the "Nasal Cycle" operate physiologically through the action of the Swell Bodies within the nasal fossae lamina propria?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> By alternating vascular engorgement between sides every few hours, allowing the contralateral mucosa to recover from dehydration</div>
+                <div class="option-item"><strong>B)</strong> By simultaneously distending all venous plexuses during sleep to maximize systemic carbon dioxide expulsion</div>
+                <div class="option-item"><strong>C)</strong> By generating periodic waves of smooth muscle contraction to manually propel trapped mucous into the nasopharynx</div>
+                <div class="option-item"><strong>D)</strong> By completely occluding the superior concha to direct inspired airflow exclusively over the olfactory sheets</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">47. Which statement accurately details the autonomic nervous system's control over the smooth muscle of human Bronchioles?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Sympathetic stimulation triggers intense bronchoconstriction, while parasympathetic induces passive bronchodilation</div>
+                <div class="option-item"><strong>B)</strong> Somatic motor nerve networks establish a continuous, rhythmic peristalsis unaffected by autonomic fibers</div>
+                <div class="option-item"><strong>C)</strong> Both divisions act synergistically to stimulate the complete degeneration of local elastic sheets during exercise</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Parasympathetic stimulation causes bronchoconstriction, whereas sympathetic stimulation mediates bronchodilation</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">48. Structurally, the delicate interalveolar septum is lined on both of its outer air-facing boundaries by which element?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Dense layers of stratified squamous non-keratinized protection cells completely devoid of a basal lamina</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Alveolar epithelium (composed of Type I and Type II pneumocytes) resting over their respective basal laminae</div>
+                <div class="option-item"><strong>C)</strong> Pseudostratified ciliated columnar cells intermixed with thick patches of PAS-positive goblet lines</div>
+                <div class="option-item"><strong>D)</strong> Continuous endothelial cell sheets that lack any intervening pulmonary epithelium covering</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">
+                ANSWER KEY 📍 Q41: B | Q42: C | Q43: A | Q44: D | Q45: C | Q46: A | Q47: D | Q48: B
+            </div>
+            <div class="footer-meta">
+                <div>Suez University • Faculty of Medicine</div>
+                <div>Page 6 of 6</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
