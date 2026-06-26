@@ -110,9 +110,18 @@
         margin-right: 4px;
     }
 
-    .footer-wrapper {
+   .option-item.correct-answer {
+       color: #155724 !important;
+       font-weight: 700;
+    }
+    
+   .option-item.correct-answer strong {
+        color: #155724 !important;
+    }
+
+   .footer-wrapper {
         margin-top: auto;
-        padding-top: 15px;
+        padding-top: 15px
     }
     
     .key-banner {
