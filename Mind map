@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Antibiotics - Ultimate Static Mind Map</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #334155;
+            background-color: #f1f5f9;
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        
+        .page {
+            background-color: #ffffff;
+            width: 210mm;
+            min-height: 297mm;
+            padding: 20mm;
+            margin: 20px auto;
+            box-sizing: border-box;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            page-break-after: always;
+        }
+
+        @media print {
+            body {
+                background-color: #ffffff;
+                padding: 0;
+            }
+            .page {
+                margin: 0;
+                border: none;
+                box-shadow: none;
+                width: 100%;
+                min-height: 100vh;
+            }
+        }
+
+        .header-blue {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 4px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        
+        .header-blue h1 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .header-blue .subtitle {
+            font-size: 12px;
+            margin-top: 5px;
+            color: #93c5fd;
+            font-weight: 500;
+        }
+
+        .section-title {
+            border-left: 4px solid #003366;
+            padding-left: 10px;
+            color: #003366;
+            font-weight: 700;
+            font-size: 13px;
+            margin: 15px 0 12px 0;
+            text-transform: uppercase;
+        }
+
+        /* MIND MAP VISUAL STATIC CARDS */
+        .mindmap-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .map-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 14px;
+            background-color: #ffffff;
+            page-break-inside: avoid;
+        }
+
+        .card-header {
+            font-size: 13px;
+            font-weight: 700;
+            color: #003366;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .tree-node {
+            margin-bottom: 8px;
+            padding-left: 10px;
+            border-left: 2px solid #cbd5e1;
+        }
+
+        .node-title {
+            font-weight: 600;
+            font-size: 12.5px;
+            color: #0f172a;
+        }
+
+        .node-desc {
+            font-size: 11.5px;
+            color: #475569;
+            margin-top: 2px;
+        }
+
+        .bullet-list {
+            margin: 3px 0 0 0;
+            padding-left: 15px;
+            font-size: 11px;
+            color: #475569;
+        }
+
+        .bullet-list li {
+            margin-bottom: 2px;
+        }
+
+        .alert-text {
+            color: #b91c1c;
+            font-weight: 600;
+        }
+
+        .footer-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            color: #94a3b8;
+            border-top: 1px solid #f1f5f9;
+            padding-top: 6px;
+            font-weight: 600;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- PAGE 1: CORE CLASSIFICATIONS & PRINCIPLES -->
+    <div class="page">
+        <div class="header-blue">
+            <h1>Introduction to Antibiotics Mind Map</h1>
+            <div class="subtitle">Prof. Mona Kamal Tawfik • Faculty of Medicine • Suez University</div>
+        </div>
+
+        <div class="section-title">Part 1: Classification Profiles &amp; Clinical Guidelines</div>
+
+        <div class="mindmap-grid">
+            <!-- Card 1: According to Effect -->
+            <div class="map-card">
+                <div class="card-header">1. Classification According to Effect</div>
+                <div class="tree-node">
+                    <span class="node-title">Bactericidal Agents</span>
+                    <div class="node-desc">Agents that kill microorganisms directly.</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Bacteriostatic Agents</span>
+                    <div class="node-desc">Agents that stop growth and replication, immobilizing pathogens until the host immune system clears the infection.</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title alert-text">⚠️ Therapeutic Rule</span>
+                    <div class="node-desc alert-text">Avoid combining bactericidal and bacteriostatic drugs against the same organism.</div>
+                </div>
+            </div>
+
+            <!-- Card 2: According to Spectrum -->
+            <div class="map-card">
+                <div class="card-header">2. According to Spectrum of Activity</div>
+                <div class="tree-node">
+                    <span class="node-title">Narrow Spectrum</span>
+                    <div class="node-desc">Effective against specific bacteria only (e.g., <strong>Isoniazid</strong> is active only against Mycobacterium tuberculosis).</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Extended Spectrum</span>
+                    <div class="node-desc">Effective against gram-positive and many gram-negative bacteria (e.g., <strong>Ampicillin</strong>).</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Broad Spectrum</span>
+                    <div class="node-desc">Affect a wide variety of microbes (e.g., <strong>Tetracyclines, Fluoroquinolones, Carbapenems</strong>). Risks: disrupting normal flora and precipitating superinfections.</div>
+                </div>
+            </div>
+
+            <!-- Card 3: MIC & MBC Definitions -->
+            <div class="map-card">
+                <div class="card-header">3. Laboratory Quantifications</div>
+                <div class="tree-node">
+                    <span class="node-title">Minimum Inhibitory Concentration (MIC)</span>
+                    <div class="node-desc">Lowest concentration preventing visible growth after 24 hours of incubation. Least concentration in vitro susceptibility measure to guide therapy.</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Minimum Bactericidal Concentration (MBC)</span>
+                    <div class="node-desc">Lowest concentration reducing colony count by <strong>99.9%</strong> after overnight incubation. Quantifies true bactericidal activity.</div>
+                </div>
+            </div>
+
+            <!-- Card 4: General Principles -->
+            <div class="map-card">
+                <div class="card-header">4. General Principles of Chemotherapy</div>
+                <div class="tree-node">
+                    <span class="node-title">Administration Strategy</span>
+                    <ul class="bullet-list">
+                        <li>Use only when necessary and after susceptibility testing.</li>
+                        <li>Continue therapy for at least 3 days after clinical cure to avoid relapse.</li>
+                        <li>Start with parenteral route in severe infections for rapid therapeutic levels.</li>
+                        <li>Single-agent targeted therapy is preferred to reduce toxicity, resistance, and superinfections.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-meta">
+            <div>Suez University • Faculty of Medicine</div>
+            <div>Page 1 of 3</div>
+        </div>
+    </div>
+
+
+    <!-- PAGE 2: MECHANISMS, KINETICS & COMBINATIONS -->
+    <div class="page">
+        <div class="header-blue">
+            <h1>Introduction to Antibiotics Mind Map</h1>
+            <div class="subtitle">Prof. Mona Kamal Tawfik • Faculty of Medicine • Suez University</div>
+        </div>
+
+        <div class="section-title">Part 2: Targets, Killing Kinetics &amp; Combination Schemes</div>
+
+        <div class="mindmap-grid">
+            <!-- Card 5: Mechanisms of Action -->
+            <div class="map-card">
+                <div class="card-header">5. According to Mechanism of Action</div>
+                <div class="tree-node">
+                    <span class="node-title">Inhibition of Cell Wall Synthesis</span>
+                    <div class="node-desc">Beta-lactams (Penicillins, Cephalosporins, Carbapenems, Monobactams), Vancomycin, Bacitracin.</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Inhibition of Protein Synthesis</span>
+                    <ul class="bullet-list">
+                        <li><strong>30S Subunit:</strong> Tetracyclines, Aminoglycosides.</li>
+                        <li><strong>50S Subunit:</strong> Macrolides, Clindamycin, Linezolid, Chloramphenicol, Streptogramins.</li>
+                    </ul>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Inhibition of Nucleic Acid Synthesis</span>
+                    <div class="node-desc">DNA Gyrase (Quinolones); RNA Polymerase (Rifampin).</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Inhibition of Folate Synthesis</span>
+                    <div class="node-desc">Sulfonamides, Trimethoprim.</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Disruption of Cell Membrane</span>
+                    <div class="node-desc">Polymyxins.</div>
+                </div>
+            </div>
+
+            <!-- Card 6: Killing Kinetics & PAE -->
+            <div class="map-card">
+                <div class="card-header">6. Properties Influencing Dosing Frequency</div>
+                <div class="tree-node">
+                    <span class="node-title">Concentration-Dependent Killing</span>
+                    <div class="node-desc">Bactericidal activity increases with higher antibiotic concentrations (e.g., <strong>Aminoglycosides, Quinolones</strong>). Once-daily bolus dosing is effective for rapid killing.</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Time-Dependent Killing</span>
+                    <div class="node-desc">Efficacy depends on the time drug concentration stays above MIC (e.g., <strong>Beta-lactams, Macrolides, Clindamycin, Linezolid</strong>). Requires frequent dosing or continuous infusion.</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Postantibiotic Effect (PAE)</span>
+                    <div class="node-desc">Persistent suppression of bacterial growth after antibiotic levels fall below MIC. Drugs with long PAE may need only once-daily dosing.</div>
+                </div>
+            </div>
+
+            <!-- Card 7: Combination Therapy -->
+            <div class="map-card">
+                <div class="card-header">7. Combination Therapy Profile</div>
+                <div class="tree-node">
+                    <span class="node-title">Advantages &amp; Indications</span>
+                    <div class="node-desc">Prevent resistance development, synergistic effects to increase efficacy, broaden antimicrobial spectrum, and treat mixed infections (e.g., Pseudomonas requires combinations).</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Types of Interactions</span>
+                    <ul class="bullet-list">
+                        <li><strong>Addition (1+1=2):</strong> Combined effect equals sum of drugs.</li>
+                        <li><strong>Synergism (1+1=3):</strong> Combined effect is greater than the sum.</li>
+                        <li><strong>Potentiation (1+0=2):</strong> A drug with no activity enhances the other's effect.</li>
+                    </ul>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title alert-text">Disadvantages</span>
+                    <div class="node-desc alert-text">Bacteriostatic drugs may interfere with bactericidal action; risk of resistance from unnecessary combinations; increased cost; potential for toxicity.</div>
+                </div>
+            </div>
+
+            <!-- Card 8: Selection Criteria -->
+            <div class="map-card">
+                <div class="card-header">8. Selection &amp; Toxicity Controls</div>
+                <div class="tree-node">
+                    <span class="node-title">Selection of Chemotherapy Drugs</span>
+                    <div class="node-desc">Choose safest and most specific agent possible. Penicillins have low toxicity due to targeting unique microbial functions. Drugs with lower specificity (e.g., <strong>Chloramphenicol</strong>) are reserved for severe infections due to toxicity risks.</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Organ Adjustment Guidelines</span>
+                    <div class="node-desc">Adjust dosing based on pharmacokinetics and patient organ function (renal/hepatic). Monitor serum levels for nephrotoxic drugs (e.g., <strong>Aminoglycosides, Vancomycin</strong>). Use caution with liver-metabolized drugs in hepatic dysfunction (e.g., <strong>Erythromycin, Doxycycline</strong>).</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-meta">
+            <div>Suez University • Faculty of Medicine</div>
+            <div>Page 2 of 3</div>
+        </div>
+    </div>
+
+
+    <!-- PAGE 3: RESISTANCE, PROPHYLAXIS & COMPLICATIONS -->
+    <div class="page">
+        <div class="header-blue">
+            <h1>Introduction to Antibiotics Mind Map</h1>
+            <div class="subtitle">Prof. Mona Kamal Tawfik • Faculty of Medicine • Suez University</div>
+        </div>
+
+        <div class="section-title">Part 3: Resistance Systems, Prophylaxis &amp; Complications</div>
+
+        <div class="mindmap-grid">
+            <!-- Card 9: Antibiotic Resistance -->
+            <div class="map-card">
+                <div class="card-header">9. Antibiotic Resistance Foundations</div>
+                <div class="tree-node">
+                    <span class="node-title">Definition</span>
+                    <div class="node-desc">Bacteria are resistant if tolerated antibiotic levels do not inhibit growth.</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Types of Resistance</span>
+                    <ul class="bullet-list">
+                        <li><strong>Inherent/Natural Resistance:</strong> e.g., most gram-negative bacteria to Vancomycin.</li>
+                        <li><strong>Acquired Resistance:</strong> Develops from mutations or horizontal genetic material transfer.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card 10: Genetic Transfer Mechanisms -->
+            <div class="map-card">
+                <div class="card-header">10. Genetic Transfer Mechanisms</div>
+                <div class="tree-node">
+                    <span class="node-title">Transformation</span>
+                    <div class="node-desc">Uptake of free, naked DNA from the environment into the recipient bacteria.</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Transduction</span>
+                    <div class="node-desc">Transfer of resistance genes from one bacterium to another by bacteriophages (viral vectors).</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Conjugation</span>
+                    <div class="node-desc">Cell-to-cell transfer of DNA via direct contact through a sex pilus. This represents the main resistance pathway.</div>
+                </div>
+            </div>
+
+            <!-- Card 11: Biochemical Mechanisms -->
+            <div class="map-card">
+                <div class="card-header">11. Biochemical Mechanisms of Resistance</div>
+                <div class="tree-node">
+                    <span class="node-title">Production of Inactivating Enzymes</span>
+                    <div class="node-desc">e.g., Production of Beta-lactamases.</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Decreased Accumulation of Antibiotic</span>
+                    <div class="node-desc">Reduced uptake or increased efflux pumps, preventing the drug from reaching its target.</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Modification of Target Site</span>
+                    <div class="node-desc">Decreases the binding affinity of the antibiotic to its structural target site.</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title">Development of Alternative Pathways</span>
+                    <div class="node-desc">Bypasses the biochemical inhibition caused by the antibiotic.</div>
+                </div>
+            </div>
+
+            <!-- Card 12: Prophylaxis & Complications -->
+            <div class="map-card">
+                <div class="card-header">12. Prophylaxis &amp; Complications</div>
+                <div class="tree-node">
+                    <span class="node-title">Prophylactic Use of Antibiotics</span>
+                    <div class="node-desc">Restricted to clinical situations where benefits clearly outweigh risks. Duration must be closely monitored to prevent resistance.</div>
+                </div>
+                <div class="tree-node">
+                    <span class="node-title alert-text">Complications of Antibiotic Therapy</span>
+                    <ul class="bullet-list">
+                        <li class="alert-text"><strong>Hypersensitivity Reactions:</strong> May be life-threatening (e.g., Stevens-Johnson syndrome).</li>
+                        <li class="alert-text"><strong>Direct Toxicity:</strong> e.g., Aminoglycoside nephrotoxicity and ototoxicity.</li>
+                        <li class="alert-text"><strong>Superinfections:</strong> Especially with broad-spectrum or combination therapies due to overgrowth of opportunistic organisms like fungi.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-meta">
+            <div>Suez University • Faculty of Medicine</div>
+            <div>Page 3 of 3</div>
+        </div>
+    </div>
+
+</body>
+</html>
+
