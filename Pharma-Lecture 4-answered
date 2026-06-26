@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Antitubercular Pharmacology - Complete Question Bank</title>
+<style>
+    body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #334155;
+        background-color: #f1f5f9;
+        margin: 0;
+        padding: 0;
+        line-height: 1.5;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    
+    .page {
+        background-color: #ffffff;
+        width: 210mm;
+        min-height: 297mm;
+        padding: 20mm;
+        margin: 20px auto;
+        box-sizing: border-box;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        page-break-after: always;
+    }
+
+    @media print {
+        body {
+            background-color: #ffffff;
+            padding: 0;
+        }
+        .page {
+            margin: 0;
+            border: none;
+            box-shadow: none;
+            width: 100%;
+            min-height: 100vh;
+        }
+    }
+
+    .header-blue {
+        background-color: #003366;
+        color: #ffffff;
+        padding: 20px;
+        border-radius: 4px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .header-blue h1 {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    
+    .header-blue .subtitle {
+        font-size: 12px;
+        margin-top: 5px;
+        color: #93c5fd;
+        font-weight: 500;
+    }
+
+    .section-title {
+        border-left: 4px solid #003366;
+        padding-left: 10px;
+        color: #003366;
+        font-weight: 700;
+        font-size: 13px;
+        margin: 15px 0 12px 0;
+        text-transform: uppercase;
+    }
+
+    .question-box {
+        border: 1px solid #e2e8f0;
+        border-radius: 6px;
+        padding: 14px;
+        margin-bottom: 12px;
+        background-color: #ffffff;
+        page-break-inside: avoid;
+    }
+
+    .question-text {
+        font-weight: 600;
+        font-size: 14px;
+        color: #0f172a;
+        margin-bottom: 10px;
+    }
+
+    .options-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 5px;
+    }
+
+    .option-item {
+        font-size: 13px;
+        color: #475569;
+    }
+    
+    .option-item strong {
+        color: #0f172a;
+        margin-right: 4px;
+    }
+
+    .option-item.correct-answer {
+        color: #155724 !important;
+        font-weight: 700;
+    }
+    
+    .option-item.correct-answer strong {
+        color: #155724 !important;
+    }
+
+    .footer-wrapper {
+        margin-top: auto;
+        padding-top: 15px;
+    }
+    
+    .key-banner {
+        background-color: #e6f0fa;
+        border-left: 4px solid #003366;
+        padding: 8px 14px;
+        border-radius: 4px;
+        font-size: 12px;
+        font-weight: 700;
+        color: #003366;
+        margin-bottom: 10px;
+    }
+
+    .footer-meta {
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        color: #94a3b8;
+        border-top: 1px solid #f1f5f9;
+        padding-top: 6px;
+        font-weight: 600;
+    }
+</style>
+</head>
+<body>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Suez University — Faculty of Human Medicine</h1>
+            <div class="subtitle">Comprehensive MCQ Bank: Antitubercular Pharmacology | Reviewed by: Mohamed Mohsen Abdelhady El-Alfy</div>
+        </div>
+
+        <div class="section-title">Part I: Disease Characterization &amp; Drug Classification</div>
+
+        <div class="question-box">
+            <div class="question-text">1. Which of the following statements correctly describes Tuberculosis (T.B) as presented in the reference material?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> It is a newly emerged viral pandemic primarily affecting western societies.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> It is recognized as one of the oldest and most common infectious diseases globally.</div>
+                <div class="option-item"><strong>C)</strong> It is a disease strictly restricted to waterborne transmission pathways.</div>
+                <div class="option-item"><strong>D)</strong> It is a localized, non-communicable opportunistic superficial fungal disease.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">2. How is Mycobacterium tuberculosis primarily transmitted between individuals?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Via contaminated food products or direct blood transfusion lines.</div>
+                <div class="option-item"><strong>B)</strong> Through vectors such as mosquitoes or ticks carrying the bacteria.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Via droplets from coughs or sneezes generated by an infected individual.</div>
+                <div class="option-item"><strong>D)</strong> Through direct skin-to-skin surface contact or vector spores.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">3. First-line antitubercular medications are explicitly preferred over second-line therapies because they are:</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Highly effective, demonstrate less toxicity, and are cheap.</div>
+                <div class="option-item"><strong>B)</strong> Less effective but completely devoid of any organ-related toxicity.</div>
+                <div class="option-item"><strong>C)</strong> Expensive but clear the infection within 24 hours of administration.</div>
+                <div class="option-item"><strong>D)</strong> Synthesized locally to bypass the blood-brain barrier selectively.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">4. Which of the following clinical profiles specifies the general features of second-line anti-TB medications?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> High therapeutic efficacy, high cost, and low profile of toxic reactions.</div>
+                <div class="option-item"><strong>B)</strong> Broad spectrum profile, highly cheap, and safe for pediatric patients.</div>
+                <div class="option-item"><strong>C)</strong> Exclusively targeting extracellular bacteria with zero hepatic elimination.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Less effective, more toxic to organ systems, and expensive.</div>
+            </div>
+        </div>
+
+        <div class="section-title">Part II: First-Line Agents — Pharmacology of Isoniazid (INH)</div>
+
+        <div class="question-box">
+            <div class="question-text">5. Which pharmacological trait allows Isoniazid (INH) to achieve therapeutic levels within the central nervous system?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Its highly hydrophilic structure which permits active vesicular transport.</div>
+                <div class="option-item"><strong>B)</strong> Its selective binding affinity to the choroid plexus epithelial linings.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Its lipophilic nature, allowing it to easily pass the blood-brain barrier.</div>
+                <div class="option-item"><strong>D)</strong> Its reliance on biliary excretion which bypasses renal clearance mechanics.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">6. Which pathway represents the major metabolic transformation process of Isoniazid (INH) inside the body?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Glucuronidation within the loop of Henle.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Acetylation within the liver.</div>
+                <div class="option-item"><strong>C)</strong> Microscopic oxidation inside the pulmonary alveolar spaces.</div>
+                <div class="option-item"><strong>D)</strong> Hydrolysis by plasma esterases in peripheral capillaries.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">7. What is the precise mechanism of action (MOA) of Isoniazid (INH) after entering mycobacteria?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> It converts to an active form, binds enzymes, and inhibits mycolic acid synthesis only.</div>
+                <div class="option-item"><strong>B)</strong> It attaches directly to DNA-dependent RNA polymerase to block transcription.</div>
+                <div class="option-item"><strong>C)</strong> It disrupts the 50S ribosomal subunit to arrest translation permanently.</div>
+                <div class="option-item"><strong>D)</strong> It competitively displaces PABA inside the folic acid synthesis cycle.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">8. To mitigate peripheral neurotoxicity during Isoniazid (INH) treatment, which agent must be co-administered?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Vitamin B12 (Cyanocobalamin)</div>
+                <div class="option-item"><strong>B)</strong> Para-amino-salicylic acid (PAS)</div>
+                <div class="option-item"><strong>C)</strong> Vitamin C (Ascorbic acid)</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Vitamin B6 (Pyridoxine)</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">9. Regarding drug interactions, Isoniazid (INH) behaves as a:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Potent hepatic microsomal enzyme inducer.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Hepatic microsomal enzyme inhibitor.</div>
+                <div class="option-item"><strong>C)</strong> Neutral compound with zero impact on metabolic enzymes.</div>
+                <div class="option-item"><strong>D)</strong> Direct stimulator of biliary clearance mechanisms.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">PAGE 1 ANSWER KEY: 1-B | 2-C | 3-A | 4-D | 5-C | 6-B | 7-A | 8-D | 9-B</div>
+            <div class="footer-meta">
+                <div>Suez University Faculty of Human Medicine — Pharmacology Department</div>
+                <div>Page 1 of 3</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Suez University — Faculty of Human Medicine</h1>
+            <div class="subtitle">Comprehensive MCQ Bank: Antitubercular Pharmacology | Reviewed by: Mohamed Mohsen Abdelhady El-Alfy</div>
+        </div>
+
+        <div class="section-title">Part III: Rifampicin, Pyrazinamide, and Ethambutol</div>
+
+        <div class="question-box">
+            <div class="question-text">10. What is the molecular target and mechanism of action for Rifampicin?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Inhibition of cell wall production by arresting mycolic acid pathways.</div>
+                <div class="option-item"><strong>B)</strong> Competitive inhibition of dihydrofolate reductase enzymes.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Inhibition of DNA-dependent RNA polymerase enzyme to block RNA synthesis.</div>
+                <div class="option-item"><strong>D)</strong> Irreversible disruption of cross-linking structural transpeptidases.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">11. A patient under combination antitubercular therapy complains that their urine has turned an orange-red color. Which medication is responsible?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Rifampicin</div>
+                <div class="option-item"><strong>B)</strong> Isoniazid</div>
+                <div class="option-item"><strong>C)</strong> Ethambutol</div>
+                <div class="option-item"><strong>D)</strong> Erythromycin</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">12. In contrast to Isoniazid, Rifampicin acts on hepatic microsomal enzymes as a:</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Direct competitive blocker.</div>
+                <div class="option-item"><strong>B)</strong> Reversible enzymatic inhibitor.</div>
+                <div class="option-item"><strong>C)</strong> Non-competitive clearance suppressor.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> Hepatic microsomal enzyme inducer.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">13. Which of the following first-line agents is restricted to acting on intracellular organisms only?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Isoniazid</div>
+                <div class="option-item"><strong>B)</strong> Ethambutol</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Pyrazinamide</div>
+                <div class="option-item"><strong>D)</strong> Rifampicin</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">14. What are the two most common adverse side effects associated with the use of Pyrazinamide?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Hepatotoxicity and hyperuricemia.</div>
+                <div class="option-item"><strong>B)</strong> Optic neuritis and retrobulbar damage.</div>
+                <div class="option-item"><strong>C)</strong> Flu-like syndrome and orange body fluid discoloration.</div>
+                <div class="option-item"><strong>D)</strong> Protein synthesis breakdown and peripheral neuropathies.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">15. Why is the administration of Ethambutol contraindicated in children?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Because it triggers extreme fluctuations in systemic uric acid values.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> To avoid retrobulbar neuritis/severe optic neuritis, which is difficult to monitor in children.</div>
+                <div class="option-item"><strong>C)</strong> Due to its inability to cross the pediatric blood-brain barrier effectively.</div>
+                <div class="option-item"><strong>D)</strong> Because it accelerates hepatic acetylation pathways abnormally.</div>
+            </div>
+        </div>
+
+        <div class="section-title">Part IV: Second-Line Agents — Pharmacology of Erythromycin &amp; PAS</div>
+
+        <div class="question-box">
+            <div class="question-text">16. What is the mechanism of action of Erythromycin when utilized as a second-line anti-TB substitution?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> It interferes with mycolic acid integration across cellular membranes.</div>
+                <div class="option-item"><strong>B)</strong> It blocks the transcription phase via RNA polymerase bindings.</div>
+                <div class="option-item"><strong>C)</strong> It competes directly with PABA to limit metabolic folic acids.</div>
+                <div class="option-item correct-answer"><strong>D)</strong> It works to irreversibly inhibit protein synthesis.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">17. Para-amino-salicylic acid (PAS) produces its anti-TB synergy through which two mechanisms?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Inducing microsomal enzymes and neutralizing intracellular acids.</div>
+                <div class="option-item"><strong>B)</strong> Penetrating the blood-brain barrier and coloring excretions orange.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Competing with PABA to decrease folic acid and blocking hepatic acetylation of Isoniazid.</div>
+                <div class="option-item"><strong>D)</strong> Inhibiting DNA-dependent RNA polymerases and weakening cell walls.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">PAGE 2 ANSWER KEY: 10-C | 11-A | 12-D | 13-C | 14-A | 15-B | 16-D | 17-C</div>
+            <div class="footer-meta">
+                <div>Suez University Faculty of Human Medicine — Pharmacology Department</div>
+                <div>Page 2 of 3</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header-blue">
+            <h1>Suez University — Faculty of Human Medicine</h1>
+            <div class="subtitle">Comprehensive MCQ Bank: Antitubercular Pharmacology | Reviewed by: Mohamed Mohsen Abdelhady El-Alfy</div>
+        </div>
+
+        <div class="section-title">Part V: Supplementary Advanced Details &amp; Precision Mechanics</div>
+
+        <div class="question-box">
+            <div class="question-text">18. According to "Antituberculosis drugs.pdf", what is the exact cellular distribution profile of Isoniazid (INH) action against mycobacteria?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> It acts exclusively on extracellular organisms located in necrotic cavities.</div>
+                <div class="option-item"><strong>B)</strong> It is strictly restricted to intracellular organisms within macrophages.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> It is effective in both intracellular and extracellular organisms.</div>
+                <div class="option-item"><strong>D)</strong> It only targets atypical non-tuberculous environmental mycobacteria.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">19. Following the cascade of events in the INH mechanism flowchart, what is the ultimate biological outcome on the mycobacteria after creating a weak cell wall?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> Tuberculocidal effect (killing the bacteria).</div>
+                <div class="option-item"><strong>B)</strong> Tuberculostatic effect (reversibly halting growth).</div>
+                <div class="option-item"><strong>C)</strong> Spore formation induction.</div>
+                <div class="option-item"><strong>D)</strong> Acceleration of hepatic acetylation.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">20. Reviewing the pharmacokinetic slides, what is the primary route of elimination specified for Rifampicin?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Direct alveolar exhalation.</div>
+                <div class="option-item"><strong>B)</strong> Pure renal glomerular filtration.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Biliary excretion.</div>
+                <div class="option-item"><strong>D)</strong> Sebum and sweat gland secretion.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">21. Aside from turning secretions into an orange-red color, what other classic systemic adverse presentation is explicitly listed under Rifampicin?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Severe hyperuricemia and gouty arthritis.</div>
+                <div class="option-item correct-answer"><strong>B)</strong> Flu like symptoms.</div>
+                <div class="option-item"><strong>C)</strong> Retrobulbar neuritis and visual loss.</div>
+                <div class="option-item"><strong>D)</strong> Peripheral neurotoxicity due to vitamin depletion.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">22. Based on the lecture definitions, what are the two specific clinical scenarios that necessitate substituting first-line drugs with second-line antitubercular drugs?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Lack of cheap local manufacturing or high lipophilicity.</div>
+                <div class="option-item"><strong>B)</strong> Failure to pass the blood-brain barrier or pediatric age.</div>
+                <div class="option-item correct-answer"><strong>C)</strong> In case of failure (resistance) or contraindication.</div>
+                <div class="option-item"><strong>D)</strong> Development of orange urine or harmless flu symptoms.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">23. What is the direct consequence of Para-amino-salicylic acid (PAS) blocking the hepatic acetylation of Isoniazid?</div>
+            <div class="options-container">
+                <div class="option-item correct-answer"><strong>A)</strong> It increases its free level in the blood.</div>
+                <div class="option-item"><strong>B)</strong> It accelerates its clearance via biliary pathways.</div>
+                <div class="option-item"><strong>C)</strong> It completely neutralizes its tuberculocidal efficacy.</div>
+                <div class="option-item"><strong>D)</strong> It converts it into a hydrophilic compound.</div>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <div class="question-text">24. Which of the following drugs is described in the presentation as a lipophilic agent that can pass the blood-brain barrier?</div>
+            <div class="options-container">
+                <div class="option-item"><strong>A)</strong> Pyrazinamide</div>
+                <div class="option-item"><strong>B)</strong> Para-amino-salicylic acid</div>
+                <div class="option-item correct-answer"><strong>C)</strong> Rifampicin and Isoniazid (INH).</div>
+                <div class="option-item"><strong>D)</strong> Ethambutol and Erythromycin.</div>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <div class="key-banner">PAGE 3 ANSWER KEY: 18-C | 19-A | 20-C | 21-B | 22-C | 23-A | 24-C</div>
+            <div class="footer-meta">
+                <div>Suez University Faculty of Human Medicine — Pharmacology Department</div>
+                <div>Page 3 of 3</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
