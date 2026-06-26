@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Comprehensive Question Bank in Bioenergetics and Cellular Respiration Kinetics</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #334155;
+        background-color: #f1f5f9;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    
+    .page {
+        background-color: #ffffff;
+        width: 210mm;
+        min-height: 297mm;
+        padding: 20mm;
+        margin: 20px auto;
+        box-sizing: border-box;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        page-break-after: always;
+    }
+
+    @media print {
+        body {
+            background-color: #ffffff;
+            padding: 0;
+        }
+        .page {
+            margin: 0;
+            border: none;
+            box-shadow: none;
+            width: 100%;
+            min-height: 100vh;
+        }
+    }
+
+    .header-blue {
+        background-color: #003366;
+        color: #ffffff;
+        padding: 20px;
+        border-radius: 4px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .header-blue h1 {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+    }
+    
+    .header-blue .subtitle {
+        font-size: 13px;
+        margin-top: 5px;
+        color: #93c5fd;
+        font-weight: 500;
+    }
+
+    .section-title {
+        border-left: 4px solid #003366;
+        padding-left: 10px;
+        color: #003366;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 15px 0 12px 0;
+    }
+
+    .question-box {
+        border: 1px solid #e2e8f0;
+        border-radius: 6px;
+        padding: 14px;
+        margin-bottom: 12px;
+        background-color: #ffffff;
+        page-break-inside: avoid;
+    }
+
+    .question-text {
+        font-weight: 600;
+        font-size: 14px;
+        color: #0f172a;
+        margin-bottom: 10px;
+    }
+
+    .options-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 5px;
+    }
+
+    .option-item {
+        font-size: 13px;
+        color: #475569;
+    }
+    
+    .option-item strong {
+        color: #0f172a;
+        margin-right: 4px;
+    }
+
+    .option-item.correct-answer {
+        color: #155724 !important;
+        font-weight: 700;
+    }
+    
+    .option-item.correct-answer strong {
+        color: #155724 !important;
+    }
+
+    .footer-wrapper {
+        margin-top: auto;
+        padding-top: 15px;
+    }
+    
+    .key-banner {
+        background-color: #e6f0fa;
+        border-left: 4px solid #003366;
+        padding: 8px 14px;
+        border-radius: 4px;
+        font-size: 13px;
+        font-weight: 700;
+        color: #003366;
+        margin-bottom: 10px;
+    }
+
+    .footer-meta {
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        color: #94a3b8;
+        border-top: 1px solid #f1f5f9;
+        padding-top: 6px;
+        font-weight: 600;
+    }
+</style>
+</head>
+<body>
+
+  <!-- PAGE 1 -->
+  <div class="page">
+    <div class="header-blue">
+      <h1>Comprehensive Question Bank in Bioenergetics and Cellular Respiration Kinetics</h1>
+      <div class="subtitle">Faculty of Human Medicine, Suez University • Prepared by Student: Mohamed Mohsen Abdelhady El-Alfy</div>
+    </div>
+
+    <div class="section-title">Axis I: Basic Concepts of Bioenergetics, Thermodynamic Reactions, and Coenzymes</div>
+
+    <!-- Q1 -->
+    <div class="question-box">
+      <div class="question-text">Q1: How is biochemical thermodynamics or "Bioenergetics" precisely defined?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> The study of the velocity of reactions and harmonic configurations of cytoplasmic peptides.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> The study of energy changes and transformations accompanying biochemical reactions in living organisms.</div>
+        <div class="option-item"><strong>C)</strong> The mechanical measurement of heat dissipation during direct extracellular glucose degradation.</div>
+        <div class="option-item"><strong>D)</strong> The complete sequential arrangement of transfer RNA molecules within mitochondria.</div>
+      </div>
+    </div>
+
+    <!-- Q2 -->
+    <div class="question-box">
+      <div class="question-text">Q2: Biological energy is understood as the capacity to do work. Which of the following forms of energy represents the useful energy capable of doing work at constant temperature and pressure?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Kinetic friction energy.</div>
+        <div class="option-item"><strong>B)</strong> Latent thermal energy.</div>
+        <div class="option-item correct-answer"><strong>C)</strong> Free Energy (Delta G).</div>
+        <div class="option-item"><strong>D)</strong> Random radiation energy (Entropy).</div>
+      </div>
+    </div>
+
+    <!-- Q3 -->
+    <div class="question-box">
+      <div class="question-text">Q3: What is the biological fate of metabolic energy that is lost or released as "heat energy" during not fully efficient cellular processes?</div>
+      <div class="options-container">
+        <div class="option-item correct-answer"><strong>A)</strong> It cannot be used to do biochemical work, but it helps maintain the physiological body temperature.</div>
+        <div class="option-item"><strong>B)</strong> It is captured directly by adenosine diphosphate to produce high-energy enol bonds.</div>
+        <div class="option-item"><strong>C)</strong> It is completely directed to the mechanisms of the malate-aspartate shuttle.</div>
+        <div class="option-item"><strong>D)</strong> It acts as a structural catalyst for assembling the cellular nuclear membrane.</div>
+      </div>
+    </div>
+
+    <!-- Q4 -->
+    <div class="question-box">
+      <div class="question-text">Q4: If a metabolic reaction exhibits a negative change in free energy (Delta G), how is this reaction thermodynamically classified?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Endergonic reaction.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> Exergonic reaction.</div>
+        <div class="option-item"><strong>C)</strong> Isometric thermal equilibrium reaction.</div>
+        <div class="option-item"><strong>D)</strong> Non-spontaneous anabolic reaction.</div>
+      </div>
+    </div>
+
+    <!-- Q5 -->
+    <div class="question-box">
+      <div class="question-text">Q5: Which of the following statements correctly describes an endergonic biochemical reaction?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> It proceeds with a net release of useful free energy and is highly spontaneous.</div>
+        <div class="option-item"><strong>B)</strong> It possesses an identical concentration of products and reactants at the zero point.</div>
+        <div class="option-item correct-answer"><strong>C)</strong> It requires an input of free energy to proceed, and the change in free energy is positive (Delta G).</div>
+        <div class="option-item"><strong>D)</strong> It occurs exclusively within the lipid layers of the outer mitochondrial membrane.</div>
+      </div>
+    </div>
+
+    <!-- Q6 -->
+    <div class="question-box">
+      <div class="question-text">Q6: What is the primary physiological source from which the human body continuously derives energy to support its vital and mechanical functions?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> The external reduction of carbon dioxide into nucleic acids.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> The oxidation of major dietary substrates, including carbohydrates, lipids, and proteins.</div>
+        <div class="option-item"><strong>C)</strong> The direct hydrolysis of water molecules inside cells.</div>
+        <div class="option-item"><strong>D)</strong> The static synthesis of nitrogenous bases via localized physical radiation.</div>
+      </div>
+    </div>
+
+    <!-- Q7 -->
+    <div class="question-box">
+      <div class="question-text">Q7: Dehydrogenase enzymes are classified into distinct functional groups based on their hydrogen-carrying coenzymes. Which of the following is NOT one of these groups?</div>
+      <div class="options-container">
+        <div class="option-item correct-answer"><strong>A)</strong> Biotin-linked dehydrogenases.</div>
+        <div class="option-item"><strong>B)</strong> Nicotinamide-linked dehydrogenases (e.g., NAD).</div>
+        <div class="option-item"><strong>C)</strong> Flavin-linked dehydrogenases (e.g., FAD).</div>
+        <div class="option-item"><strong>D)</strong> Lipoic acid-linked dehydrogenases.</div>
+      </div>
+    </div>
+
+    <!-- Q8 -->
+    <div class="question-box">
+      <div class="question-text">Q8: Which molecule represents the typical structural definition of a nicotinamide-linked hydrogen carrier?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> FMN</div>
+        <div class="option-item"><strong>B)</strong> Coenzyme Q</div>
+        <div class="option-item"><strong>C)</strong> FAD</div>
+        <div class="option-item correct-answer"><strong>D)</strong> NAD</div>
+      </div>
+    </div>
+
+    <!-- Q9 -->
+    <div class="question-box">
+      <div class="question-text">Q9: What is the correct definition of "Redox Potential" in bioenergetics?</div>
+      <div class="options-container">
+        <div class="option-item correct-answer"><strong>A)</strong> The quantitative tendency or chemical affinity of a given system to gain and accept electrons or hydrogen.</div>
+        <div class="option-item"><strong>B)</strong> The number of milligrams of phosphate bound per hour by complex enzymes.</div>
+        <div class="option-item"><strong>C)</strong> The precise thickness of the inner mitochondrial lipid membrane.</div>
+        <div class="option-item"><strong>D)</strong> The total structural mass of iron-sulfur clusters localized within the matrix.</div>
+      </div>
+    </div>
+
+    <div class="footer-wrapper">
+      <div class="key-banner">ANSWER KEY 📍 Q1: B | Q2: C | Q3: A | Q4: B | Q5: C | Q6: B | Q7: A | Q8: D | Q9: A</div>
+      <div class="footer-meta">
+        <div>Faculty of Human Medicine - Suez University</div>
+        <div>Page 1 of 5</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 2 -->
+  <div class="page">
+    <div class="header-blue">
+      <h1>Comprehensive Question Bank in Bioenergetics and Cellular Respiration Kinetics</h1>
+      <div class="subtitle">Faculty of Human Medicine, Suez University</div>
+    </div>
+
+    <div class="section-title">Axis I: Redox Potentials, High-Energy Bonds, and Substrate-Level Phosphorylation</div>
+
+    <!-- Q10 -->
+    <div class="question-box">
+      <div class="question-text">Q10: In the physiological redox spectrum, which two components possess the lowest (most negative) and highest (most positive) redox potential respectively?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Oxygen represents the lowest; Cytochrome c represents the highest.</div>
+        <div class="option-item"><strong>B)</strong> Succinate represents the lowest; Coenzyme Q represents the highest.</div>
+        <div class="option-item correct-answer"><strong>C)</strong> Hydrogen possesses the lowest potential; whereas oxygen possesses the highest redox potential.</div>
+        <div class="option-item"><strong>D)</strong> Flavin mononucleotide possesses the lowest; Nicotinamide possesses the highest.</div>
+      </div>
+    </div>
+
+    <!-- Q11 -->
+    <div class="question-box">
+      <div class="question-text">Q11: Why is electron transport along the mitochondrial respiratory chain organized in a step-by-step manner rather than a direct, immediate reaction between hydrogen and oxygen?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> The direct reaction requires a permanent inversion in the structure of the mitochondrial double membrane.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> A direct reaction could release a massive amount of energy in an explosive, uncontrolled manner that the cell cannot capture or utilize.</div>
+        <div class="option-item"><strong>C)</strong> To prevent the accidental conversion of pure molecular oxygen into dietary glucose units.</div>
+        <div class="option-item"><strong>D)</strong> Step-by-step regulation prevents the synthesis of metabolic water within the matrix.</div>
+      </div>
+    </div>
+
+    <!-- Q12 -->
+    <div class="question-box">
+      <div class="question-text">Q12: How are high-energy phosphate bonds distinguished from low-energy phosphate bonds in cellular thermodynamics?</div>
+      <div class="options-container">
+        <div class="option-item correct-answer"><strong>A)</strong> High-energy bonds release a large amount of free energy upon hydrolysis (greater than 7 kcal/mol or approximately 30 kJ/mol).</div>
+        <div class="option-item"><strong>B)</strong> Low-energy bonds can exist only in situations where oxygen is completely absent.</div>
+        <div class="option-item"><strong>C)</strong> High-energy bonds require a specialized mitochondrial nucleic acid for structural stability.</div>
+        <div class="option-item"><strong>D)</strong> Low-energy bonds contain multiple metallic copper ions to maintain their structural integrity.</div>
+      </div>
+    </div>
+
+    <!-- Q13 -->
+    <div class="question-box">
+      <div class="question-text">Q13: Which of the following compounds is a classic example of a high-energy compound containing a high-energy phosphate bond?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Glucose-6-phosphate.</div>
+        <div class="option-item"><strong>B)</strong> Glycerol-3-phosphate.</div>
+        <div class="option-item correct-answer"><strong>C)</strong> Enol phosphates (e.g., phosphoenolpyruvate) or guanido phosphates (e.g., creatine phosphate).</div>
+        <div class="option-item"><strong>D)</strong> Fructose-1,6-bisphosphate intermediate compound.</div>
+      </div>
+    </div>
+
+    <!-- Q14 -->
+    <div class="question-box">
+      <div class="question-text">Q14: What is the specific distinguishing feature of "Substrate-Level Phosphorylation"?</div>
+      <div class="options-container">
+        <div class="option-item correct-answer"><strong>A)</strong> Direct synthesis of ATP molecules from a high-energy metabolic intermediate without the direct involvement or coupling to the electron transport chain.</div>
+        <div class="option-item"><strong>B)</strong> Mechanical pumping of protons across Complex V using mobile lipid coenzymes.</div>
+        <div class="option-item"><strong>C)</strong> Production of high-energy chemical bonds catalyzed exclusively by toxic cyanide complexes.</div>
+        <div class="option-item"><strong>D)</strong> ATP molecule synthesis that occurs entirely on the outer surface of the outer mitochondrial membrane.</div>
+      </div>
+    </div>
+
+    <!-- Q15 -->
+    <div class="question-box">
+      <div class="question-text">Q15: Where are the multiple protein complexes that constitute the Electron Transport Chain (ETC) anatomically and functionally embedded?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> The soluble fluid portion of the Outer Mitochondrial Membrane (OMM).</div>
+        <div class="option-item"><strong>B)</strong> Fully dissolved within the aqueous fluid of the matrix.</div>
+        <div class="option-item correct-answer"><strong>C)</strong> The Inner Mitochondrial Membrane (IMM).</div>
+        <div class="option-item"><strong>D)</strong> The structural lumen of the rough endoplasmic reticulum.</div>
+      </div>
+    </div>
+
+    <div class="section-title">Axis III: Detailed Complexes of the Electron Transport Chain (Complex I to IV)</div>
+
+    <!-- Q16 -->
+    <div class="question-box">
+      <div class="question-text">Q16: Which of the following statements comprehensively describes the ultimate and primary function of the Electron Transport Chain (ETC)?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Assembling cytoplasmic pyruvate to convert it directly into lactate units outside the cell.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> Transferring electrons from NADH and FADH2 to oxygen to generate water and ATP, while regenerating the oxidized carriers NAD and FAD.</div>
+        <div class="option-item"><strong>C)</strong> Removing phosphorylation from essential nuclear structures to regulate overall cellular pressure.</div>
+        <div class="option-item"><strong>D)</strong> Structural cross-linking of cardiolipin molecules in the outer membrane layer.</div>
+      </div>
+    </div>
+
+    <!-- Q17 -->
+    <div class="question-box">
+      <div class="question-text">Q17: Complex I (NADH Dehydrogenase Complex) contains several critical structural components. Which of the following is NOT part of Complex I?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Flavin mononucleotide (FMN).</div>
+        <div class="option-item"><strong>B)</strong> Iron-sulfur (Fe-S) centers.</div>
+        <div class="option-item correct-answer"><strong>C)</strong> Succinate dehydrogenase enzyme.</div>
+        <div class="option-item"><strong>D)</strong> The catalytic subunit of the NADH dehydrogenase enzyme.</div>
+      </div>
+    </div>
+
+    <!-- Q18 -->
+    <div class="question-box">
+      <div class="question-text">Q18: Does Complex I participate directly in generating the proton gradient across the inner mitochondrial membrane?</div>
+      <div class="options-container">
+        <div class="option-item correct-answer"><strong>A)</strong> Yes, it acts as a proton pump, translocating hydrogen ions (H+) from the matrix to the intermembrane space.</div>
+        <div class="option-item"><strong>B)</strong> No, it only channels electrons to Coenzyme Q without pumping any protons.</div>
+        <div class="option-item"><strong>C)</strong> Yes, but it operates in reverse, translocating protons into the matrix only.</div>
+        <div class="option-item"><strong>D)</strong> It acts as a proton pump only when molecular oxygen is completely absent.</div>
+      </div>
+    </div>
+
+    <div class="footer-wrapper">
+      <div class="key-banner">ANSWER KEY 📍 Q10: C | Q11: B | Q12: A | Q13: C | Q14: A | Q15: C | Q16: B | Q17: C | Q18: A</div>
+      <div class="footer-meta">
+        <div>Faculty of Human Medicine - Suez University</div>
+        <div>Page 2 of 5</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 3 -->
+  <div class="page">
+    <div class="header-blue">
+      <h1>Comprehensive Question Bank in Bioenergetics and Cellular Respiration Kinetics</h1>
+      <div class="subtitle">Faculty of Human Medicine, Suez University</div>
+    </div>
+
+    <!-- Q19 -->
+    <div class="question-box">
+      <div class="question-text">Q19: What unique structural and functional property distinguishes Complex II (Succinate Dehydrogenase) from the other complexes of the respiratory chain (I, III, IV)?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> It is the only complex capable of binding directly to toxic carbon monoxide molecules.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> It does not pump protons across the membrane, and directly links the Krebs cycle (citric acid cycle) to the electron transport chain.</div>
+        <div class="option-item"><strong>C)</strong> It contains specialized copper ions required to neutralize water in the mitochondrial matrix.</div>
+        <div class="option-item"><strong>D)</strong> It functions as a fully soluble protein residing inside the intermembrane space.</div>
+      </div>
+    </div>
+
+    <!-- Q20 -->
+    <div class="question-box">
+      <div class="question-text">Q20: Which statement provides the precise biochemical description of Coenzyme Q (Ubiquinone)?</div>
+      <div class="options-container">
+        <div class="option-item correct-answer"><strong>A)</strong> A mobile, lipid-soluble electron carrier located within the lipid bilayer that links Complexes I and II to Complex III.</div>
+        <div class="option-item"><strong>B)</strong> A hydrophilic protein that floats in the matrix and transfers phosphate groups to Complex V.</div>
+        <div class="option-item"><strong>C)</strong> A structural glycoprotein in the outer membrane that prevents protons from leaking into the cytosol.</div>
+        <div class="option-item"><strong>D)</strong> A specialized enzyme that oxidizes cytoplasmic NADH molecules into active FADH2.</div>
+      </div>
+    </div>
+
+    <!-- Q21 -->
+    <div class="question-box">
+      <div class="question-text">Q21: Which respiratory cytochromes specifically compose Complex III (Cytochrome c Reductase)?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Cytochrome a and Cytochrome a3.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> Cytochrome b and Cytochrome c1 (Cytochrome b & c1).</div>
+        <div class="option-item"><strong>C)</strong> Cytochrome P450 and Cytochrome b5.</div>
+        <div class="option-item"><strong>D)</strong> Cytochrome d and structural variants of Cytochrome f.</div>
+      </div>
+    </div>
+
+    <!-- Q22 -->
+    <div class="question-box">
+      <div class="question-text">Q22: During the transfer of electrons through the cytochrome network in the chain, how does the oxidation state of the central iron atom oscillate?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> It alternates between metallic iron and an uncharged gaseous state.</div>
+        <div class="option-item"><strong>B)</strong> It undergoes irreversible dissociation, releasing free nitrogen atoms into the matrix.</div>
+        <div class="option-item correct-answer"><strong>C)</strong> It continuously shuttles and transitions between the ferric and ferrous states (Fe^3+ \leftrightarrow Fe^2+).</div>
+        <div class="option-item"><strong>D)</strong> It forms temporary covalent bonds with the adenosine ring structure.</div>
+      </div>
+    </div>
+
+    <!-- Q23 -->
+    <div class="question-box">
+      <div class="question-text">Q23: What is the specific functional mechanism of the mobile peripheral electron carrier Cytochrome c?</div>
+      <div class="options-container">
+        <div class="option-item correct-answer"><strong>A)</strong> It moves along the outer surface of the inner membrane, transferring electrons from Complex III to Complex IV.</div>
+        <div class="option-item"><strong>B)</strong> It pumps four protons out of the matrix for every electron it accepts.</div>
+        <div class="option-item"><strong>C)</strong> It binds directly to succinate to initiate FADH2 oxidation at Complex II.</div>
+        <div class="option-item"><strong>D)</strong> It acts as an essential channel for the simultaneous transport of protons and phosphate groups.</div>
+      </div>
+    </div>
+
+    <div class="section-title">Axis IV: Complex IV, Complex V, ATP Yield Calculations, and Cellular Respiration Inhibitors</div>
+
+    <!-- Q24 -->
+    <div class="question-box">
+      <div class="question-text">Q24: Complex IV (Cytochrome c Oxidase) represents the final site where molecular oxygen is reduced. What are its specific functional components?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Cytochrome b, cytochrome c1, and multiple structural iron-sulfur units.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> Cytochrome a, cytochrome a3, and specialized copper centers (Cu_A and Cu_B).</div>
+        <div class="option-item"><strong>C)</strong> NADH dehydrogenase enzyme and its tightly bound flavin mononucleotide coenzymes.</div>
+        <div class="option-item"><strong>D)</strong> Rotor spatial units F_0 and catalytic spherical heads F_1.</div>
+      </div>
+    </div>
+
+    <!-- Q25 -->
+    <div class="question-box">
+      <div class="question-text">Q25: What is the structural configuration and exact location of the two subcomponents constituting Complex V (ATP Synthase)?</div>
+      <div class="options-container">
+        <div class="option-item correct-answer"><strong>A)</strong> The F_0 part forms a proton channel embedded in the inner membrane, while F_1 represents the catalytic head projecting into the matrix.</div>
+        <div class="option-item"><strong>B)</strong> F_0 represents the catalytic head inside the intermembrane space, while F_1 forms a channel in the outer membrane.</div>
+        <div class="option-item"><strong>C)</strong> Both components are entirely soluble and float freely in the cellular cytosolic environment.</div>
+        <div class="option-item"><strong>D)</strong> F_0 binds directly to copper ions in the matrix; while F_1 binds to iron-sulfur clusters in the outer layer.</div>
+      </div>
+    </div>
+
+    <!-- Q26 -->
+    <div class="question-box">
+      <div class="question-text">Q26: According to Peter Mitchell's Chemiosmotic Hypothesis, how does proton flow through Complex V lead to ATP synthesis?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Protons chemically reduce the adenine ring in ADP to form a high-energy carboxyphosphate.</div>
+        <div class="option-item"><strong>B)</strong> Protons alter membrane fluidity, causing the static precipitation of mitochondrial glucose.</div>
+        <div class="option-item correct-answer"><strong>C)</strong> Protons flow back into the matrix through F_0, driving its rotation and inducing conformational changes in F_1 that bind ADP to inorganic phosphate (P_i).</div>
+        <div class="option-item"><strong>D)</strong> Protons act as mechanical activators for soluble succinate dehydrogenase enzymes.</div>
+      </div>
+    </div>
+
+    <!-- Q27 -->
+    <div class="question-box">
+      <div class="question-text">Q27: Based on the "Modern Theory" of bioenergetics, what is the exact net number of ATP molecules produced from the complete oxidation of one NADH molecule and one FADH2 molecule respectively?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> 3.0 ATP molecules from NADH and 2.0 molecules from FADH2.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> 2.5 ATP molecules from NADH and 1.5 molecules from FADH2.</div>
+        <div class="option-item"><strong>C)</strong> 1.5 ATP molecules from NADH and 2.5 molecules from FADH2.</div>
+        <div class="option-item"><strong>D)</strong> 4.0 ATP molecules from NADH and 3.0 molecules from FADH2.</div>
+      </div>
+    </div>
+
+    <div class="footer-wrapper">
+      <div class="key-banner">ANSWER KEY 📍 Q19: B | Q20: A | Q21: B | Q22: C | Q23: A | Q24: B | Q25: A | Q26: C | Q27: B</div>
+      <div class="footer-meta">
+        <div>Faculty of Human Medicine - Suez University</div>
+        <div>Page 3 of 5</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 4 -->
+  <div class="page">
+    <div class="header-blue">
+      <h1>Comprehensive Question Bank in Bioenergetics and Cellular Respiration Kinetics</h1>
+      <div class="subtitle">Faculty of Human Medicine, Suez University</div>
+    </div>
+
+    <!-- Q28 -->
+    <div class="question-box">
+      <div class="question-text">Q28: Historically, the "Old Theory" defined different measurements for ATP production. What values did it attribute to the oxidation of NADH and FADH2?</div>
+      <div class="options-container">
+        <div class="option-item correct-answer"><strong>A)</strong> 3 ATP molecules per NADH and 2 ATP molecules per FADH2.</div>
+        <div class="option-item"><strong>B)</strong> 2.5 ATP molecules per NADH and 1.5 ATP molecules per FADH2.</div>
+        <div class="option-item"><strong>C)</strong> 2 ATP molecules per NADH and 3 ATP molecules per FADH2.</div>
+        <div class="option-item"><strong>D)</strong> 1 ATP molecule per NADH and 1 molecule per FADH2.</div>
+      </div>
+    </div>
+
+    <!-- Q29 -->
+    <div class="question-box">
+      <div class="question-text">Q29: Sedatives and barbiturates (such as amobarbital) halt cellular respiration by blocking electron transport specifically at which complex?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Complex IV.</div>
+        <div class="option-item"><strong>B)</strong> Complex III.</div>
+        <div class="option-item correct-answer"><strong>C)</strong> Complex I.</div>
+        <div class="option-item"><strong>D)</strong> Complex II.</div>
+      </div>
+    </div>
+
+    <!-- Q30 -->
+    <div class="question-box">
+      <div class="question-text">Q30: Malonate is a structural analog and mimic of succinate, and it inhibits cellular respiration. Malonate is classified as a competitive inhibitor of the enzyme:</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> NADH dehydrogenase within Complex I.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> Succinate dehydrogenase within Complex II.</div>
+        <div class="option-item"><strong>C)</strong> Cytochrome oxidase within Complex IV.</div>
+        <div class="option-item"><strong>D)</strong> The essential mitochondrial ATP/ADP exchange translocase.</div>
+      </div>
+    </div>
+
+    <!-- Q31 -->
+    <div class="question-box">
+      <div class="question-text">Q31: The toxic antibiotic Antimycin A disrupts the mitochondrial electron transport chain by blocking electron flow and inhibiting specifically at:</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Complex I.</div>
+        <div class="option-item"><strong>B)</strong> Complex IV.</div>
+        <div class="option-item correct-answer"><strong>C)</strong> Complex III.</div>
+        <div class="option-item"><strong>D)</strong> Complex V.</div>
+      </div>
+    </div>
+
+    <div class="section-title">Axis V: Terminal Toxins, Uncouplers, Mitochondrial DNA, and Membrane Shuttles</div>
+
+    <!-- Q32 -->
+    <div class="question-box">
+      <div class="question-text">Q32: Lethal toxins such as cyanide, carbon monoxide (CO), and hydrogen sulfide gas H2S cause rapid cell death due to their ability to bind and inhibit:</div>
+      <div class="options-container">
+        <div class="option-item correct-answer"><strong>A)</strong> Complex IV (Cytochrome c Oxidase).</div>
+        <div class="option-item"><strong>B)</strong> Complex I (NADH Dehydrogenase).</div>
+        <div class="option-item"><strong>C)</strong> Complex II (Succinate Dehydrogenase).</div>
+        <div class="option-item"><strong>D)</strong> Complex V (F_0 proton channel subunit).</div>
+      </div>
+    </div>
+
+    <!-- Q33 -->
+    <div class="question-box">
+      <div class="question-text">Q33: When an inhibitory substance is added to the electron transport chain, what is the resulting redox state of the electron carriers located immediately before and after the site of inhibition?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Carriers before the block site become fully oxidized; whereas carriers after it become reduced.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> Carriers before the block site remain in a reduced state; whereas carriers after the block site become oxidized.</div>
+        <div class="option-item"><strong>C)</strong> All carriers in the entire system immediately convert to fully oxidized states.</div>
+        <div class="option-item"><strong>D)</strong> All carriers drop their compensatory iron atoms into the dissolved matrix fluid.</div>
+      </div>
+    </div>
+
+    <!-- Q34 -->
+    <div class="question-box">
+      <div class="question-text">Q34: How does the drug and inhibitor Oligomycin directly inhibit the process of oxidative phosphorylation?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> It competes directly with succinate at the active site of Complex II.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> It blocks the F_0 subunit channel of ATP synthase, stopping proton flow and halting the synthesis of ATP molecules.</div>
+        <div class="option-item"><strong>C)</strong> It reduces the lipid fluidity of Coenzyme Q within the inner membrane.</div>
+        <div class="option-item"><strong>D)</strong> It acts as an artificial pore that leaks protons down their concentration gradient.</div>
+      </div>
+    </div>
+
+    <!-- Q35 -->
+    <div class="question-box">
+      <div class="question-text">Q35: What is the specific molecular mechanism of the plant toxin Atractyloside?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> It prevents electron transport from Cytochrome b to Cytochrome c1.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> It inhibits the ADP/ATP carrier translocase, preventing the entry of ADP and exit of ATP from the matrix.</div>
+        <div class="option-item"><strong>C)</strong> It breaks down and disrupts the structural copper atoms stabilized within Complex IV.</div>
+        <div class="option-item"><strong>D)</strong> It chemically uncouples electron flow from proton pumping.</div>
+      </div>
+    </div>
+
+    <!-- Q36 -->
+    <div class="question-box">
+      <div class="question-text">Q36: What is the net functional effect of chemical uncouplers, such as 2,4-dinitrophenol (DNP), on cellular respiration?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> They halt oxygen consumption and electron flow while increasing the rate of ATP production.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> They allow electron transport and oxygen consumption to continue but prevent ATP synthesis by dissipating the proton gradient.</div>
+        <div class="option-item"><strong>C)</strong> They completely stop and inhibit both electron transport and ATP synthesis at the same time.</div>
+        <div class="option-item"><strong>D)</strong> They force Complex V to operate in reverse without utilizing membrane protons.</div>
+      </div>
+    </div>
+
+    <div class="footer-wrapper">
+      <div class="key-banner">ANSWER KEY 📍 Q28: A | Q29: C | Q30: B | Q31: C | Q32: A | Q33: B | Q34: B | Q35: B | Q36: B</div>
+      <div class="footer-meta">
+        <div>Faculty of Human Medicine - Suez University</div>
+        <div>Page 4 of 5</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 5 -->
+  <div class="page">
+    <div class="header-blue">
+      <h1>Comprehensive Question Bank in Bioenergetics and Cellular Respiration Kinetics</h1>
+      <div class="subtitle">Faculty of Human Medicine, Suez University</div>
+    </div>
+
+    <!-- Q37 -->
+    <div class="question-box">
+      <div class="question-text">Q37: In the presence of an uncoupler, the potential energy generated by the electron transport chain is not captured for ATP synthesis. How is this energy dissipated?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> It is stored entirely as structural glycogen polymers within the matrix.</div>
+        <div class="option-item"><strong>B)</strong> It transforms into light energy emitted from the affected cells.</div>
+        <div class="option-item correct-answer"><strong>C)</strong> It is completely lost and dissipated as heat.</div>
+        <div class="option-item"><strong>D)</strong> It is used to actively pump toxic heavy metal ions out of the cell.</div>
+      </div>
+    </div>
+
+    <!-- Q38 -->
+    <div class="question-box">
+      <div class="question-text">Q38: Where are physiological uncoupling proteins (UCP1 to UCP5, such as Thermogenin) located to generate heat naturally in the body?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> White adipose tissue optimized for storage.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> Brown adipose tissue.</div>
+        <div class="option-item"><strong>C)</strong> Fast-twitch skeletal muscle fibers.</div>
+        <div class="option-item"><strong>D)</strong> Hepatic parenchymal cells.</div>
+      </div>
+    </div>
+
+    <!-- Q39 -->
+    <div class="question-box">
+      <div class="question-text">Q39: Which of the following compounds or physiological alterations can act as uncouplers when present in abnormally high or toxic concentrations?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Toxic high concentrations of calcium ions and progesterone.</div>
+        <div class="option-item"><strong>B)</strong> Excessive and toxic doses of the thyroid hormone thyroxine.</div>
+        <div class="option-item"><strong>C)</strong> Acute poisoning with large doses of aspirin (Salicylate poisoning).</div>
+        <div class="option-item correct-answer"><strong>D)</strong> All of the options mentioned above can act as uncouplers at their toxic levels.</div>
+      </div>
+    </div>
+
+    <!-- Q40 -->
+    <div class="question-box">
+      <div class="question-text">Q40: Mutations in mitochondrial DNA (mtDNA) lead to multi-system disorders. Which group of pathologies is associated with these genetic defects?</div>
+      <div class="options-container">
+        <div class="option-item correct-answer"><strong>A)</strong> Mitochondrial Myopathy, LHON syndrome, MELAS syndrome, and an increased risk of Alzheimer's disease.</div>
+        <div class="option-item"><strong>B)</strong> Severe Type 1 diabetes and structural bone rickets only.</div>
+        <div class="option-item"><strong>C)</strong> Sickle cell anemia and the complete structural loss of cytochromes in red blood cells.</div>
+        <div class="option-item"><strong>D)</strong> Hypertrophic scar tissue formations and acute metabolic gouty arthritis.</div>
+      </div>
+    </div>
+
+    <!-- Q41 -->
+    <div class="question-box">
+      <div class="question-text">Q41: What is the primary inheritance pattern shown by diseases resulting from mutations in mitochondrial DNA (mtDNA)?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Strictly paternal inheritance linked to the Y chromosome.</div>
+        <div class="option-item"><strong>B)</strong> Classic Mendelian autosomal recessive pattern.</div>
+        <div class="option-item correct-answer"><strong>C)</strong> Maternal inheritance, where it is transmitted exclusively through the mother.</div>
+        <div class="option-item"><strong>D)</strong> Random horizontal transmission resembling viral vectors.</div>
+      </div>
+    </div>
+
+    <!-- Q42 -->
+    <div class="question-box">
+      <div class="question-text">Q42: How are inorganic phosphate groups Pi and proton ions H+ transported across the inner mitochondrial membrane into the matrix?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Via an exchange carrier system (Antiporter) that relies entirely on ATP.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> Via a specialized phosphate/proton symporter moving both components in the same direction.</div>
+        <div class="option-item"><strong>C)</strong> Through simple, undirected passive diffusion across the lipid core.</div>
+        <div class="option-item"><strong>D)</strong> Directly inside the central catalytic core of Complex I.</div>
+      </div>
+    </div>
+
+    <!-- Q43 -->
+    <div class="question-box">
+      <div class="question-text">Q43: What is the primary function of the Malate-Aspartate Shuttle system in aerobic cells?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Transporting toxic carbon monoxide gas molecules into the cytosol for elimination.</div>
+        <div class="option-item"><strong>B)</strong> Pumping high-energy creatine phosphate molecules directly out of the matrix space.</div>
+        <div class="option-item correct-answer"><strong>C)</strong> Transferring the reducing equivalents of cytosolic NADH molecules across the membrane into the matrix to enter Complex I.</div>
+        <div class="option-item"><strong>D)</strong> Direct synthesis of maternal mitochondrial DNA sequences under hypoxic conditions.</div>
+      </div>
+    </div>
+
+    <!-- Q44 -->
+    <div class="question-box">
+      <div class="question-text">Q44: The exchange of ATP present in the matrix for cytosolic ADP across the inner membrane is mediated by the adenine nucleotide translocase. This carrier operates as an:</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> Uniporter system that transports one molecule at a time in a single direction.</div>
+        <div class="option-item correct-answer"><strong>B)</strong> Antiporter system that exchanges matrix ATP for cytosolic ADP.</div>
+        <div class="option-item"><strong>C)</strong> Symporter system that transports both nucleotides together into the matrix.</div>
+        <div class="option-item"><strong>D)</strong> Extracellular free diffusion pore.</div>
+      </div>
+    </div>
+
+    <!-- Q45 -->
+    <div class="question-box">
+      <div class="question-text">Q45: Which of the following chemical species acts as the final and ultimate electron acceptor in the entire mitochondrial respiratory chain under normal physiological conditions?</div>
+      <div class="options-container">
+        <div class="option-item"><strong>A)</strong> The iron center of cytochrome a3.</div>
+        <div class="option-item"><strong>B)</strong> The subunit of the Coenzyme Q oxidoreductase enzyme.</div>
+        <div class="option-item correct-answer"><strong>C)</strong> Molecular oxygen O2.</div>
+        <div class="option-item"><strong>D)</strong> Inorganic phosphate Pi.</div>
+      </div>
+    </div>
+
+    <div class="footer-wrapper">
+      <div class="key-banner">ANSWER KEY 📍 Q37: C | Q38: B | Q39: D | Q40: A | Q41: C | Q42: B | Q43: C | Q44: B | Q45: C</div>
+      <div class="footer-meta">
+        <div>Faculty of Human Medicine - Suez University</div>
+        <div>Page 5 of 5</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
